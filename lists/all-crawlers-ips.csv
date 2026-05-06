@@ -1501,6 +1501,7 @@ IP,Name,Sources
 35.243.23.0/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 35.243.23.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 35.243.23.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
+35.243.23.96/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 35.243.23.128/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 35.243.23.160/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 35.243.23.192/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
@@ -1574,13 +1575,11 @@ IP,Name,Sources
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 45.64.40.0/22,FacebookBot,https://radb.net|https://stat.ripe.net
 48.204.32.87/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.23.236/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.129.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.212.89/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.253.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.68.247.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -6485,6 +6484,7 @@ IP,Name,Sources
 66.249.72.0/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.32/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.64/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
+66.249.72.96/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.128/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.160/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.192/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
@@ -7011,6 +7011,7 @@ IP,Name,Sources
 108.177.2.160/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
+124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 129.134.0.0/16,FacebookBot,https://radb.net
 129.134.0.0/17,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -11749,6 +11750,7 @@ IP,Name,Sources
 2001:4860:4801:c::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:f::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:10::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
+2001:4860:4801:11::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:12::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:13::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:14::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
@@ -12538,6 +12540,7 @@ IP,Name,Sources
 2600:1900:0:172::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2600:1900:0:173::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2600:1900:0:180::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
+2600:1900:0:181::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2600:1900:0:182::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2600:1900:0:183::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2600:1900:0:184::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
