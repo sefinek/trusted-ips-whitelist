@@ -83,6 +83,7 @@ IP,Name,Sources
 66.249.72.0/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.32/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.64/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
+66.249.72.96/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.128/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.160/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 66.249.72.192/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
@@ -169,6 +170,7 @@ IP,Name,Sources
 2001:4860:4801:c::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:f::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:10::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
+2001:4860:4801:11::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:12::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:13::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:14::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
