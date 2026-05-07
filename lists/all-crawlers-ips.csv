@@ -6272,7 +6272,7 @@ IP,Name,Sources
 57.144.78.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.80.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.82.0/23,FacebookBot,https://radb.net
-57.144.84.0/23,FacebookBot,https://radb.net
+57.144.84.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.86.0/23,FacebookBot,https://radb.net
 57.144.88.0/23,FacebookBot,https://radb.net
 57.144.90.0/23,FacebookBot,https://radb.net
@@ -7011,7 +7011,6 @@ IP,Name,Sources
 108.177.2.160/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
-124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 129.134.0.0/16,FacebookBot,https://radb.net
 129.134.0.0/17,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -13203,7 +13202,7 @@ IP,Name,Sources
 2a03:2880:f31e::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f31f::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f320::/48,FacebookBot,https://radb.net
-2a03:2880:f321::/48,FacebookBot,https://radb.net
+2a03:2880:f321::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f322::/48,FacebookBot,https://radb.net
 2a03:2880:f323::/48,FacebookBot,https://radb.net
 2a03:2880:f324::/48,FacebookBot,https://radb.net
