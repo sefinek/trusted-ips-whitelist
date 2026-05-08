@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.4.0] — 2026-05-08
+
+### Added
+- **Baidu** — Baidu infrastructure network (AS38365, AS55967, AS38627); IP ranges fetched via RIPEstat & RADB (`lists/baidu/`)
+
+
 ## [3.3.0] — 2026-05-04
 
 ### Added

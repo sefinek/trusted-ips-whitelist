@@ -193,7 +193,7 @@ const buildRecords = (ipMap, logSkipped = false) => {
 
 		const entry = ipMap.get(ip);
 		const nameList = Array.from(entry.names).sort();
-		if (logSkipped && nameList.length > 1) logger.warn(`IP ${ip} appears in multiple sources: ${nameList.join(', ')}`);
+		if (logSkipped && nameList.length > 1) logger.info(`IP ${ip} appears in multiple sources: ${nameList.join(', ')}`);
 		return [{ ip, name: nameList.join('|'), sources: Array.from(entry.sources).sort() }];
 	});
 };
