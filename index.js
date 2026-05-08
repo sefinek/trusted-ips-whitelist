@@ -31,6 +31,17 @@ const formatDuration = ms => {
 	return `${ms.toFixed(0)}ms`;
 };
 
+const fmtNum = n => n.toLocaleString('en-US');
+const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const countRecs = recs => {
+	const cidrs = recs.filter(r => r.ip.includes('/')).length;
+	return { ips: recs.length - cidrs, cidrs };
+};
+const injectStats = (text, label, stats) => text.replace(
+	new RegExp(`${label} [(][^)]*[)]`),
+	`${label} (${fmtNum(stats.ips)} IPs, ${fmtNum(stats.cidrs)} CIDRs)`
+);
+
 const runTests = () => {
 	logger.info('Running tests...');
 
@@ -161,13 +172,15 @@ const processAllSources = async (base, sources) => {
 			]);
 
 			logger.success(`${src.name}: ${sortedRecords.length} IPs in ${formatDuration(getDurationMs(sourceTimer))}`);
+			return { name: src.name, ...countRecs(sortedRecords) };
 		} catch (err) {
 			logger.err(`Failed to process ${src.name} after ${formatDuration(getDurationMs(sourceTimer))}: ${err.message}`);
 		}
 	};
 
-	await Promise.all(sources.map(src => limiter.execute(() => handleSource(src))));
-	return { allMap, categoryMaps };
+	const results = await Promise.all(sources.map(src => limiter.execute(() => handleSource(src))));
+	const sourceStats = new Map(results.filter(Boolean).map(r => [r.name, r]));
+	return { allMap, categoryMaps, sourceStats };
 };
 
 const buildRecords = (ipMap, logSkipped = false) => {
@@ -212,14 +225,18 @@ const writeListFiles = async (base, filename, recs) => {
 const createCategoryLists = async (base, categoryMaps) => {
 	logger.info('Writing category lists...');
 
+	const catRecs = new Map();
 	await Promise.all(Array.from(categoryMaps.keys()).map(async category => {
 		const catMap = categoryMaps.get(category);
 		if (!catMap || !catMap.size) return;
 
 		const recs = buildRecords(catMap);
+		catRecs.set(category, recs);
 		await writeListFiles(base, `all-${category}-ips`, recs);
 		logger.success(`Category ${category}: ${recs.length} IPs written`);
 	}));
+
+	return catRecs;
 };
 
 const createGlobalLists = async (base, allMap) => {
@@ -230,8 +247,37 @@ const createGlobalLists = async (base, allMap) => {
 	return globalRecs;
 };
 
+const updateReadmeStats = async (globalRecs, catRecs, sourceStats) => {
+	const readmePath = path.join(__dirname, 'README.md');
+	let content = await fs.readFile(readmePath, 'utf8');
+
+	const allStats = countRecs(globalRecs);
+	const crawlerStats = countRecs(catRecs.get('crawlers') ?? []);
+	const aiStats = countRecs(catRecs.get('ai') ?? []);
+	const monitoringStats = countRecs(catRecs.get('monitoring') ?? []);
+	const infrastructureStats = countRecs(catRecs.get('infrastructure') ?? []);
+
+	content = injectStats(content, 'All', allStats);
+	content = injectStats(content, 'Crawlers only', crawlerStats);
+	content = injectStats(content, 'AI only', aiStats);
+	content = injectStats(content, 'Monitoring only', monitoringStats);
+	content = injectStats(content, 'Infrastructure only', infrastructureStats);
+	content = injectStats(content, 'Crawlers', crawlerStats);
+	content = injectStats(content, 'AI', aiStats);
+	content = injectStats(content, 'Monitoring', monitoringStats);
+	content = injectStats(content, 'Infrastructure', infrastructureStats);
+
+	for (const [name, stats] of sourceStats) {
+		const re = new RegExp(`\\| ${escRe(name)} \\| [^|]* \\|`);
+		content = content.replace(re, `| ${name} | ${fmtNum(stats.ips)} - ${fmtNum(stats.cidrs)} |`);
+	}
+
+	await fs.writeFile(readmePath, content, 'utf8');
+	logger.success('README.md stats updated');
+};
+
 const commitAndPushChanges = async () => {
-	const status = await git.status(['lists']);
+	const status = await git.status(['lists', 'README.md']);
 	if (status.files.length > 0) {
 		await runTests();
 
@@ -240,7 +286,7 @@ const commitAndPushChanges = async () => {
 		const now = new Date();
 		const pad = n => String(n).padStart(2, '0');
 		const timestamp = `${pad(now.getUTCDate())}.${pad(now.getUTCMonth() + 1)}.${now.getUTCFullYear()}, ${pad(now.getUTCHours())}:${pad(now.getUTCMinutes())}:${pad(now.getUTCSeconds())} UTC`;
-		await git.add('./lists');
+		await git.add(['./lists', 'README.md']);
 		await git.commit(
 			`Auto-update IP lists (${status.files.length} modified files) - ${timestamp}`,
 			{ '--author': `"Sefinek Actions <${process.env.GITHUB_EMAIL}>"` }
@@ -264,16 +310,16 @@ const generateLists = async () => {
 		const base = await setupDirectories();
 		await cleanupOrphanedDirs(base, sources);
 
-		const { allMap, categoryMaps } = await processAllSources(base, sources);
-		const [globalRecs] = await Promise.all([
+		const { allMap, categoryMaps, sourceStats } = await processAllSources(base, sources);
+		const [globalRecs, catRecs] = await Promise.all([
 			createGlobalLists(base, allMap),
 			createCategoryLists(base, categoryMaps),
 		]);
 
-		const cidrCount = globalRecs.filter(r => r.ip.includes('/')).length;
-		const ipCount = globalRecs.length - cidrCount;
+		const { ips: ipCount, cidrs: cidrCount } = countRecs(globalRecs);
 		logger.success(`Generation complete: ${globalRecs.length} total (${ipCount} IPs, ${cidrCount} CIDRs) in ${formatDuration(getDurationMs(totalTimer))}`);
 
+		await updateReadmeStats(globalRecs, catRecs, sourceStats);
 		if (!isDevelopment) await commitAndPushChanges();
 	} catch (err) {
 		logger.err(`Failed to generate lists: ${err.message}`);
