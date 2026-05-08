@@ -46,6 +46,7 @@
     "dir": "canonical",
     "category": "infrastructure",
     "keywords": ["canonical"],
+    "acceptNullable": true,
     "asn": "AS41231",
     "type": "whois"
   },
@@ -141,7 +142,6 @@
     "name": "NASK PL",
     "dir": "nask",
     "category": "infrastructure",
-    "analyzeKeywords": false,
     "asn": "AS8308",
     "type": "whois"
   },
@@ -208,7 +208,6 @@
     "name": "Semrush",
     "dir": "semrush",
     "category": "crawlers",
-    "analyzeKeywords": false,
     "asn": ["AS209366"],
     "type": "whois"
   },

@@ -5,6 +5,11 @@
 ### Added
 - **Baidu** — Baidu infrastructure network (AS38365, AS55967, AS38627); IP ranges fetched via RIPEstat & RADB (`lists/baidu/`)
 
+### Improved
+- Expanded `whois.test.js` unit tests (9 → 16 cases)
+- Removed dead `analyzeKeywords` field from `sources.json`
+- Fixed Canonical config (`acceptNullable: true`)
+
 
 ## [3.3.0] — 2026-05-04
 
