@@ -14,6 +14,13 @@
     "type": "jsonPrefixes"
   },
   {
+    "name": "Baidu",
+    "dir": "baidu",
+    "category": "infrastructure",
+    "asn": ["AS38365", "AS55967", "AS38627"],
+    "type": "whois"
+  },
+  {
     "name": "BetterStack",
     "dir": "betterstack",
     "category": "monitoring",
