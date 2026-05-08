@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.1] — 2026-05-09
+
+### Improved
+- README auto-updates per-service IP & CIDR counts in a dedicated table column on every commit
+- Section headings show aggregate stats (`IPs & CIDRs`) per category
+
+
 ## [3.4.0] — 2026-05-08
 
 ### Added
