@@ -946,6 +946,7 @@ IP,Name,Sources
 20.80.129.80/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.80.156.88/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.93.28.24/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.99.154.113/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.99.255.235/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.100.136.36/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.100.140.155/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1580,6 +1581,7 @@ IP,Name,Sources
 48.217.23.236/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.129.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.212.89/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.253.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.68.247.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -6785,11 +6787,9 @@ IP,Name,Sources
 81.70.218.38,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 82.157.95.229,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 84.252.160.0/19,YandexBot,https://yandex.com/ips
-85.208.96.0/22,Semrush,https://radb.net
-85.208.96.0/24,Semrush,https://radb.net|https://stat.ripe.net
-85.208.97.0/24,Semrush,https://radb.net|https://stat.ripe.net
-85.208.98.0/24,Semrush,https://radb.net
-85.208.99.0/24,Semrush,https://radb.net|https://stat.ripe.net
+85.208.96.0/24,Semrush,https://stat.ripe.net
+85.208.97.0/24,Semrush,https://stat.ripe.net
+85.208.99.0/24,Semrush,https://stat.ripe.net
 87.250.224.0/19,YandexBot,https://yandex.com/ips
 90.156.176.0/20,YandexBot,https://yandex.com/ips
 92.222.104.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -9319,8 +9319,8 @@ IP,Name,Sources
 185.89.218.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.218.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.219.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
-185.170.167.0/24,Semrush,https://radb.net|https://stat.ripe.net
-185.191.171.0/24,Semrush,https://radb.net|https://stat.ripe.net
+185.170.167.0/24,Semrush,https://stat.ripe.net
+185.191.171.0/24,Semrush,https://stat.ripe.net
 189.247.71.0/24,FacebookBot,https://radb.net
 191.233.3.197/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 191.233.3.202/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
