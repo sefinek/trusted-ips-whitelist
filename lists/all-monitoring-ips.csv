@@ -406,7 +406,10 @@ IP,Name,Sources
 209.95.50.14,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.126.110.38,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 209.141.34.11,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-212.73.148.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.0/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.2/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.24/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.28/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
