@@ -134,7 +134,7 @@ IP,Name,Sources
 66.132.255.0/24,Censys,https://radb.net
 66.165.229.130,PingdomBot,https://my.pingdom.com/probes/ipv4
 66.165.233.234,PingdomBot,https://my.pingdom.com/probes/ipv4
-66.234.1.0/24,Censys,https://radb.net
+66.234.1.0/24,Censys,https://radb.net|https://stat.ripe.net
 66.240.192.138,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 66.240.205.34,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 66.240.219.133,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
@@ -178,7 +178,8 @@ IP,Name,Sources
 85.25.103.50,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 85.195.116.134,PingdomBot,https://my.pingdom.com/probes/ipv4
 85.217.140.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.16/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.18/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -304,13 +305,14 @@ IP,Name,Sources
 165.227.55.4,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 165.227.62.247,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 167.17.67.101,PingdomBot,https://my.pingdom.com/probes/ipv4
-167.94.138.0/24,Censys,https://radb.net
+167.94.138.0/24,Censys,https://radb.net|https://stat.ripe.net
 167.94.145.0/24,Censys,https://stat.ripe.net
 167.94.146.0/24,Censys,https://stat.ripe.net
 167.99.18.52,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 167.172.219.157,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 167.235.89.6,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 167.235.143.113,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+167.248.133.0/24,Censys,https://stat.ripe.net
 168.1.203.46,PingdomBot,https://my.pingdom.com/probes/ipv4
 168.119.53.160,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 168.119.96.239,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
