@@ -193,6 +193,7 @@ IP,Name,Sources
 9.9.9.10,Quad9 DNS (unfiltered),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 9.160.163.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.164.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
+9.234.96.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.36.154.207,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 13.65.138.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.65.138.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1061,6 +1062,7 @@ IP,Name,Sources
 20.55.229.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.56.197.58/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.56.197.63/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.57.199.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.61.34.40/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.61.142.192/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.62.224.44/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1910,7 +1912,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0/24,OpenAI SearchBot,https://openai.com/searchbot.json
@@ -4181,6 +4182,8 @@ IP,Name,Sources
 52.149.58.173/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.149.60.38/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.149.61.51/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+52.153.130.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
+52.153.130.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.154.22.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.154.60.82/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.154.169.50/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -4276,6 +4279,7 @@ IP,Name,Sources
 52.231.50.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.231.148.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 52.236.94.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
+52.241.146.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.242.132.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.242.132.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.242.224.168/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7923,6 +7927,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -7956,7 +7961,6 @@ IP,Name,Sources
 114.110.124.0/23,Baidu,https://radb.net
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
-115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -10670,6 +10674,8 @@ IP,Name,Sources
 172.169.28.184/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.169.60.134/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.169.177.131/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+172.170.8.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.171.4.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.178.140.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.178.141.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.178.141.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -10699,6 +10705,7 @@ IP,Name,Sources
 172.204.16.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.204.27.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.212.159.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.212.172.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.213.11.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.213.12.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.213.21.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
