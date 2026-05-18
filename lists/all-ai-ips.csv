@@ -166,6 +166,7 @@ IP,Name,Sources
 40.116.73.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.122.235.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
+48.193.44.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.8.102.0/24,OpenAI SearchBot,https://openai.com/searchbot.json
 51.8.155.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.8.155.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -240,6 +241,7 @@ IP,Name,Sources
 68.221.67.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.221.67.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.221.75.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
+70.153.76.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 74.7.35.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 74.7.35.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 74.7.36.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
