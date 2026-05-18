@@ -30,9 +30,6 @@ IP,Name,Sources
 5.223.73.226,BetterStack,https://uptime.betterstack.com/ips.txt
 5.223.75.121,BetterStack,https://uptime.betterstack.com/ips.txt
 13.232.220.164,PingdomBot,https://my.pingdom.com/probes/ipv4
-15.235.224.227/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-15.235.224.238/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-15.235.227.163/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 18.116.205.62,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 18.180.208.214,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 18.192.166.72,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -41,7 +38,9 @@ IP,Name,Sources
 23.83.129.219,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.92.127.2,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.106.37.99,PingdomBot,https://my.pingdom.com/probes/ipv4
-23.106.54.151/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+23.111.14.183/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+23.111.14.184/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+23.111.14.192/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.152.74,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.111.159.174,PingdomBot,https://my.pingdom.com/probes/ipv4
 24.144.78.39,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -63,7 +62,6 @@ IP,Name,Sources
 45.77.103.97,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 45.79.236.121,BetterStack,https://uptime.betterstack.com/ips.txt
 46.20.45.18,PingdomBot,https://my.pingdom.com/probes/ipv4
-46.105.70.190/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 46.224.40.12,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 46.246.122.10,PingdomBot,https://my.pingdom.com/probes/ipv4
 49.13.24.81,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -72,11 +70,6 @@ IP,Name,Sources
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
-51.161.172.223/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-51.161.174.170/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-51.254.201.255/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-51.254.202.3/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-51.254.202.10/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 52.0.204.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 52.15.147.27,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 52.22.236.30,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -106,8 +99,6 @@ IP,Name,Sources
 52.209.34.226,PingdomBot,https://my.pingdom.com/probes/ipv4
 52.209.186.226,PingdomBot,https://my.pingdom.com/probes/ipv4
 52.210.232.124,PingdomBot,https://my.pingdom.com/probes/ipv4
-54.37.81.238/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-54.38.193.48/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 54.64.67.106,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 54.68.48.199,PingdomBot,https://my.pingdom.com/probes/ipv4
 54.70.202.58,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -116,10 +107,6 @@ IP,Name,Sources
 54.94.206.111,PingdomBot,https://my.pingdom.com/probes/ipv4
 54.167.223.174,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 54.249.170.27,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-57.128.230.106/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-57.129.64.10/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-57.129.64.219/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-57.129.64.237/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 63.178.84.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.176.218.54,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 64.225.74.178,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
@@ -191,6 +178,34 @@ IP,Name,Sources
 85.25.43.94,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 85.25.103.50,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 85.195.116.134,PingdomBot,https://my.pingdom.com/probes/ipv4
+85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.16/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.18/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.32/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.0/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.5/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.6/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.24/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.26/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.28/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.36/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.38/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.40/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.48/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.64/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.72/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.74/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 88.99.80.227,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 89.163.146.247,PingdomBot,https://my.pingdom.com/probes/ipv4
 89.163.242.206,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -201,8 +216,6 @@ IP,Name,Sources
 91.99.101.207,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 91.99.189.210,BetterStack,https://uptime.betterstack.com/ips.txt
 91.99.238.179,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
-91.134.73.222/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-91.134.73.230/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 93.120.27.62,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 93.174.95.106,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 94.75.211.73,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -215,7 +228,6 @@ IP,Name,Sources
 104.131.0.69,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 104.236.35.128,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 104.236.198.48,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-104.236.209.11/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 107.182.234.77,PingdomBot,https://my.pingdom.com/probes/ipv4
 107.191.47.164,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 108.61.219.226,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -227,7 +239,6 @@ IP,Name,Sources
 129.212.132.140,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 134.199.240.137,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 134.209.95.237,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-134.209.173.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 137.184.9.17,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 137.184.13.100,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 137.184.94.133,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
@@ -275,18 +286,6 @@ IP,Name,Sources
 147.182.247.10,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 148.72.170.233,PingdomBot,https://my.pingdom.com/probes/ipv4
 148.72.171.17,PingdomBot,https://my.pingdom.com/probes/ipv4
-148.113.193.79/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.206.49/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.208.45/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.210.228/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.210.254/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.212.55/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.213.23/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.213.24/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.214.202/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.214.204/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.214.206/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-148.113.214.212/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 149.28.83.249,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 149.28.170.157,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -295,7 +294,6 @@ IP,Name,Sources
 157.90.155.240,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 157.90.156.63,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 157.245.164.170,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-158.69.125.92/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 159.69.158.189,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 159.89.124.112,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 159.203.176.62,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
@@ -386,8 +384,8 @@ IP,Name,Sources
 198.20.87.96/29,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 198.20.99.128/29,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 198.211.117.142,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-199.45.154.0/24,Censys,https://radb.net|https://stat.ripe.net
-199.45.155.0/24,Censys,https://radb.net|https://stat.ripe.net
+199.45.154.0/24,Censys,https://stat.ripe.net
+199.45.155.0/24,Censys,https://stat.ripe.net
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 200.58.101.248,PingdomBot,https://my.pingdom.com/probes/ipv4
 201.33.21.5,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -410,9 +408,18 @@ IP,Name,Sources
 209.38.124.252,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 209.58.139.193,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.58.139.194,PingdomBot,https://my.pingdom.com/probes/ipv4
+209.58.160.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 209.95.50.14,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.126.110.38,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 209.141.34.11,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
+212.73.148.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.24/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.28/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.30/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.32/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.40/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.42/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.78.83.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 212.78.83.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 216.117.2.180,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
