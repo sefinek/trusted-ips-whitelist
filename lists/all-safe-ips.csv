@@ -1210,7 +1210,6 @@ IP,Name,Sources
 20.228.106.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.232.51.46/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.233.19.247,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-20.233.37.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.235.75.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.235.87.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.249.63.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1913,6 +1912,7 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0/24,OpenAI SearchBot,https://openai.com/searchbot.json
@@ -7458,8 +7458,7 @@ IP,Name,Sources
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.16/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.18/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -7963,7 +7962,6 @@ IP,Name,Sources
 114.110.124.0/23,Baidu,https://radb.net
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
-115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -13312,8 +13310,8 @@ IP,Name,Sources
 198.244.242.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.242.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 199.30.24.0/23,BingBot,https://www.bing.com/toolbox/bingbot.json
-199.45.154.0/24,Censys,https://stat.ripe.net
-199.45.155.0/24,Censys,https://stat.ripe.net
+199.45.154.0/24,Censys,https://radb.net|https://stat.ripe.net
+199.45.155.0/24,Censys,https://radb.net|https://stat.ripe.net
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 199.167.52.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 199.167.53.0/24,Palo Alto Networks,https://stat.ripe.net
