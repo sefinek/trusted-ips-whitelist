@@ -105,6 +105,7 @@ IP,Name,Sources
 64.185.232.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.185.232.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 64.185.234.114,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+64.185.235.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 65.154.226.0/24,Palo Alto Networks,https://stat.ripe.net
 65.155.30.0/24,Palo Alto Networks,https://stat.ripe.net
 65.155.38.0/24,Palo Alto Networks,https://stat.ripe.net
