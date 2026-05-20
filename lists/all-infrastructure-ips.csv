@@ -283,10 +283,12 @@ IP,Name,Sources
 103.22.200.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
 103.31.4.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
 103.60.15.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+103.60.15.163,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.164,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.165,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.166,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.167,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+103.60.15.168,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.169,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.171,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
