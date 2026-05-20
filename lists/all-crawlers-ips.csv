@@ -868,6 +868,18 @@ IP,Name,Sources
 15.235.98.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.98.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 16.26.200.71,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+17.22.237.0/24,Applebot,https://search.developer.apple.com/applebot.json
+17.22.245.0/24,Applebot,https://search.developer.apple.com/applebot.json
+17.22.253.0/24,Applebot,https://search.developer.apple.com/applebot.json
+17.241.75.0/24,Applebot,https://search.developer.apple.com/applebot.json
+17.241.193.160/27,Applebot,https://search.developer.apple.com/applebot.json
+17.241.200.160/27,Applebot,https://search.developer.apple.com/applebot.json
+17.241.208.160/27,Applebot,https://search.developer.apple.com/applebot.json
+17.241.219.0/24,Applebot,https://search.developer.apple.com/applebot.json
+17.241.227.0/24,Applebot,https://search.developer.apple.com/applebot.json
+17.246.15.0/24,Applebot,https://search.developer.apple.com/applebot.json
+17.246.19.0/24,Applebot,https://search.developer.apple.com/applebot.json
+17.246.23.0/24,Applebot,https://search.developer.apple.com/applebot.json
 20.3.1.178/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.8.252.26/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.12.141.99/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7004,6 +7016,9 @@ IP,Name,Sources
 108.177.2.160/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 129.134.0.0/16,FacebookBot,https://radb.net
 129.134.0.0/17,FacebookBot,https://radb.net|https://stat.ripe.net
