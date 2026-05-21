@@ -490,6 +490,7 @@ IP,Name,Sources
 120.48.192.0/20,Baidu,https://stat.ripe.net
 120.48.208.0/20,Baidu,https://stat.ripe.net
 120.48.224.0/20,Baidu,https://stat.ripe.net
+120.48.233.0/24,Baidu,https://stat.ripe.net
 120.48.237.0/24,Baidu,https://stat.ripe.net
 120.48.240.0/21,Baidu,https://stat.ripe.net
 120.48.246.0/24,Baidu,https://stat.ripe.net

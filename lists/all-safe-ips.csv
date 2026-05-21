@@ -1913,7 +1913,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0/24,OpenAI SearchBot,https://openai.com/searchbot.json
@@ -7931,6 +7930,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8012,6 +8012,7 @@ IP,Name,Sources
 120.48.192.0/20,Baidu,https://stat.ripe.net
 120.48.208.0/20,Baidu,https://stat.ripe.net
 120.48.224.0/20,Baidu,https://stat.ripe.net
+120.48.233.0/24,Baidu,https://stat.ripe.net
 120.48.237.0/24,Baidu,https://stat.ripe.net
 120.48.240.0/21,Baidu,https://stat.ripe.net
 120.48.246.0/24,Baidu,https://stat.ripe.net
@@ -10045,7 +10046,7 @@ IP,Name,Sources
 163.70.149.0/24,FacebookBot,https://radb.net
 163.70.150.0/24,FacebookBot,https://radb.net
 163.70.151.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
-163.70.152.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
+163.70.152.0/24,FacebookBot,https://radb.net
 163.70.153.0/24,FacebookBot,https://radb.net
 163.70.158.0/24,FacebookBot,https://radb.net
 163.70.159.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -16248,13 +16249,13 @@ IP,Name,Sources
 2a03:2880:f0a6::/48,FacebookBot,https://radb.net
 2a03:2880:f0a7::/48,FacebookBot,https://radb.net
 2a03:2880:f0a8::/48,FacebookBot,https://radb.net
-2a03:2880:f0aa::/48,FacebookBot,https://radb.net|https://stat.ripe.net
+2a03:2880:f0aa::/48,FacebookBot,https://radb.net
 2a03:2880:f0fc::/47,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f0fc::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f0fd::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f0ff::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f101::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f102::/48,FacebookBot,https://radb.net|https://stat.ripe.net
+2a03:2880:f102::/48,FacebookBot,https://radb.net
 2a03:2880:f103::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f104::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f105::/48,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -16383,7 +16384,7 @@ IP,Name,Sources
 2a03:2880:f1fd::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f1ff::/48,FacebookBot,https://radb.net
 2a03:2880:f201::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f202::/48,FacebookBot,https://radb.net|https://stat.ripe.net
+2a03:2880:f202::/48,FacebookBot,https://radb.net
 2a03:2880:f203::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f204::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f205::/48,FacebookBot,https://radb.net|https://stat.ripe.net
