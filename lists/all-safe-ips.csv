@@ -1076,7 +1076,6 @@ IP,Name,Sources
 20.73.132.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.73.202.147/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.74.197.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
-20.74.211.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.75.144.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.77.146.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.107.240/28,BingBot,https://www.bing.com/toolbox/bingbot.json
@@ -8039,7 +8038,6 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
-124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
