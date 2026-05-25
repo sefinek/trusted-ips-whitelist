@@ -58,15 +58,19 @@ IP,Name,Sources
 103.47.211.210,PingdomBot,https://my.pingdom.com/probes/ipv4
 107.182.234.77,PingdomBot,https://my.pingdom.com/probes/ipv4
 108.181.70.3,PingdomBot,https://my.pingdom.com/probes/ipv4
+141.125.89.147,PingdomBot,https://my.pingdom.com/probes/ipv4
 148.72.170.233,PingdomBot,https://my.pingdom.com/probes/ipv4
 148.72.171.17,PingdomBot,https://my.pingdom.com/probes/ipv4
 151.106.52.134,PingdomBot,https://my.pingdom.com/probes/ipv4
+158.175.95.9,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
 162.253.128.178,PingdomBot,https://my.pingdom.com/probes/ipv4
 167.17.67.101,PingdomBot,https://my.pingdom.com/probes/ipv4
 168.1.203.46,PingdomBot,https://my.pingdom.com/probes/ipv4
+169.44.155.138,PingdomBot,https://my.pingdom.com/probes/ipv4
 169.51.2.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 169.54.70.214,PingdomBot,https://my.pingdom.com/probes/ipv4
+169.63.150.216,PingdomBot,https://my.pingdom.com/probes/ipv4
 172.241.112.86,PingdomBot,https://my.pingdom.com/probes/ipv4
 173.248.147.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 174.34.156.130,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -127,7 +131,9 @@ IP,Name,Sources
 2606:6080:1001:1::459,PingdomBot,https://my.pingdom.com/probes/ipv6
 2606:6080:1001:4::448,PingdomBot,https://my.pingdom.com/probes/ipv6
 2606:9880:f000:4:5::4047,PingdomBot,https://my.pingdom.com/probes/ipv6
+2607:f0d0:2601:9b::4211,PingdomBot,https://my.pingdom.com/probes/ipv6
 2607:f0d0:3701:f2::4079,PingdomBot,https://my.pingdom.com/probes/ipv6
+2607:f0d0:3901:62::4201,PingdomBot,https://my.pingdom.com/probes/ipv6
 2607:fc88:100:26::421,PingdomBot,https://my.pingdom.com/probes/ipv6
 2804:4c4:dc10:8860::4021,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a00:c98:2050:a03a::4086,PingdomBot,https://my.pingdom.com/probes/ipv6
@@ -150,4 +156,6 @@ IP,Name,Sources
 2a02:6ea0:cb01::4042,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a02:6ea0:ce02::4044,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a03:8180:1301:146::4070,PingdomBot,https://my.pingdom.com/probes/ipv6
+2a03:8180:1801:11::4101,PingdomBot,https://my.pingdom.com/probes/ipv6
+2a03:8180:1f01:36::4102,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a0d:3002:2100:a00c:5::4065,PingdomBot,https://my.pingdom.com/probes/ipv6
