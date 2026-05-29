@@ -7986,6 +7986,7 @@ IP,Name,Sources
 114.110.124.0/23,Baidu,https://radb.net
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -10754,6 +10755,7 @@ IP,Name,Sources
 173.252.96.0/19,FacebookBot,https://radb.net|https://stat.ripe.net
 174.34.156.130,PingdomBot,https://my.pingdom.com/probes/ipv4
 175.45.132.20,PingdomBot,https://my.pingdom.com/probes/ipv4
+176.9.139.55,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 176.9.139.94,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 176.31.139.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 176.31.139.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
