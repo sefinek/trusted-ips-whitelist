@@ -1929,7 +1929,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.102.0/24,OpenAI SearchBot,https://openai.com/searchbot.json
@@ -10033,7 +10032,6 @@ IP,Name,Sources
 159.203.176.62,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 159.223.243.219,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 161.35.247.201,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 162.55.165.86,BetterStack,https://uptime.betterstack.com/ips.txt
 162.142.125.0/24,Censys,https://radb.net|https://stat.ripe.net
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
