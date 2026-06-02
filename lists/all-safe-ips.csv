@@ -1216,6 +1216,7 @@ IP,Name,Sources
 20.228.106.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.231.254.179/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.232.51.46/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.233.19.247,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.233.37.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.235.75.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.235.87.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -7943,6 +7944,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -10768,6 +10770,7 @@ IP,Name,Sources
 176.31.139.29,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 176.31.139.30,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 176.31.139.31,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+177.47.99.26,PingdomBot,https://my.pingdom.com/probes/ipv4
 178.63.2.112,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 178.63.21.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 178.63.41.234,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -13341,7 +13344,6 @@ IP,Name,Sources
 200.25.80.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.25.86.90,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 200.58.101.248,PingdomBot,https://my.pingdom.com/probes/ipv4
-201.33.21.5,PingdomBot,https://my.pingdom.com/probes/ipv4
 202.8.40.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 202.8.40.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 202.8.40.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips

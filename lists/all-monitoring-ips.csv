@@ -335,6 +335,7 @@ IP,Name,Sources
 173.248.147.18,PingdomBot,https://my.pingdom.com/probes/ipv4
 174.34.156.130,PingdomBot,https://my.pingdom.com/probes/ipv4
 175.45.132.20,PingdomBot,https://my.pingdom.com/probes/ipv4
+177.47.99.26,PingdomBot,https://my.pingdom.com/probes/ipv4
 178.63.62.125,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 178.128.32.203,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 178.156.154.250,BetterStack,https://uptime.betterstack.com/ips.txt
@@ -391,7 +392,6 @@ IP,Name,Sources
 199.45.155.0/24,Censys,https://radb.net|https://stat.ripe.net
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 200.58.101.248,PingdomBot,https://my.pingdom.com/probes/ipv4
-201.33.21.5,PingdomBot,https://my.pingdom.com/probes/ipv4
 206.168.32.0/24,Censys,https://radb.net
 206.168.33.0/24,Censys,https://radb.net
 206.168.34.0/24,Censys,https://radb.net
