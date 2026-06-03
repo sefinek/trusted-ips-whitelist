@@ -633,6 +633,7 @@ IP,Name,Sources
 146.59.69.202,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 146.185.248.15,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 147.185.132.0/22,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
+147.185.133.0/24,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
 147.185.136.0/24,Palo Alto Networks,https://stat.ripe.net
 148.113.190.161,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -1882,6 +1883,7 @@ IP,Name,Sources
 195.238.127.98,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 197.234.240.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
 198.41.128.0/17,Cloudflare,https://www.cloudflare.com/ips-v4
+198.235.24.0/24,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
 199.167.52.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 199.167.53.0/24,Palo Alto Networks,https://stat.ripe.net
 199.167.54.0/24,Palo Alto Networks,https://stat.ripe.net
@@ -1933,6 +1935,7 @@ IP,Name,Sources
 203.57.82.99,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 203.57.82.101,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 203.90.238.0/24,Baidu,https://radb.net
+205.210.31.0/24,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
 207.121.15.92,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.15.100,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.15.108,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

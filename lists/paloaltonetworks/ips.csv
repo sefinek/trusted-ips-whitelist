@@ -48,6 +48,7 @@ IP,Name,Sources
 144.125.228.0/23,Palo Alto Networks,https://radb.net
 144.125.230.0/23,Palo Alto Networks,https://radb.net
 147.185.132.0/22,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
+147.185.133.0/24,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
 147.185.136.0/24,Palo Alto Networks,https://stat.ripe.net
 153.72.96.0/19,Palo Alto Networks,https://radb.net
 153.72.192.0/19,Palo Alto Networks,https://radb.net
@@ -72,11 +73,13 @@ IP,Name,Sources
 193.110.180.0/23,Palo Alto Networks,https://radb.net
 193.110.180.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 193.110.181.0/24,Palo Alto Networks,https://stat.ripe.net
+198.235.24.0/24,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
 199.167.52.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 199.167.53.0/24,Palo Alto Networks,https://stat.ripe.net
 199.167.54.0/24,Palo Alto Networks,https://stat.ripe.net
 202.126.13.0/24,Palo Alto Networks,https://radb.net
 202.189.133.0/24,Palo Alto Networks,https://stat.ripe.net
+205.210.31.0/24,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
 2604:a940:1::/48,Palo Alto Networks,https://stat.ripe.net
 2606:f4c0:7000::/44,Palo Alto Networks,https://radb.net
 2606:f4c0:7010::/44,Palo Alto Networks,https://radb.net|https://stat.ripe.net
