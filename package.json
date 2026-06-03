@@ -20,12 +20,12 @@
     "update": "npm run pull && npm ci && pm2 restart knownbots"
   },
   "dependencies": {
-    "axios": "^1.16.0",
+    "axios": "^1.17.0",
     "cheerio": "^1.2.0",
     "cron": "^4.4.0",
     "csv-stringify": "^6.7.0",
     "ipaddr.js": "^2.4.0",
-    "puppeteer": "^24.43.0",
+    "puppeteer": "^25.1.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "simple-git": "^3.36.0"
@@ -35,6 +35,6 @@
     "@jest/globals": "^30.4.1",
     "csv-parse": "^6.2.1",
     "globals": "^17.6.0",
-    "jest": "^30.4.1"
+    "jest": "^30.4.2"
   }
 }
