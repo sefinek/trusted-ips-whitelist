@@ -227,7 +227,6 @@ IP,Name,Sources
 104.131.0.69,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 104.236.35.128,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 104.236.198.48,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-107.182.234.77,PingdomBot,https://my.pingdom.com/probes/ipv4
 107.191.47.164,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 108.61.219.226,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 108.61.250.227,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -412,7 +411,6 @@ IP,Name,Sources
 209.58.139.193,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.58.139.194,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.58.160.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-209.95.50.14,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.126.110.38,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 209.141.34.11,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 212.73.148.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -423,8 +421,6 @@ IP,Name,Sources
 212.73.148.32/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.40/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.42/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-212.78.83.12,PingdomBot,https://my.pingdom.com/probes/ipv4
-212.78.83.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 216.117.2.180,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 216.128.176.204,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.144.248.18,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
