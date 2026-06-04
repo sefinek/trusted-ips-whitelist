@@ -56,7 +56,6 @@ IP,Name,Sources
 94.75.211.74,PingdomBot,https://my.pingdom.com/probes/ipv4
 94.247.174.83,PingdomBot,https://my.pingdom.com/probes/ipv4
 103.47.211.210,PingdomBot,https://my.pingdom.com/probes/ipv4
-107.182.234.77,PingdomBot,https://my.pingdom.com/probes/ipv4
 108.181.70.3,PingdomBot,https://my.pingdom.com/probes/ipv4
 141.125.89.147,PingdomBot,https://my.pingdom.com/probes/ipv4
 148.72.170.233,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -99,9 +98,6 @@ IP,Name,Sources
 207.244.80.239,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.58.139.193,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.58.139.194,PingdomBot,https://my.pingdom.com/probes/ipv4
-209.95.50.14,PingdomBot,https://my.pingdom.com/probes/ipv4
-212.78.83.12,PingdomBot,https://my.pingdom.com/probes/ipv4
-212.78.83.16,PingdomBot,https://my.pingdom.com/probes/ipv4
 2001:19f0:200:125d::426,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:19f0:200:40cf:225:90ff:fed5:9aea,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:1af8:4400:a056::4052,PingdomBot,https://my.pingdom.com/probes/ipv6

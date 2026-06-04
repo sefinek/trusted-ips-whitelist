@@ -14,14 +14,14 @@ If you like this repository, leave a star ⭐. Thank you!
 
 ## 📘 Combined IP Lists
 
-### 🔀 All (11,490 IPs, 5,383 CIDRs)
+### 🔀 All (11,487 IPs, 5,383 CIDRs)
 | Format | URL                                                                                                                                                                                  |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt)   |
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.csv)   |
 
-### 🤖 Crawlers only (9,906 IPs, 3,536 CIDRs)
+### 🤖 Crawlers only (9,907 IPs, 3,536 CIDRs)
 | Format | URL                                                                                                                                                                                          |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.txt)   |
@@ -35,7 +35,7 @@ If you like this repository, leave a star ⭐. Thank you!
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.csv)   |
 
-### 📡 Monitoring only (595 IPs, 89 CIDRs)
+### 📡 Monitoring only (591 IPs, 89 CIDRs)
 | Format | URL                                                                                                                                                                                              |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.txt)   |
@@ -52,7 +52,7 @@ If you like this repository, leave a star ⭐. Thank you!
 
 ## 🌍 Supported Services
 
-### 🤖 Crawlers (9,906 IPs, 3,536 CIDRs)
+### 🤖 Crawlers (9,907 IPs, 3,536 CIDRs)
 Search engines, SEO tools and web testing bots.
 
 | Service                        | IPs & CIDRs | Sources                                                                                                                                                                                                | Downloads                                                                                                                                                                                                                                                                                                                                                                        |
@@ -82,7 +82,7 @@ AI crawlers from large language model providers.
 | PerplexityBot    | 0 - 8       | [perplexity.ai](https://www.perplexity.ai/perplexitybot.json)   | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexitybot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexitybot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexitybot/ips.json)       |
 | Perplexity User  | 0 - 4       | [perplexity.ai](https://www.perplexity.ai/perplexity-user.json) | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexity-user/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexity-user/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexity-user/ips.json) |
 
-### 📡 Monitoring (595 IPs, 89 CIDRs)
+### 📡 Monitoring (591 IPs, 89 CIDRs)
 Uptime monitoring services and internet scanners.
 
 | Service       | IPs & CIDRs | Sources                                                                                               | Downloads                                                                                                                                                                                                                                                                                                               |
