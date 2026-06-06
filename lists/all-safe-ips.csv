@@ -1223,6 +1223,7 @@ IP,Name,Sources
 20.228.106.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.231.254.179/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.232.51.46/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.233.19.247,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.233.37.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.235.75.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.235.87.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1888,7 +1889,6 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -7965,6 +7965,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -7998,6 +7999,7 @@ IP,Name,Sources
 114.110.124.0/23,Baidu,https://radb.net
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
