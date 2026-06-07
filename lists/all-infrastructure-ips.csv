@@ -635,7 +635,6 @@ IP,Name,Sources
 147.185.133.0/24,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
 147.185.136.0/24,Palo Alto Networks,https://stat.ripe.net
 148.113.190.161,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-148.251.42.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.129.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.129.217,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 148.251.131.73,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
