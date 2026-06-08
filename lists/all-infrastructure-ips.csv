@@ -159,6 +159,12 @@ IP,Name,Sources
 79.127.134.231,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.134.234,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.134.235,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+79.127.165.46,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+79.127.165.47,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+79.127.165.48,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+79.127.165.49,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+79.127.165.50,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+79.127.165.51,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.188.193,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.188.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.188.195,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -573,7 +579,6 @@ IP,Name,Sources
 143.244.38.129,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.38.133,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.38.134,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-143.244.38.136,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.45.177,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.49.177,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.49.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
