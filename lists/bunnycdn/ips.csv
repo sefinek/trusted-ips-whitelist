@@ -499,6 +499,8 @@ IP,Name,Sources
 185.165.170.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.180.12.68,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.180.14.250,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+185.229.190.147,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+185.229.190.148,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 188.40.126.227,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 192.169.120.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 192.189.65.146,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -814,6 +816,8 @@ IP,Name,Sources
 2400:52e0:1e01::879:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e01::883:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e01::1056:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2400:52e0:1e01::1444:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2400:52e0:1e01::1445:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e02::946:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e02::947:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e02::951:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
