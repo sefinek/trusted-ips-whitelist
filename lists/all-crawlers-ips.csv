@@ -1,5 +1,6 @@
 IP,Name,Sources
 4.144.182.50/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+4.149.142.7/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.150.142.218/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.154.193.167/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.156.30.123/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -22,8 +23,10 @@ IP,Name,Sources
 4.226.40.135/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.228.76.163/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.237.244.80/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+4.242.119.13/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.248.234.26/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.249.216.104/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+4.249.223.51/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.254.123.56/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.255.35.121/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 5.39.1.224,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -100,6 +103,7 @@ IP,Name,Sources
 13.71.172.224/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 13.86.35.212/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 13.89.106.77/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+13.90.178.139/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 13.208.89.86,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 13.246.114.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 15.235.27.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -886,9 +890,11 @@ IP,Name,Sources
 20.3.1.178/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.8.252.26/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.12.141.99/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.12.249.123/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.13.44.19/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.15.133.160/27,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.23.88.231/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.29.154.56/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.36.108.32/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.40.133.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.40.147.172/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -935,6 +941,7 @@ IP,Name,Sources
 20.64.185.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.69.129.205/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.69.131.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.69.144.137/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.71.12.143/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.71.69.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.72.203.250/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -951,29 +958,38 @@ IP,Name,Sources
 20.79.226.26/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.238.198/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.239.66/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.80.120.41/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.80.129.80/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.80.135.7/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.80.156.88/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.82.24.207/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.84.138.61/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.84.219.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.84.251.223/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.85.138.75/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.93.28.24/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.99.154.113/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.99.255.235/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.100.136.36/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.100.140.155/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.101.17.173/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.102.34.205/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.109.129.162/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.109.130.190/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.112.58.44/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.113.3.121/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.113.14.159/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.115.181.187/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.118.11.251/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.119.127.146/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.121.75.32/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.125.163.80/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.166.171.150/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.170.75.54/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.175.232.228/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.185.79.15/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.185.79.47/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.190.21.172/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.191.44.16/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.191.44.22/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.191.44.119/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1013,16 +1029,20 @@ IP,Name,Sources
 20.226.133.105/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.231.254.179/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.232.51.46/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-20.233.19.247,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.233.37.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.236.198.192/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.236.227.113/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.236.247.180/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.241.147.151/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.241.164.5/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.242.135.165/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.246.132.168/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.250.51.113/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.252.16.193/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.252.63.162/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.253.59.76/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.253.96.199/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.253.114.51/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 31.13.24.0/21,FacebookBot,https://radb.net|https://stat.ripe.net
 31.13.64.0/18,FacebookBot,https://radb.net|https://stat.ripe.net
 31.13.64.0/19,FacebookBot,https://radb.net
@@ -1564,9 +1584,11 @@ IP,Name,Sources
 37.59.204.158,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 37.59.204.159,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 37.140.128.0/18,YandexBot,https://yandex.com/ips
+40.64.67.220/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.105.247/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+40.65.78.86/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.76.162.191/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.76.162.208/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.76.162.247/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1584,6 +1606,7 @@ IP,Name,Sources
 40.81.250.205/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.82.218.203/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.88.21.235/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+40.88.195.62/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.89.243.175/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.114.182.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.114.182.153/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1600,14 +1623,19 @@ IP,Name,Sources
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 45.64.40.0/22,FacebookBot,https://radb.net|https://stat.ripe.net
 48.192.16.86/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+48.192.74.178/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.200.33.227/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+48.202.155.200/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.202.171.124/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.204.32.87/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+48.206.18.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.23.236/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.129.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.212.89/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+48.223.209.110/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.253.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1964,6 +1992,7 @@ IP,Name,Sources
 51.138.90.161/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.138.90.206/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.138.90.233/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+51.143.114.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.145.185.16/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.161.37.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.161.37.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -3902,6 +3931,7 @@ IP,Name,Sources
 52.224.21.53/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.224.21.55/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.224.21.61/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+52.224.147.21/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.224.191.245/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.231.148.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 52.242.224.168/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -6428,6 +6458,7 @@ IP,Name,Sources
 64.233.173.160/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 64.233.173.192/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 64.233.173.224/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+64.236.15.33/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 64.236.93.100/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 64.236.118.43/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 65.55.210.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
@@ -7059,6 +7090,8 @@ IP,Name,Sources
 108.177.2.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 128.203.214.241/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 129.134.0.0/16,FacebookBot,https://radb.net
@@ -7101,6 +7134,7 @@ IP,Name,Sources
 132.164.209.198/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 132.220.1.71/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 134.33.207.189/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+135.233.63.237/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 135.234.221.112/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 139.217.52.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 141.8.128.0/18,YandexBot,https://yandex.com/ips
@@ -9306,8 +9340,10 @@ IP,Name,Sources
 168.100.149.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 168.100.149.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 168.100.149.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+172.168.12.93/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.168.43.43/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.168.53.53/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+172.168.81.217/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.168.115.250/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.168.227.120/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.168.254.119/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -9315,7 +9351,9 @@ IP,Name,Sources
 172.169.17.165/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.169.28.184/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.169.60.134/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+172.169.93.148/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.169.177.131/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+172.169.181.237/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.171.37.221/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.189.40.18/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.193.184.42/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
