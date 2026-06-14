@@ -1094,7 +1094,6 @@ IP,Name,Sources
 20.73.132.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.73.202.147/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.74.197.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
-20.74.211.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.75.144.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.77.146.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.59.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1249,7 +1248,6 @@ IP,Name,Sources
 20.228.106.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.231.254.179/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.232.51.46/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-20.233.19.247,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.233.37.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.235.75.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.235.87.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1926,6 +1924,7 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -8232,6 +8231,7 @@ IP,Name,Sources
 138.199.24.211,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 138.199.24.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 138.199.24.219,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+138.199.33.53,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 138.199.33.57,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 138.199.36.7,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 138.199.36.8,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -9358,7 +9358,6 @@ IP,Name,Sources
 143.244.60.195,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.60.196,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.60.197,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-143.244.62.213,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 143.244.196.21,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 143.244.196.211,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 143.244.221.177,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
