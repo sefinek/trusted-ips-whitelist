@@ -1028,6 +1028,7 @@ IP,Name,Sources
 20.207.117.66/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.212.90.107/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.212.139.34/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.216.56.115,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.216.200.223/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.43.246/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.67/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7101,6 +7102,7 @@ IP,Name,Sources
 108.177.2.160/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 128.203.214.241/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
