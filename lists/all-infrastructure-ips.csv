@@ -507,10 +507,12 @@ IP,Name,Sources
 120.49.64.0/19,Baidu,https://stat.ripe.net
 120.49.128.0/18,Baidu,https://radb.net
 120.49.192.0/18,Baidu,https://radb.net|https://stat.ripe.net
+120.49.192.0/22,Baidu,https://stat.ripe.net
 120.49.192.0/24,Baidu,https://stat.ripe.net
 120.49.193.0/24,Baidu,https://stat.ripe.net
 120.49.194.0/24,Baidu,https://stat.ripe.net
 120.49.195.0/24,Baidu,https://stat.ripe.net
+120.49.196.0/22,Baidu,https://stat.ripe.net
 120.49.196.0/24,Baidu,https://stat.ripe.net
 120.49.197.0/24,Baidu,https://stat.ripe.net
 120.49.198.0/24,Baidu,https://stat.ripe.net
@@ -1934,7 +1936,7 @@ IP,Name,Sources
 202.46.62.0/24,Baidu,https://radb.net|https://stat.ripe.net
 202.46.63.0/24,Baidu,https://radb.net|https://stat.ripe.net
 202.126.13.0/24,Palo Alto Networks,https://radb.net
-202.181.120.0/22,Baidu,https://radb.net
+202.181.120.0/22,Baidu,https://radb.net|https://stat.ripe.net
 202.181.120.0/24,Baidu,https://stat.ripe.net
 202.181.121.0/24,Baidu,https://stat.ripe.net
 202.181.122.0/24,Baidu,https://stat.ripe.net
