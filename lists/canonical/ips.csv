@@ -11,7 +11,7 @@ IP,Name,Sources
 162.213.32.0/22,Canonical,https://radb.net
 162.213.32.0/23,Canonical,https://radb.net
 162.213.32.0/24,Canonical,https://radb.net|https://stat.ripe.net
-162.213.33.0/24,Canonical,https://radb.net
+162.213.33.0/24,Canonical,https://radb.net|https://stat.ripe.net
 162.213.34.0/23,Canonical,https://radb.net
 162.213.34.0/24,Canonical,https://radb.net|https://stat.ripe.net
 162.213.35.0/24,Canonical,https://radb.net|https://stat.ripe.net
