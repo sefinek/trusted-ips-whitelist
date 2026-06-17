@@ -1644,7 +1644,6 @@ IP,Name,Sources
 48.217.129.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.212.89/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.223.209.110/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.253.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -6870,7 +6869,6 @@ IP,Name,Sources
 74.163.208.206/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 74.179.232.116/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 74.242.194.48/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-74.243.255.151,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 77.88.0.0/18,YandexBot,https://yandex.com/ips
 81.70.170.28,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 81.70.218.38,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -7104,7 +7102,6 @@ IP,Name,Sources
 108.177.2.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 128.203.214.241/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 129.134.0.0/16,FacebookBot,https://radb.net
