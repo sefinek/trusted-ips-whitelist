@@ -1095,6 +1095,7 @@ IP,Name,Sources
 20.73.132.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.73.202.147/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.74.197.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+20.74.211.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.75.144.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.77.146.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.59.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1926,6 +1927,7 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -7805,7 +7807,6 @@ IP,Name,Sources
 104.43.55.167/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 104.131.0.69,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 104.166.144.106,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-104.193.88.0/22,Baidu,https://radb.net
 104.193.88.0/24,Baidu,https://radb.net|https://stat.ripe.net
 104.193.89.0/24,Baidu,https://radb.net|https://stat.ripe.net
 104.193.90.0/24,Baidu,https://radb.net|https://stat.ripe.net
@@ -8065,21 +8066,15 @@ IP,Name,Sources
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.203.121.253,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 117.58.0.0/17,Baidu,https://radb.net
-119.63.192.0/21,Baidu,https://radb.net|https://stat.ripe.net
-119.63.192.0/22,Baidu,https://radb.net
-119.63.192.0/23,Baidu,https://radb.net
-119.63.192.0/24,Baidu,https://radb.net|https://stat.ripe.net
+119.63.192.0/21,Baidu,https://stat.ripe.net
+119.63.192.0/24,Baidu,https://stat.ripe.net
 119.63.193.0/24,Baidu,https://radb.net|https://stat.ripe.net
-119.63.194.0/23,Baidu,https://radb.net
-119.63.194.0/24,Baidu,https://radb.net|https://stat.ripe.net
-119.63.195.0/24,Baidu,https://radb.net|https://stat.ripe.net
-119.63.196.0/22,Baidu,https://radb.net
-119.63.196.0/23,Baidu,https://radb.net
-119.63.196.0/24,Baidu,https://radb.net|https://stat.ripe.net
-119.63.197.0/24,Baidu,https://radb.net|https://stat.ripe.net
-119.63.198.0/23,Baidu,https://radb.net
-119.63.198.0/24,Baidu,https://radb.net|https://stat.ripe.net
-119.63.199.0/24,Baidu,https://radb.net|https://stat.ripe.net
+119.63.194.0/24,Baidu,https://stat.ripe.net
+119.63.195.0/24,Baidu,https://stat.ripe.net
+119.63.196.0/24,Baidu,https://stat.ripe.net
+119.63.197.0/24,Baidu,https://stat.ripe.net
+119.63.198.0/24,Baidu,https://stat.ripe.net
+119.63.199.0/24,Baidu,https://stat.ripe.net
 119.75.208.0/20,Baidu,https://radb.net|https://stat.ripe.net
 119.75.212.0/22,Baidu,https://radb.net
 119.75.216.0/22,Baidu,https://radb.net
@@ -8133,7 +8128,6 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
-124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -13429,8 +13423,8 @@ IP,Name,Sources
 198.244.242.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.242.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 199.30.24.0/23,BingBot,https://www.bing.com/toolbox/bingbot.json
-199.45.154.0/24,Censys,https://radb.net|https://stat.ripe.net
-199.45.155.0/24,Censys,https://radb.net|https://stat.ripe.net
+199.45.154.0/24,Censys,https://stat.ripe.net
+199.45.155.0/24,Censys,https://stat.ripe.net
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 199.167.52.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 199.167.53.0/24,Palo Alto Networks,https://stat.ripe.net
