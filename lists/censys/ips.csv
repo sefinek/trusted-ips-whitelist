@@ -21,8 +21,8 @@ IP,Name,Sources
 167.94.145.0/24,Censys,https://stat.ripe.net
 167.94.146.0/24,Censys,https://stat.ripe.net
 167.248.133.0/24,Censys,https://stat.ripe.net
-199.45.154.0/24,Censys,https://radb.net|https://stat.ripe.net
-199.45.155.0/24,Censys,https://radb.net|https://stat.ripe.net
+199.45.154.0/24,Censys,https://stat.ripe.net
+199.45.155.0/24,Censys,https://stat.ripe.net
 206.168.32.0/24,Censys,https://radb.net
 206.168.33.0/24,Censys,https://radb.net
 206.168.34.0/24,Censys,https://radb.net
