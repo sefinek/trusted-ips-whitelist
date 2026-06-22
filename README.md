@@ -14,7 +14,7 @@ If you like this repository, leave a star ⭐. Thank you!
 
 ## 📘 Combined IP Lists
 
-### 🔀 All (11,503 IPs, 5,465 CIDRs)
+### 🔀 All (11,502 IPs, 5,496 CIDRs)
 | Format | URL                                                                                                                                                                                  |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt)   |
@@ -42,7 +42,7 @@ If you like this repository, leave a star ⭐. Thank you!
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.csv)   |
 
-### 🏗️ Infrastructure only (1,006 IPs, 1,431 CIDRs)
+### 🏗️ Infrastructure only (1,005 IPs, 1,462 CIDRs)
 | Format | URL                                                                                                                                                                                                      |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.txt)   |
@@ -95,7 +95,7 @@ Uptime monitoring services and internet scanners.
 | Modat Scanner | 0 - 38 | [scanner.modat.io](https://scanner.modat.io/ipv4.txt)                                                 | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.json)                   |
 | Shodan        | 95 - 6      | [Custom list](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/custom/shodan.txt) | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/shodan/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/shodan/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/shodan/ips.json)                |
 
-### 🏗️ Infrastructure (1,006 IPs, 1,431 CIDRs)
+### 🏗️ Infrastructure (1,005 IPs, 1,462 CIDRs)
 CDN providers, hosting networks, DNS resolvers and web services.
 
 | Service            | IPs & CIDRs | Sources                                                                                                                          | Downloads                                                                                                                                                                                                                                                                                                                              |
