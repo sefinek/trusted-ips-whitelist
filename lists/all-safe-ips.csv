@@ -1949,7 +1949,6 @@ IP,Name,Sources
 42.199.0.0/16,Baidu,https://radb.net
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -7571,11 +7570,9 @@ IP,Name,Sources
 85.25.43.94,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 85.25.103.50,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 85.195.116.134,PingdomBot,https://my.pingdom.com/probes/ipv4
-85.208.96.0/22,Semrush,https://radb.net
-85.208.96.0/24,Semrush,https://radb.net|https://stat.ripe.net
-85.208.97.0/24,Semrush,https://radb.net|https://stat.ripe.net
-85.208.98.0/24,Semrush,https://radb.net
-85.208.99.0/24,Semrush,https://radb.net|https://stat.ripe.net
+85.208.96.0/24,Semrush,https://stat.ripe.net
+85.208.97.0/24,Semrush,https://stat.ripe.net
+85.208.99.0/24,Semrush,https://stat.ripe.net
 85.211.241.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8069,6 +8066,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8179,6 +8177,7 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
+124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -11396,12 +11395,12 @@ IP,Name,Sources
 185.165.170.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.165.190.17,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 185.165.190.34,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-185.170.167.0/24,Semrush,https://radb.net|https://stat.ripe.net
+185.170.167.0/24,Semrush,https://stat.ripe.net
 185.180.12.65,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.180.12.68,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.180.14.250,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.181.102.18,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-185.191.171.0/24,Semrush,https://radb.net|https://stat.ripe.net
+185.191.171.0/24,Semrush,https://stat.ripe.net
 185.228.168.9,CleanBrowsing DNS Security Filter,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 185.228.168.10,CleanBrowsing DNS Adult Filter,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 185.228.168.168,CleanBrowsing DNS Family Filter,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
