@@ -1114,6 +1114,7 @@ IP,Name,Sources
 20.73.132.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.73.202.147/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.74.197.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+20.74.211.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.75.144.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.77.146.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.59.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1948,6 +1949,7 @@ IP,Name,Sources
 42.199.0.0/16,Baidu,https://radb.net
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -7576,9 +7578,7 @@ IP,Name,Sources
 85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.8/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.12/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.15/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -7586,13 +7586,8 @@ IP,Name,Sources
 85.217.140.32/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.24/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.26/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.28/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.32/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.34/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.36/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.38/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.40/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -7799,6 +7794,7 @@ IP,Name,Sources
 103.22.200.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
 103.31.4.0/22,Cloudflare,https://www.cloudflare.com/ips-v4
 103.47.211.210,PingdomBot,https://my.pingdom.com/probes/ipv4
+103.60.15.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.163,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.164,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.165,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8140,6 +8136,7 @@ IP,Name,Sources
 120.48.128.0/18,Baidu,https://radb.net|https://stat.ripe.net
 120.48.128.0/19,Baidu,https://stat.ripe.net
 120.48.160.0/19,Baidu,https://stat.ripe.net
+120.48.184.0/24,Baidu,https://stat.ripe.net
 120.48.189.0/24,Baidu,https://stat.ripe.net
 120.48.192.0/18,Baidu,https://radb.net|https://stat.ripe.net
 120.48.192.0/20,Baidu,https://stat.ripe.net
