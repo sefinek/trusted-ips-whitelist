@@ -619,6 +619,5 @@ IP,Name,Sources
 240c:408d:2000::/36,Baidu,https://stat.ripe.net
 240c:409f:4::/46,Baidu,https://stat.ripe.net
 240c:409f:1000::/47,Baidu,https://stat.ripe.net
-240c:409f:4004::/46,Baidu,https://stat.ripe.net
 2604:f5c0::/32,Baidu,https://radb.net
 2a03:5f40::/32,Baidu,https://radb.net
