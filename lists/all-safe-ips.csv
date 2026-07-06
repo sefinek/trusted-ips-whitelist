@@ -14744,6 +14744,7 @@ IP,Name,Sources
 2001:1af8:4400:a056::4052,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:1af8:4400:a056::4053,PingdomBot,https://my.pingdom.com/probes/ipv6
 2001:41d0:605:ca00::1175:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2001:41d0:ab07:0:f816:3eff:fe5d:271d,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2001:4860:4801:2::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:c::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 2001:4860:4801:f::/64,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
@@ -15403,6 +15404,7 @@ IP,Name,Sources
 2400:52e0:1a02:2::1355:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1a02:2::1356:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1a02:2::1357:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2400:52e0:1a04::925:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1a04::1310:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1a05::1120:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1a05::1431:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -15517,6 +15519,7 @@ IP,Name,Sources
 2402:2b40:8000::/36,Baidu,https://stat.ripe.net
 2403:ed40::/32,Baidu,https://radb.net
 2403:f000:1:100:4096:597:1:100,PingdomBot,https://my.pingdom.com/probes/ipv6
+2404:a140:42:3::6d2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2404:f340:10:4000::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2404:f340:10:4001::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2404:f340:10:4002::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
@@ -16166,6 +16169,8 @@ IP,Name,Sources
 2620:119:35::35,OpenDNS,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 2620:119:53::53,OpenDNS,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 2800:1e0:c01:a003::8,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2800:1e0:1030:1::5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2800:1e0:1090:3::5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2803:f800::/32,Cloudflare,https://www.cloudflare.com/ips-v6
 2804:4c4:dc10:8860::4021,PingdomBot,https://my.pingdom.com/probes/ipv6
@@ -16173,6 +16178,7 @@ IP,Name,Sources
 2806:10a0:cbff::/48,FacebookBot,https://radb.net
 2a00:c98:2050:a03a::4086,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a00:1a28:2000::4055,PingdomBot,https://my.pingdom.com/probes/ipv6
+2a00:1dc0:3462::1167:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a00:9080:1:125::1,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a00:9080:1:453::1,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a00:9080:2145:e::4048,PingdomBot,https://my.pingdom.com/probes/ipv6
