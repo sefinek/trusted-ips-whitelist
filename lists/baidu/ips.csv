@@ -64,6 +64,7 @@ IP,Name,Sources
 106.12.240.0/21,Baidu,https://radb.net|https://stat.ripe.net
 106.12.240.0/23,Baidu,https://stat.ripe.net
 106.12.244.0/22,Baidu,https://radb.net
+106.12.250.0/23,Baidu,https://radb.net
 106.13.0.0/16,Baidu,https://radb.net
 106.13.0.0/18,Baidu,https://radb.net|https://stat.ripe.net
 106.13.0.0/19,Baidu,https://stat.ripe.net
@@ -83,6 +84,10 @@ IP,Name,Sources
 106.13.224.0/21,Baidu,https://radb.net|https://stat.ripe.net
 106.13.232.0/21,Baidu,https://radb.net|https://stat.ripe.net
 106.13.240.0/22,Baidu,https://radb.net|https://stat.ripe.net
+106.13.244.0/22,Baidu,https://radb.net
+106.13.248.0/23,Baidu,https://radb.net
+106.13.250.0/23,Baidu,https://radb.net
+106.13.252.0/22,Baidu,https://radb.net
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -99,6 +104,7 @@ IP,Name,Sources
 114.110.90.0/23,Baidu,https://radb.net
 114.110.92.0/23,Baidu,https://radb.net
 114.110.94.0/23,Baidu,https://radb.net
+114.110.96.0/22,Baidu,https://radb.net
 114.110.96.0/23,Baidu,https://radb.net
 114.110.98.0/23,Baidu,https://radb.net
 114.110.100.0/23,Baidu,https://radb.net
@@ -116,6 +122,7 @@ IP,Name,Sources
 114.110.124.0/23,Baidu,https://radb.net
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
+114.111.16.0/20,Baidu,https://radb.net
 117.58.0.0/17,Baidu,https://radb.net
 119.63.192.0/21,Baidu,https://radb.net|https://stat.ripe.net
 119.63.192.0/22,Baidu,https://radb.net
@@ -167,6 +174,7 @@ IP,Name,Sources
 120.49.64.0/19,Baidu,https://stat.ripe.net
 120.49.128.0/18,Baidu,https://radb.net
 120.49.192.0/18,Baidu,https://radb.net|https://stat.ripe.net
+120.49.192.0/21,Baidu,https://radb.net
 120.49.192.0/22,Baidu,https://stat.ripe.net
 120.49.192.0/24,Baidu,https://stat.ripe.net
 120.49.193.0/24,Baidu,https://stat.ripe.net
@@ -179,6 +187,7 @@ IP,Name,Sources
 120.49.199.0/24,Baidu,https://stat.ripe.net
 120.49.200.0/21,Baidu,https://radb.net
 120.49.208.0/21,Baidu,https://radb.net
+122.248.48.0/20,Baidu,https://radb.net
 122.248.48.0/23,Baidu,https://radb.net
 122.248.50.0/23,Baidu,https://radb.net
 122.248.52.0/23,Baidu,https://radb.net
@@ -219,6 +228,7 @@ IP,Name,Sources
 180.76.5.0/24,Baidu,https://radb.net|https://stat.ripe.net
 180.76.6.0/24,Baidu,https://radb.net
 180.76.7.0/24,Baidu,https://radb.net
+180.76.8.0/23,Baidu,https://radb.net
 180.76.8.0/24,Baidu,https://radb.net|https://stat.ripe.net
 180.76.9.0/24,Baidu,https://radb.net|https://stat.ripe.net
 180.76.10.0/24,Baidu,https://radb.net
@@ -388,6 +398,7 @@ IP,Name,Sources
 180.76.196.0/23,Baidu,https://radb.net|https://stat.ripe.net
 180.76.196.0/24,Baidu,https://radb.net
 180.76.197.0/24,Baidu,https://radb.net
+180.76.198.0/23,Baidu,https://radb.net
 180.76.198.0/24,Baidu,https://radb.net
 180.76.199.0/24,Baidu,https://radb.net
 180.76.200.0/21,Baidu,https://radb.net|https://stat.ripe.net
@@ -501,6 +512,7 @@ IP,Name,Sources
 182.61.127.0/24,Baidu,https://radb.net
 182.61.128.0/18,Baidu,https://radb.net
 182.61.128.0/19,Baidu,https://radb.net
+182.61.128.0/23,Baidu,https://radb.net
 182.61.130.0/23,Baidu,https://radb.net|https://stat.ripe.net
 182.61.130.0/24,Baidu,https://stat.ripe.net
 182.61.131.0/24,Baidu,https://stat.ripe.net
@@ -563,6 +575,10 @@ IP,Name,Sources
 182.61.191.0/24,Baidu,https://radb.net
 182.61.192.0/18,Baidu,https://radb.net
 182.61.192.0/19,Baidu,https://radb.net
+182.61.192.0/23,Baidu,https://radb.net
+182.61.194.0/23,Baidu,https://radb.net
+182.61.196.0/23,Baidu,https://radb.net
+182.61.198.0/23,Baidu,https://radb.net
 182.61.200.0/21,Baidu,https://radb.net|https://stat.ripe.net
 182.61.200.0/22,Baidu,https://radb.net|https://stat.ripe.net
 182.61.208.0/21,Baidu,https://radb.net|https://stat.ripe.net
@@ -617,7 +633,13 @@ IP,Name,Sources
 240c:4085::/32,Baidu,https://stat.ripe.net
 240c:4088::/32,Baidu,https://stat.ripe.net
 240c:408d:2000::/36,Baidu,https://stat.ripe.net
-240c:409f:4::/46,Baidu,https://stat.ripe.net
-240c:409f:1000::/47,Baidu,https://stat.ripe.net
+240c:409f::/46,Baidu,https://radb.net
+240c:409f:4::/46,Baidu,https://radb.net|https://stat.ripe.net
+240c:409f:1000::/47,Baidu,https://radb.net|https://stat.ripe.net
+240c:409f:2000::/46,Baidu,https://radb.net
+240c:409f:3000::/46,Baidu,https://radb.net
+240c:409f:3004::/46,Baidu,https://radb.net
+240c:409f:4000::/46,Baidu,https://radb.net
+240c:409f:4004::/46,Baidu,https://radb.net
 2604:f5c0::/32,Baidu,https://radb.net
 2a03:5f40::/32,Baidu,https://radb.net

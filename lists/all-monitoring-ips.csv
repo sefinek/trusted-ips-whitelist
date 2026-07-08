@@ -187,7 +187,12 @@ IP,Name,Sources
 85.217.140.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.0/26,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.36/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.38/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.40/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.48/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.64/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.72/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.74/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -296,8 +301,8 @@ IP,Name,Sources
 165.227.62.247,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 167.17.67.101,PingdomBot,https://my.pingdom.com/probes/ipv4
 167.94.138.0/24,Censys,https://radb.net|https://stat.ripe.net
-167.94.145.0/24,Censys,https://stat.ripe.net
-167.94.146.0/24,Censys,https://stat.ripe.net
+167.94.145.0/24,Censys,https://radb.net|https://stat.ripe.net
+167.94.146.0/24,Censys,https://radb.net|https://stat.ripe.net
 167.99.18.52,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 167.172.219.157,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 167.235.89.6,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -399,7 +404,11 @@ IP,Name,Sources
 209.58.160.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 209.126.110.38,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 209.141.34.11,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-212.73.148.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.24/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.28/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.30/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.32/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.40/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.42/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -480,10 +489,10 @@ IP,Name,Sources
 2600:1f1e:d7c:fd05::4028,PingdomBot,https://my.pingdom.com/probes/ipv6
 2602:80d:1000::/44,Censys,https://radb.net
 2602:80d:1001::/48,Censys,https://stat.ripe.net
-2602:80d:1002::/48,Censys,https://stat.ripe.net
+2602:80d:1002::/48,Censys,https://radb.net|https://stat.ripe.net
 2602:80d:1003::/48,Censys,https://stat.ripe.net
 2602:80d:1004::/48,Censys,https://stat.ripe.net
-2602:80d:1005::/48,Censys,https://stat.ripe.net
+2602:80d:1005::/48,Censys,https://radb.net|https://stat.ripe.net
 2602:80d:1006::/48,Censys,https://stat.ripe.net
 2602:80d:1007::/48,Censys,https://radb.net|https://stat.ripe.net
 2602:80d:1008::/48,Censys,https://radb.net|https://stat.ripe.net
