@@ -46,6 +46,7 @@ IP,Name,Sources
 144.125.205.0/24,Palo Alto Networks,https://stat.ripe.net
 144.125.208.0/21,Palo Alto Networks,https://radb.net
 144.125.209.0/24,Palo Alto Networks,https://stat.ripe.net
+144.125.211.0/24,Palo Alto Networks,https://stat.ripe.net
 144.125.228.0/23,Palo Alto Networks,https://radb.net
 144.125.230.0/23,Palo Alto Networks,https://radb.net
 147.185.132.0/22,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
