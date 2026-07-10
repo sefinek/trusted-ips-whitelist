@@ -1986,6 +1986,7 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -8148,6 +8149,7 @@ IP,Name,Sources
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
 114.111.16.0/20,Baidu,https://radb.net
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
