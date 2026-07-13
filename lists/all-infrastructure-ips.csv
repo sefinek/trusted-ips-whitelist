@@ -203,6 +203,7 @@ IP,Name,Sources
 81.26.31.0/24,NASK PL,https://radb.net
 84.17.37.209,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.37.211,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+84.17.37.214,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.37.217,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.38.225,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.38.226,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
