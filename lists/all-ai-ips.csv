@@ -19,6 +19,7 @@ IP,Name,Sources
 4.198.72.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.201.232.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.201.232.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.203.96.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.205.128.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.226.226.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.227.36.0/25,GPTBot|OpenAI SearchBot,https://openai.com/gptbot.json|https://openai.com/searchbot.json
@@ -104,7 +105,6 @@ IP,Name,Sources
 20.199.211.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.203.245.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.204.24.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
-20.206.107.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.210.154.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.210.174.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.210.211.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -131,7 +131,6 @@ IP,Name,Sources
 20.235.87.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.249.63.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.250.136.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
-23.97.109.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 23.98.142.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 23.98.179.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 23.98.186.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -185,6 +184,7 @@ IP,Name,Sources
 51.57.0.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.24.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.24.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+51.59.40.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.48.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.48.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.107.70.192/28,ChatGPT User,https://openai.com/chatgpt-user.json

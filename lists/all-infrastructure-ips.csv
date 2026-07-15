@@ -413,6 +413,7 @@ IP,Name,Sources
 106.13.250.0/23,Baidu,https://radb.net
 106.13.252.0/22,Baidu,https://radb.net
 107.150.176.1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+107.151.240.63,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.155.47.146,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.182.163.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 108.162.192.0/18,Cloudflare,https://www.cloudflare.com/ips-v4
