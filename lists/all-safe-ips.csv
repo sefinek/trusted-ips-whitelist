@@ -66,6 +66,7 @@ IP,Name,Sources
 4.201.220.8/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.232.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.201.232.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.203.96.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.205.128.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.207.220.92/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.209.224.56/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1241,7 +1242,6 @@ IP,Name,Sources
 20.204.243.55/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.204.246.81/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.204.246.254/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-20.206.107.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.207.72.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.207.72.21/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.207.72.110/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1323,7 +1323,6 @@ IP,Name,Sources
 23.22.2.46,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.83.129.219,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.92.127.2,PingdomBot,https://my.pingdom.com/probes/ipv4
-23.97.109.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 23.98.142.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 23.98.179.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 23.98.186.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1986,6 +1985,7 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -2042,7 +2042,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -2055,6 +2054,7 @@ IP,Name,Sources
 51.57.0.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.24.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.24.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+51.59.40.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.48.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.48.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.68.247.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -6868,7 +6868,7 @@ IP,Name,Sources
 57.144.90.0/23,FacebookBot,https://radb.net
 57.144.92.0/23,FacebookBot,https://radb.net
 57.144.94.0/23,FacebookBot,https://radb.net
-57.144.96.0/23,FacebookBot,https://radb.net
+57.144.96.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.98.0/23,FacebookBot,https://radb.net
 57.144.100.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.102.0/23,FacebookBot,https://radb.net
@@ -7977,6 +7977,7 @@ IP,Name,Sources
 106.13.252.0/22,Baidu,https://radb.net
 107.20.236.150/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 107.150.176.1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+107.151.240.63,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.155.47.146,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.178.192.0/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 107.178.192.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
@@ -8120,7 +8121,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8156,7 +8156,6 @@ IP,Name,Sources
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
 114.111.16.0/20,Baidu,https://radb.net
-115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -16854,7 +16853,7 @@ IP,Name,Sources
 2a03:2880:f324::/48,FacebookBot,https://radb.net
 2a03:2880:f325::/48,FacebookBot,https://radb.net
 2a03:2880:f326::/48,FacebookBot,https://radb.net
-2a03:2880:f327::/48,FacebookBot,https://radb.net
+2a03:2880:f327::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f328::/48,FacebookBot,https://radb.net
 2a03:2880:f329::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f32a::/48,FacebookBot,https://radb.net
