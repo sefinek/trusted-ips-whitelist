@@ -14,6 +14,7 @@ IP,Name,Sources
 4.197.115.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.198.72.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.201.232.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.201.232.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.205.128.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.226.226.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.129.0.0/17,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -120,6 +121,7 @@ IP,Name,Sources
 40.67.183.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.67.183.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.75.14.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.78.161.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.81.134.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.81.134.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.81.234.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -155,7 +157,6 @@ IP,Name,Sources
 52.165.212.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.172.129.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.172.251.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
-52.173.123.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.173.219.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.173.219.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.173.221.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -255,7 +256,6 @@ IP,Name,Sources
 172.215.218.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 191.233.1.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 191.233.1.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
-191.233.1.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 191.233.2.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
 191.233.194.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 191.233.196.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
