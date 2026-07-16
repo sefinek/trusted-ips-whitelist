@@ -209,10 +209,11 @@ IP,Name,Sources
 9.9.9.9,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 9.9.9.10,Quad9 DNS (unfiltered),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 9.129.0.0/17,ChatGPT User,https://openai.com/chatgpt-user.json
-9.160.163.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+9.160.128.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.164.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.234.96.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.234.97.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
+9.234.97.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.235.40.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.36.154.207,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 13.65.138.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1270,7 +1271,6 @@ IP,Name,Sources
 20.215.220.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.215.220.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.215.220.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
-20.216.56.115,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.216.200.223/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.43.246/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.67/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1985,6 +1985,7 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -4368,7 +4369,6 @@ IP,Name,Sources
 52.173.234.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.173.234.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.173.235.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
-52.176.139.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.185.93.208/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.186.37.211/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.187.246.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -8156,6 +8156,7 @@ IP,Name,Sources
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
 114.111.16.0/20,Baidu,https://radb.net
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8234,6 +8235,7 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
+124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
