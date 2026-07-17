@@ -397,7 +397,6 @@ IP,Name,Sources
 209.38.124.252,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 209.58.139.193,PingdomBot,https://my.pingdom.com/probes/ipv4
 209.58.139.194,PingdomBot,https://my.pingdom.com/probes/ipv4
-209.58.160.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 209.126.110.38,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 209.141.34.11,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 212.73.148.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
