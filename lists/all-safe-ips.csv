@@ -2044,7 +2044,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7638,7 +7637,12 @@ IP,Name,Sources
 85.217.140.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.0/26,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.36/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.38/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.40/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.48/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.64/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.72/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.74/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8112,7 +8116,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8227,6 +8230,7 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
+124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -14714,7 +14718,11 @@ IP,Name,Sources
 209.141.34.11,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 209.151.156.194,Kagi,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/kagi.txt
 209.177.87.197,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-212.73.148.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.24/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.28/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.30/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.32/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.40/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.42/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
