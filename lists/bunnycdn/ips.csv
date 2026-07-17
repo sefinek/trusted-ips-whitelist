@@ -377,6 +377,8 @@ IP,Name,Sources
 152.233.22.101,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.22.102,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.22.103,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+152.233.50.1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+152.233.50.2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 154.93.86.71,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 154.95.86.76,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.66.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

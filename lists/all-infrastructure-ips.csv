@@ -704,6 +704,8 @@ IP,Name,Sources
 152.233.22.101,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.22.102,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.22.103,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+152.233.50.1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+152.233.50.2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 153.72.96.0/19,Palo Alto Networks,https://radb.net
 153.72.192.0/19,Palo Alto Networks,https://radb.net
 153.72.240.0/20,Palo Alto Networks,https://radb.net
