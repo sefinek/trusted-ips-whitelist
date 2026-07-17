@@ -1009,18 +1009,6 @@ IP,Name,Sources
 15.235.98.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 15.235.98.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 16.26.200.71,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-17.22.237.0/24,Applebot,https://search.developer.apple.com/applebot.json
-17.22.245.0/24,Applebot,https://search.developer.apple.com/applebot.json
-17.22.253.0/24,Applebot,https://search.developer.apple.com/applebot.json
-17.241.75.0/24,Applebot,https://search.developer.apple.com/applebot.json
-17.241.193.160/27,Applebot,https://search.developer.apple.com/applebot.json
-17.241.200.160/27,Applebot,https://search.developer.apple.com/applebot.json
-17.241.208.160/27,Applebot,https://search.developer.apple.com/applebot.json
-17.241.219.0/24,Applebot,https://search.developer.apple.com/applebot.json
-17.241.227.0/24,Applebot,https://search.developer.apple.com/applebot.json
-17.246.15.0/24,Applebot,https://search.developer.apple.com/applebot.json
-17.246.19.0/24,Applebot,https://search.developer.apple.com/applebot.json
-17.246.23.0/24,Applebot,https://search.developer.apple.com/applebot.json
 18.97.1.228/30,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 18.97.9.96/29,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 18.97.21.0/30,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -1987,7 +1975,6 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -8148,6 +8135,7 @@ IP,Name,Sources
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
 114.111.16.0/20,Baidu,https://radb.net
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8226,7 +8214,6 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
-124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.140.41.193,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
