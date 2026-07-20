@@ -502,7 +502,7 @@ IP,Name,Sources
 2604:4500:5:a0::4033,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:4500:8:120::4032,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:4500:9:5d::4031,PingdomBot,https://my.pingdom.com/probes/ipv6
-2604:6600:fdc0:12::4066,PingdomBot,https://my.pingdom.com/probes/ipv6
+2604:6600:fdc0:1::122,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:86c0:4001:b::4067,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:a880:800:14:0:1:68ba:d000,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2604:a880:800:14:0:1:68ba:e000,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
