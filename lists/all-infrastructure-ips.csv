@@ -2484,6 +2484,8 @@ IP,Name,Sources
 2a02:6ea0:c454::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:d70d:1::919:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:e009::893:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2a02:6ea0:e237::1503:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2a02:6ea0:e237::1504:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:e605:1::915:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:f904::1163:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a03:5f40::/32,Baidu,https://radb.net
