@@ -7330,7 +7330,6 @@ IP,Name,Sources
 68.221.67.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.221.67.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.221.67.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
-68.221.75.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 69.63.176.0/20,FacebookBot,https://radb.net|https://stat.ripe.net
 69.63.176.0/21,FacebookBot,https://radb.net|https://stat.ripe.net
 69.63.184.0/21,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -7346,6 +7345,7 @@ IP,Name,Sources
 70.153.76.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 70.153.189.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 70.153.190.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
+70.156.152.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 71.6.135.131,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 71.6.146.130,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 71.6.146.185,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
@@ -8130,6 +8130,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8165,6 +8166,7 @@ IP,Name,Sources
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
 114.111.16.0/20,Baidu,https://radb.net
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
