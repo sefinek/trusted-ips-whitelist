@@ -108,6 +108,14 @@ const processWithTimeout = async (promise, timeoutMs = 60000) => {
 };
 
 const fetchWithTimeout = async (url, config = {}, timeoutMs = 60000) => {
+	const parsed = new URL(url);
+	if (!['http:', 'https:'].includes(parsed.protocol)) {
+		throw new Error(`Disallowed URL scheme: ${parsed.protocol}`);
+	}
+	const host = parsed.hostname;
+	if (/^(localhost|127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|169\.254\.|::1$|0\.0\.0\.0)/i.test(host)) {
+		throw new Error(`Requests to internal hosts are not allowed: ${host}`);
+	}
 	const controller = new AbortController();
 	const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
 	try {
