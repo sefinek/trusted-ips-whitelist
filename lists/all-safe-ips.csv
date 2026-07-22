@@ -1684,6 +1684,7 @@ IP,Name,Sources
 34.127.143.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 34.127.143.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 34.130.107.20,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+34.130.201.174,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.146.150.144/28,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 34.147.110.144/28,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 34.150.241.79/32,ClaudeBot,https://claude.com/crawling/bots.json
@@ -8130,7 +8131,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
