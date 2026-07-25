@@ -71,72 +71,70 @@ const filterBlocksByKeywords = (blocks, keywords, acceptNullable) => {
 	return acceptNullable ? enriched : [];
 };
 
-const fetchRoutesFromHost = async (asn, host, options = {}) => {
-	return new Promise(resolve => {
-		let buffer = '';
-		let hasResolved = false;
-		const sock = net.createConnection(WHOIS_PORT, host);
-		sock.setEncoding('utf8');
-		sock.setTimeout(30000);
+const fetchRoutesFromHost = async (asn, host, options = {}) => new Promise(resolve => {
+	let buffer = '';
+	let hasResolved = false;
+	const sock = net.createConnection(WHOIS_PORT, host);
+	sock.setEncoding('utf8');
+	sock.setTimeout(30000);
 
-		const safeResolve = data => {
-			if (!hasResolved) {
-				hasResolved = true;
-				resolve(data);
-			}
-		};
+	const safeResolve = data => {
+		if (!hasResolved) {
+			hasResolved = true;
+			resolve(data);
+		}
+	};
 
-		const asnClean = asn.replace(/^AS/i, '');
-		const req = host === 'whois.arin.net'
-			? `AS${asnClean}\r\n`
-			: `-i origin AS${asnClean}\r\n`;
+	const asnClean = asn.replace(/^AS/i, '');
+	const req = host === 'whois.arin.net'
+		? `AS${asnClean}\r\n`
+		: `-i origin AS${asnClean}\r\n`;
 
-		sock.on('data', chunk => {
-			buffer += chunk;
-			if (buffer.length > 10 * 1024 * 1024) {
-				logger.warn(`Response too large from ${host}, truncating`);
-				sock.destroy();
-				safeResolve([]);
-			}
-		});
-
-		sock.on('error', err => {
-			logger.warn(`WHOIS error for ${host} (ASN ${asn}): ${err.message}`);
-			safeResolve([]);
-		});
-
-		sock.on('timeout', () => {
-			logger.warn(`WHOIS timeout for ${host} (ASN ${asn})`);
+	sock.on('data', chunk => {
+		buffer += chunk;
+		if (buffer.length > 10 * 1024 * 1024) {
+			logger.warn(`Response too large from ${host}, truncating`);
 			sock.destroy();
-			safeResolve([]);
-		});
-
-		sock.on('end', () => {
-			try {
-				const blocks = extractRouteBlocks(buffer);
-				const filtered = filterBlocksByKeywords(blocks, options.keywords, options.acceptNullable);
-				const routes = [];
-
-				for (const block of filtered) {
-					if (!block.ip || !parseIP(block.ip)) continue;
-					routes.push({ ip: block.ip, source: WHOIS_SOURCE_URLS[host] ?? `https://${host}` });
-				}
-
-				safeResolve(routes);
-			} catch (err) {
-				logger.err(`Failed to parse WHOIS response from ${host} (ASN ${asn}): ${err.message}`);
-				safeResolve([]);
-			}
-		});
-
-		try {
-			sock.write(req, () => sock.end());
-		} catch (err) {
-			logger.err(`Failed to write to WHOIS socket ${host} (ASN ${asn}): ${err.message}`);
 			safeResolve([]);
 		}
 	});
-};
+
+	sock.on('error', err => {
+		logger.warn(`WHOIS error for ${host} (ASN ${asn}): ${err.message}`);
+		safeResolve([]);
+	});
+
+	sock.on('timeout', () => {
+		logger.warn(`WHOIS timeout for ${host} (ASN ${asn})`);
+		sock.destroy();
+		safeResolve([]);
+	});
+
+	sock.on('end', () => {
+		try {
+			const blocks = extractRouteBlocks(buffer);
+			const filtered = filterBlocksByKeywords(blocks, options.keywords, options.acceptNullable);
+			const routes = [];
+
+			for (const block of filtered) {
+				if (!block.ip || !parseIP(block.ip)) continue;
+				routes.push({ ip: block.ip, source: WHOIS_SOURCE_URLS[host] ?? `https://${host}` });
+			}
+
+			safeResolve(routes);
+		} catch (err) {
+			logger.err(`Failed to parse WHOIS response from ${host} (ASN ${asn}): ${err.message}`);
+			safeResolve([]);
+		}
+	});
+
+	try {
+		sock.write(req, () => sock.end());
+	} catch (err) {
+		logger.err(`Failed to write to WHOIS socket ${host} (ASN ${asn}): ${err.message}`);
+		safeResolve([]);
+	}
+});
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 

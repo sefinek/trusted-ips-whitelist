@@ -61,7 +61,7 @@ const validateListFiles = async (dir, label) => {
 	return txtIPs;
 };
 
-const validateCombinedFiles = async (basename) => {
+const validateCombinedFiles = async basename => {
 	const [txt, csv, json] = await Promise.all([
 		fs.readFile(path.join(listsDir, `${basename}.txt`), 'utf8'),
 		fs.readFile(path.join(listsDir, `${basename}.csv`), 'utf8'),
