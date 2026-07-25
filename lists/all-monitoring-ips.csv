@@ -381,8 +381,8 @@ IP,Name,Sources
 198.20.87.96/29,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 198.20.99.128/29,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 198.211.117.142,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-199.45.154.0/24,Censys,https://stat.ripe.net
-199.45.155.0/24,Censys,https://stat.ripe.net
+199.45.154.0/24,Censys,https://radb.net|https://stat.ripe.net
+199.45.155.0/24,Censys,https://radb.net|https://stat.ripe.net
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 200.58.101.248,PingdomBot,https://my.pingdom.com/probes/ipv4
 206.168.32.0/24,Censys,https://radb.net
