@@ -7517,6 +7517,7 @@ IP,Name,Sources
 74.201.127.0/24,Palo Alto Networks,https://stat.ripe.net
 74.226.253.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 74.242.194.48/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+74.243.255.151,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 74.249.86.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 75.125.64.0/18,Palo Alto Networks,https://radb.net
 75.125.96.0/24,Palo Alto Networks,https://stat.ripe.net
@@ -8128,6 +8129,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8241,7 +8243,6 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
-124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.85.198.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -13586,8 +13587,8 @@ IP,Name,Sources
 198.244.242.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 198.244.242.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 199.30.24.0/23,BingBot,https://www.bing.com/toolbox/bingbot.json
-199.45.154.0/24,Censys,https://stat.ripe.net
-199.45.155.0/24,Censys,https://stat.ripe.net
+199.45.154.0/24,Censys,https://radb.net|https://stat.ripe.net
+199.45.155.0/24,Censys,https://radb.net|https://stat.ripe.net
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 199.167.52.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 199.167.53.0/24,Palo Alto Networks,https://stat.ripe.net
