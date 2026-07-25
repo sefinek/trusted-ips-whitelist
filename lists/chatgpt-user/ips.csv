@@ -13,6 +13,7 @@ IP,Name,Sources
 4.197.64.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.197.115.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.198.72.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.198.96.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.201.232.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.201.232.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.203.96.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -41,7 +42,6 @@ IP,Name,Sources
 13.83.237.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.17.108.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.27.94.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
-20.42.250.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.45.178.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.52.125.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.55.129.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -216,14 +216,14 @@ IP,Name,Sources
 68.154.28.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.218.30.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.220.57.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
-68.221.67.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.221.67.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.221.67.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.221.67.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
-68.221.75.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 70.153.76.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 70.153.189.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 70.153.190.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
+70.156.144.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
+70.156.152.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 74.7.35.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 74.7.35.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 74.7.36.64/28,ChatGPT User,https://openai.com/chatgpt-user.json

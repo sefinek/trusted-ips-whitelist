@@ -166,7 +166,6 @@ IP,Name,Sources
 89.187.162.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.162.249,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.165.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-89.187.169.47,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.176.34,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.179.7,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.184.173,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -223,7 +222,6 @@ IP,Name,Sources
 104.237.53.74,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.237.54.154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.150.176.1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-107.151.240.63,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.155.47.146,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 107.182.163.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.61.83.97,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -241,7 +239,6 @@ IP,Name,Sources
 109.61.83.251,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.61.86.193,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.61.89.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-109.61.89.58,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.35,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.103,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.116,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -379,6 +376,7 @@ IP,Name,Sources
 152.233.22.103,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.50.1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.50.2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+152.233.60.225,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 154.93.86.71,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 154.95.86.76,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.66.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -576,6 +574,7 @@ IP,Name,Sources
 203.57.82.97,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 203.57.82.99,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 203.57.82.101,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+204.157.181.38,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.15.92,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.15.100,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 207.121.15.108,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -848,6 +847,7 @@ IP,Name,Sources
 2400:52e0:1e00::723:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e00::752:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e00::755:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2400:52e0:1e00::756:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e00::860:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e00::863:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2400:52e0:1e00::864:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -969,6 +969,8 @@ IP,Name,Sources
 2a02:6ea0:c454::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:d70d:1::919:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:e009::893:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2a02:6ea0:e237::1503:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2a02:6ea0:e237::1504:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:e605:1::915:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:f904::1163:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a04:ff07:d9:1::1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
