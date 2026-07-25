@@ -182,7 +182,9 @@ IP,Name,Sources
 85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.24/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.26/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.28/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.32/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -379,8 +381,8 @@ IP,Name,Sources
 198.20.87.96/29,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 198.20.99.128/29,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 198.211.117.142,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-199.45.154.0/24,Censys,https://radb.net|https://stat.ripe.net
-199.45.155.0/24,Censys,https://radb.net|https://stat.ripe.net
+199.45.154.0/24,Censys,https://stat.ripe.net
+199.45.155.0/24,Censys,https://stat.ripe.net
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 200.58.101.248,PingdomBot,https://my.pingdom.com/probes/ipv4
 206.168.32.0/24,Censys,https://radb.net
@@ -502,7 +504,7 @@ IP,Name,Sources
 2604:4500:5:a0::4033,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:4500:8:120::4032,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:4500:9:5d::4031,PingdomBot,https://my.pingdom.com/probes/ipv6
-2604:6600:fdc0:12::4066,PingdomBot,https://my.pingdom.com/probes/ipv6
+2604:6600:fdc0:1::122,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:86c0:4001:b::4067,PingdomBot,https://my.pingdom.com/probes/ipv6
 2604:a880:800:14:0:1:68ba:d000,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2604:a880:800:14:0:1:68ba:e000,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
