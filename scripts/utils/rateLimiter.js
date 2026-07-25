@@ -26,12 +26,12 @@ class RateLimiter {
 		return new Promise((resolve, reject) => {
 			this.queue.push({
 				fn,
-				resolve: (result) => {
+				resolve: result => {
 					this.stats.success++;
 					this.stats.queued--;
 					resolve(result);
 				},
-				reject: (error) => {
+				reject: error => {
 					this.stats.failed++;
 					this.stats.queued--;
 					reject(error);
