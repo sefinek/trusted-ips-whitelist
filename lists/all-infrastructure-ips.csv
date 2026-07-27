@@ -231,6 +231,11 @@ IP,Name,Sources
 84.17.59.119,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.59.120,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 84.17.63.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+85.208.100.0/22,Canonical,https://radb.net
+85.208.100.0/24,Canonical,https://radb.net
+85.208.101.0/24,Canonical,https://radb.net
+85.208.102.0/24,Canonical,https://radb.net
+85.208.103.0/24,Canonical,https://radb.net
 87.249.137.52,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.99.26.189,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 88.99.63.113,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

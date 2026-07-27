@@ -1,4 +1,9 @@
 IP,Name,Sources
+85.208.100.0/22,Canonical,https://radb.net
+85.208.100.0/24,Canonical,https://radb.net
+85.208.101.0/24,Canonical,https://radb.net
+85.208.102.0/24,Canonical,https://radb.net
+85.208.103.0/24,Canonical,https://radb.net
 91.189.88.0/21,Canonical,https://radb.net
 91.189.88.0/24,Canonical,https://radb.net|https://stat.ripe.net
 91.189.89.0/24,Canonical,https://radb.net|https://stat.ripe.net

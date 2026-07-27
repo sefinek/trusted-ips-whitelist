@@ -1682,6 +1682,7 @@ IP,Name,Sources
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 45.64.40.0/22,FacebookBot,https://radb.net|https://stat.ripe.net
 48.192.16.86/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.192.74.178/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1694,7 +1695,6 @@ IP,Name,Sources
 48.217.129.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.212.89/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.223.209.110/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.253.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7159,7 +7159,7 @@ IP,Name,Sources
 108.177.2.160/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
-124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.203.82.154/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 128.203.181.79/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -9447,6 +9447,27 @@ IP,Name,Sources
 172.194.141.49/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.199.55.212/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.210.111.68/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+172.253.181.0/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.181.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.181.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.181.96/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.181.128/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.181.160/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.181.192/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.181.224/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.182.0/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.182.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.182.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.182.96/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.182.128/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.183.0/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.183.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.183.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.183.96/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.183.128/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.183.160/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.183.192/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+172.253.183.224/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 173.252.64.0/18,FacebookBot,https://radb.net
 173.252.64.0/19,FacebookBot,https://radb.net|https://stat.ripe.net
 173.252.88.0/21,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -12403,6 +12424,14 @@ IP,Name,Sources
 2001:4860:4801:4125::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4126::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4127::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:4128::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:4129::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:412a::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:412b::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:412c::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:412d::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:412e::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:412f::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4130::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4131::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4132::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
@@ -12425,6 +12454,14 @@ IP,Name,Sources
 2001:4860:4801:4154::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4155::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4156::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:4157::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:4158::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:4159::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:415a::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:415b::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:415c::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:415d::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:415e::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4160::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4161::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4162::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
@@ -12432,6 +12469,11 @@ IP,Name,Sources
 2001:4860:4801:4164::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4165::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2001:4860:4801:4166::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:4167::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:4168::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:4169::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:416a::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
+2001:4860:4801:416b::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
 2401:db00::/32,FacebookBot,https://radb.net
 2404:f340:10:4000::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2404:f340:10:4001::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
