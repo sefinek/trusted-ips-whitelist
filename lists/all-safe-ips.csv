@@ -2003,7 +2003,6 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -8144,6 +8143,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
