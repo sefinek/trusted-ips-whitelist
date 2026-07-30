@@ -1265,7 +1265,6 @@ IP,Name,Sources
 20.215.220.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.215.220.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.215.220.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
-20.216.56.115,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.216.200.223/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.218.30.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.219.43.246/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -2061,6 +2060,7 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7798,7 +7798,6 @@ IP,Name,Sources
 93.120.27.62,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 93.158.128.0/18,YandexBot,https://yandex.com/ips
 93.174.95.106,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-93.180.217.214,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.20.154.22,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.23.188.192,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 94.23.188.193,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -8241,7 +8240,6 @@ IP,Name,Sources
 120.49.128.0/18,Baidu,https://radb.net
 120.49.192.0/18,Baidu,https://radb.net|https://stat.ripe.net
 120.49.192.0/21,Baidu,https://radb.net
-120.49.192.0/22,Baidu,https://stat.ripe.net
 120.49.192.0/24,Baidu,https://stat.ripe.net
 120.49.193.0/24,Baidu,https://stat.ripe.net
 120.49.194.0/24,Baidu,https://stat.ripe.net
