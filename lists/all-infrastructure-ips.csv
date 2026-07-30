@@ -286,7 +286,6 @@ IP,Name,Sources
 91.217.158.0/24,NASK PL,https://radb.net
 91.238.85.0/24,NASK PL,https://radb.net
 92.223.62.111,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-93.180.217.214,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.20.154.22,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.46.27.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.128.254.166,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -556,7 +555,6 @@ IP,Name,Sources
 120.49.128.0/18,Baidu,https://radb.net
 120.49.192.0/18,Baidu,https://radb.net|https://stat.ripe.net
 120.49.192.0/21,Baidu,https://radb.net
-120.49.192.0/22,Baidu,https://stat.ripe.net
 120.49.192.0/24,Baidu,https://stat.ripe.net
 120.49.193.0/24,Baidu,https://stat.ripe.net
 120.49.194.0/24,Baidu,https://stat.ripe.net
