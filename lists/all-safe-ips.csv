@@ -2017,6 +2017,7 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
@@ -2075,6 +2076,7 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7811,7 +7813,6 @@ IP,Name,Sources
 92.222.108.125,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.108.126,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 92.222.108.127,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-92.223.62.111,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 92.255.112.0/20,YandexBot,https://yandex.com/ips
 93.120.27.62,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 93.158.128.0/18,YandexBot,https://yandex.com/ips
@@ -8166,6 +8167,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+111.229.119.150,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8269,7 +8271,23 @@ IP,Name,Sources
 120.49.198.0/24,Baidu,https://stat.ripe.net
 120.49.199.0/24,Baidu,https://stat.ripe.net
 120.49.200.0/21,Baidu,https://radb.net
+120.49.200.0/24,Baidu,https://stat.ripe.net
+120.49.201.0/24,Baidu,https://stat.ripe.net
+120.49.202.0/24,Baidu,https://stat.ripe.net
+120.49.203.0/24,Baidu,https://stat.ripe.net
+120.49.204.0/24,Baidu,https://stat.ripe.net
+120.49.205.0/24,Baidu,https://stat.ripe.net
+120.49.206.0/24,Baidu,https://stat.ripe.net
+120.49.207.0/24,Baidu,https://stat.ripe.net
 120.49.208.0/21,Baidu,https://radb.net
+120.49.208.0/24,Baidu,https://stat.ripe.net
+120.49.209.0/24,Baidu,https://stat.ripe.net
+120.49.210.0/24,Baidu,https://stat.ripe.net
+120.49.211.0/24,Baidu,https://stat.ripe.net
+120.49.212.0/24,Baidu,https://stat.ripe.net
+120.49.213.0/24,Baidu,https://stat.ripe.net
+120.49.214.0/24,Baidu,https://stat.ripe.net
+120.49.215.0/24,Baidu,https://stat.ripe.net
 122.10.251.130,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 122.248.48.0/20,Baidu,https://radb.net
 122.248.48.0/23,Baidu,https://radb.net
