@@ -347,7 +347,7 @@ IP,Name,Sources
 103.235.199.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.16.0.0/13,Cloudflare,https://www.cloudflare.com/ips-v4
 104.24.0.0/14,Cloudflare,https://www.cloudflare.com/ips-v4
-104.166.144.106,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+104.166.144.107,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.193.88.0/22,Baidu,https://radb.net
 104.193.88.0/24,Baidu,https://radb.net|https://stat.ripe.net
 104.193.89.0/24,Baidu,https://radb.net|https://stat.ripe.net
@@ -1279,7 +1279,7 @@ IP,Name,Sources
 185.125.191.0/24,Canonical,https://stat.ripe.net
 185.131.64.122,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.131.64.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-185.131.64.124,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+185.131.64.125,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.135.85.154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.152.64.17,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.152.64.19,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

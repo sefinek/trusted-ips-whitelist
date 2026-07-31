@@ -2075,7 +2075,6 @@ IP,Name,Sources
 49.13.134.145,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-49.235.112.9,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7937,7 +7936,7 @@ IP,Name,Sources
 104.43.55.166/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 104.43.55.167/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 104.131.0.69,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-104.166.144.106,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+104.166.144.107,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.193.88.0/22,Baidu,https://radb.net
 104.193.88.0/24,Baidu,https://radb.net|https://stat.ripe.net
 104.193.89.0/24,Baidu,https://radb.net|https://stat.ripe.net
@@ -8202,7 +8201,6 @@ IP,Name,Sources
 114.110.126.0/23,Baidu,https://radb.net
 114.111.0.0/19,Baidu,https://radb.net
 114.111.16.0/20,Baidu,https://radb.net
-115.159.149.234,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 116.202.80.29,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.80.247,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.202.118.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8280,6 +8278,7 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
+124.221.116.193,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.85.198.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -11545,7 +11544,7 @@ IP,Name,Sources
 185.125.191.0/24,Canonical,https://stat.ripe.net
 185.131.64.122,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.131.64.123,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-185.131.64.124,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+185.131.64.125,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.135.85.154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 185.136.156.82,PingdomBot,https://my.pingdom.com/probes/ipv4
 185.142.236.34,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
