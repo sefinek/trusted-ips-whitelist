@@ -410,7 +410,7 @@ IP,Name,Sources
 185.60.216.0/24,FacebookBot,https://radb.net
 185.60.217.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 185.60.218.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
-185.60.219.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
+185.60.219.0/24,FacebookBot,https://radb.net
 185.89.216.0/22,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.218.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.218.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
