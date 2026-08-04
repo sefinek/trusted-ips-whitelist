@@ -1,8 +1,5 @@
 IP,Name,Sources
-1.15.51.202,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-1.15.242.107,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 4.144.182.50/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.149.142.7/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.149.159.71/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1060,6 +1057,7 @@ IP,Name,Sources
 20.207.117.66/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.212.90.107/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.212.139.34/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.216.56.115,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.216.200.223/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.43.246/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.67/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7159,7 +7157,6 @@ IP,Name,Sources
 108.177.2.160/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
-118.25.12.243,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.203.82.154/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 128.203.181.79/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -9517,7 +9514,7 @@ IP,Name,Sources
 185.60.216.0/24,FacebookBot,https://radb.net
 185.60.217.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 185.60.218.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
-185.60.219.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
+185.60.219.0/24,FacebookBot,https://radb.net
 185.89.216.0/22,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.218.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.218.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
