@@ -1,4 +1,5 @@
 IP,Name,Sources
+1.15.51.202,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.242.107,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -1059,7 +1060,6 @@ IP,Name,Sources
 20.207.117.66/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.212.90.107/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.212.139.34/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
-20.216.56.115,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.216.200.223/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.43.246/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.67/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7159,6 +7159,7 @@ IP,Name,Sources
 108.177.2.160/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 108.177.2.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
+118.25.12.243,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.203.82.154/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 128.203.132.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 128.203.181.79/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -9523,7 +9524,6 @@ IP,Name,Sources
 185.89.219.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 185.170.167.0/24,Semrush,https://radb.net|https://stat.ripe.net
 185.191.171.0/24,Semrush,https://radb.net|https://stat.ripe.net
-189.247.71.0/24,FacebookBot,https://radb.net
 191.233.3.197/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 191.233.3.202/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 191.233.204.224/28,BingBot,https://www.bing.com/toolbox/bingbot.json
@@ -13006,8 +13006,6 @@ IP,Name,Sources
 2620:0:1c00::/40,FacebookBot,https://radb.net|https://stat.ripe.net
 2620:0:1cfa::/48,FacebookBot,https://radb.net
 2620:0:1cff::/48,FacebookBot,https://radb.net
-2806:1090:cbff::/48,FacebookBot,https://radb.net
-2806:10a0:cbff::/48,FacebookBot,https://radb.net
 2a02:6b8::/29,YandexBot,https://yandex.com/ips
 2a03:2880::/32,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880::/36,FacebookBot,https://radb.net|https://stat.ripe.net

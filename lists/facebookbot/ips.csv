@@ -415,14 +415,11 @@ IP,Name,Sources
 185.89.218.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.218.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 185.89.219.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
-189.247.71.0/24,FacebookBot,https://radb.net
 204.15.20.0/22,FacebookBot,https://radb.net|https://stat.ripe.net
 2401:db00::/32,FacebookBot,https://radb.net
 2620:0:1c00::/40,FacebookBot,https://radb.net|https://stat.ripe.net
 2620:0:1cfa::/48,FacebookBot,https://radb.net
 2620:0:1cff::/48,FacebookBot,https://radb.net
-2806:1090:cbff::/48,FacebookBot,https://radb.net
-2806:10a0:cbff::/48,FacebookBot,https://radb.net
 2a03:2880::/32,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880::/36,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:1000::/36,FacebookBot,https://radb.net|https://stat.ripe.net
