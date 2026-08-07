@@ -1,5 +1,6 @@
 IP,Name,Sources
-1.15.242.107,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 4.144.182.50/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.149.142.7/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.149.159.71/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -8760,7 +8761,6 @@ IP,Name,Sources
 148.113.130.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 148.113.130.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 148.113.130.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
-150.158.81.92,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 154.8.140.15,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 157.55.39.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 157.240.0.0/16,FacebookBot,https://radb.net
