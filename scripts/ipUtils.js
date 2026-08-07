@@ -76,7 +76,8 @@ const isPrivateIP = ip => {
 	if (!parsed) return false;
 
 	try {
-		return parsed.range() === 'private' || parsed.range() === 'loopback' || parsed.range() === 'linkLocal';
+		const range = parsed.range();
+		return range === 'private' || range === 'loopback' || range === 'linkLocal' || range === 'uniqueLocal' || range === 'unspecified';
 	} catch {
 		return false;
 	}

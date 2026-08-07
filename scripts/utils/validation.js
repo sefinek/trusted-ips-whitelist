@@ -1,11 +1,16 @@
 const { ValidationError, SecurityError } = require('./errors.js');
+const { isValidIP, isPrivateIP } = require('../ipUtils.js');
 
 const isValidUrl = url => {
 	if (!url || typeof url !== 'string') return false;
 
 	try {
 		const parsed = new URL(url);
-		return ['http:', 'https:'].includes(parsed.protocol);
+		if (!['http:', 'https:'].includes(parsed.protocol)) return false;
+
+		const hostname = parsed.hostname.toLowerCase().replace(/^\[|]$/g, '');
+		if (hostname === 'localhost') return false;
+		return !(isValidIP(hostname) && isPrivateIP(hostname));
 	} catch {
 		return false;
 	}

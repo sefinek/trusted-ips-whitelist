@@ -22,6 +22,20 @@ describe('validateUrl', () => {
 		expect(() => validateUrl('')).toThrow(SecurityError);
 		expect(() => validateUrl(null)).toThrow(SecurityError);
 	});
+
+	it('rejects loopback and private hosts', () => {
+		expect(() => validateUrl('http://127.0.0.1/latest/meta-data')).toThrow(SecurityError);
+		expect(() => validateUrl('http://localhost:8080/internal-api')).toThrow(SecurityError);
+		expect(() => validateUrl('http://169.254.169.254/latest/meta-data/iam/security-credentials/')).toThrow(SecurityError);
+		expect(() => validateUrl('http://10.0.0.5/')).toThrow(SecurityError);
+		expect(() => validateUrl('http://192.168.1.1/')).toThrow(SecurityError);
+		expect(() => validateUrl('http://[::1]/')).toThrow(SecurityError);
+		expect(() => validateUrl('http://[fc00::1]/')).toThrow(SecurityError);
+	});
+
+	it('accepts public hosts that merely resemble private ones in text', () => {
+		expect(validateUrl('https://example.com/10.0.0.1')).toBe('https://example.com/10.0.0.1');
+	});
 });
 
 describe('validateSource', () => {
