@@ -101,6 +101,16 @@ describe('ipUtils', () => {
 			expect(isPrivateIP('fe80::1')).toBe(true);
 		});
 
+		it('detects unspecified addresses', () => {
+			expect(isPrivateIP('0.0.0.0')).toBe(true);
+			expect(isPrivateIP('::')).toBe(true);
+		});
+
+		it('detects IPv6 unique local addresses', () => {
+			expect(isPrivateIP('fc00::1')).toBe(true);
+			expect(isPrivateIP('fd12:3456:789a::1')).toBe(true);
+		});
+
 		it('returns false for public IPs', () => {
 			expect(isPrivateIP('8.8.8.8')).toBe(false);
 			expect(isPrivateIP('1.1.1.1')).toBe(false);
