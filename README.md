@@ -14,14 +14,14 @@ If you like this repository, leave a star ⭐. Thank you!
 
 ## 📘 Combined IP Lists
 
-### 🔀 All (11,463 IPs, 5,633 CIDRs)
+### 🔀 All (11,462 IPs, 5,633 CIDRs)
 | Format | URL                                                                                                                                                                                  |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt)   |
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.csv)   |
 
-### 🤖 Crawlers only (9,909 IPs, 3,729 CIDRs)
+### 🤖 Crawlers only (9,908 IPs, 3,729 CIDRs)
 | Format | URL                                                                                                                                                                                          |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.txt)   |
@@ -52,7 +52,7 @@ If you like this repository, leave a star ⭐. Thank you!
 
 ## 🌍 Supported Services
 
-### 🤖 Crawlers (9,909 IPs, 3,729 CIDRs)
+### 🤖 Crawlers (9,908 IPs, 3,729 CIDRs)
 Search engines, SEO tools and web testing bots.
 
 | Service                        | IPs & CIDRs | Sources                                                                                                                                                                                                | Downloads                                                                                                                                                                                                                                                                                                                                                                        |
