@@ -1744,7 +1744,7 @@ IP,Name,Sources
 194.181.225.0/24,NASK PL,https://radb.net
 194.181.226.0/24,NASK PL,https://radb.net
 194.181.227.0/24,NASK PL,https://radb.net
-194.181.228.0/24,NASK PL,https://radb.net
+194.181.228.0/24,NASK PL,https://radb.net|https://stat.ripe.net
 194.181.229.0/24,NASK PL,https://radb.net
 194.181.232.0/24,NASK PL,https://radb.net
 194.181.233.0/24,NASK PL,https://radb.net
