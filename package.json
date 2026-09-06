@@ -20,28 +20,29 @@
     "update": "npm run pull && npm ci && pm2 restart knownbots"
   },
   "dependencies": {
-    "axios": "^1.19.0",
+    "axios": "^1.20.0",
     "cheerio": "^1.2.0",
     "cron": "^4.4.0",
     "csv-stringify": "^6.8.3",
     "ipaddr.js": "^2.5.0",
-    "puppeteer": "^25.5.0",
+    "puppeteer": "^25.10.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "simple-git": "^3.36.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@jest/globals": "^30.4.1",
+    "@jest/globals": "^30.5.1",
     "csv-parse": "^7.0.2",
-    "globals": "^17.9.0",
-    "jest": "^30.4.2"
+    "globals": "^17.12.0",
+    "jest": "^30.5.1"
   },
   "engines": {
     "node": ">=20.19.0"
   },
   "allowScripts": {
-    "puppeteer@25.5.0": true,
+    "puppeteer@25.10.0": true,
+    "@parcel/watcher@2.6.0": true,
     "unrs-resolver@1.12.2": true
   }
 }
