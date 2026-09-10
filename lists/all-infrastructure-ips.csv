@@ -2295,8 +2295,8 @@ IP,Name,Sources
 2401:3bc0:b:21::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2401:c080:1c01:5a:ba3f:d2ff:fe0a:94b0,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2402:2b40::/32,Baidu,https://radb.net
-2402:2b40:7000::/36,Baidu,https://stat.ripe.net
-2402:2b40:8000::/36,Baidu,https://stat.ripe.net
+2402:2b40:7000::/36,Baidu,https://radb.net|https://stat.ripe.net
+2402:2b40:8000::/36,Baidu,https://radb.net|https://stat.ripe.net
 2403:ed40::/32,Baidu,https://radb.net
 2404:f780:0:2::d,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2404:f780:0:2::f,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6

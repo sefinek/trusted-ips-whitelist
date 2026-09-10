@@ -622,8 +622,8 @@ IP,Name,Sources
 2400:da00:400::/48,Baidu,https://stat.ripe.net
 2400:da00:404::/48,Baidu,https://stat.ripe.net
 2402:2b40::/32,Baidu,https://radb.net
-2402:2b40:7000::/36,Baidu,https://stat.ripe.net
-2402:2b40:8000::/36,Baidu,https://stat.ripe.net
+2402:2b40:7000::/36,Baidu,https://radb.net|https://stat.ripe.net
+2402:2b40:8000::/36,Baidu,https://radb.net|https://stat.ripe.net
 2403:ed40::/32,Baidu,https://radb.net
 240c:4000::/22,Baidu,https://radb.net|https://stat.ripe.net
 240c:4081::/32,Baidu,https://stat.ripe.net
