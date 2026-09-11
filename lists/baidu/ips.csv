@@ -2,8 +2,10 @@ IP,Name,Sources
 42.199.0.0/16,Baidu,https://radb.net
 42.199.240.0/22,Baidu,https://stat.ripe.net
 45.113.192.0/22,Baidu,https://radb.net
+45.113.192.0/23,Baidu,https://radb.net
 45.113.192.0/24,Baidu,https://radb.net|https://stat.ripe.net
 45.113.193.0/24,Baidu,https://radb.net|https://stat.ripe.net
+45.113.194.0/23,Baidu,https://radb.net
 45.113.194.0/24,Baidu,https://radb.net|https://stat.ripe.net
 45.113.195.0/24,Baidu,https://radb.net
 45.196.134.0/23,Baidu,https://radb.net
