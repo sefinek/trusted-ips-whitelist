@@ -1,8 +1,6 @@
 IP,Name,Sources
 1.15.51.202,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-1.15.242.107,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 4.144.148.23/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.144.182.50/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.144.227.142/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
