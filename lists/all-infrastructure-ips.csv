@@ -200,7 +200,6 @@ IP,Name,Sources
 79.127.216.66,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.216.111,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.216.112,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-79.127.219.198,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.221.146,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.226.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.226.195,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -208,7 +207,6 @@ IP,Name,Sources
 79.127.237.99,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.237.104,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.237.132,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-79.127.242.89,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 79.127.243.187,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 81.26.31.0/24,NASK PL,https://radb.net
 84.17.37.209,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -257,7 +255,6 @@ IP,Name,Sources
 89.187.162.242,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.162.249,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.165.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-89.187.176.34,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.179.7,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.184.173,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.184.176,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -266,6 +263,10 @@ IP,Name,Sources
 89.187.184.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.188.227,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 89.187.188.228,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+89.222.114.174,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+89.222.114.176,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+89.222.114.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+89.222.114.184,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 91.105.192.0/23,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.4.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
 91.108.8.0/22,TelegramBot,https://core.telegram.org/resources/cidr.txt
@@ -696,6 +697,8 @@ IP,Name,Sources
 152.233.22.101,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.22.102,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.22.103,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+152.233.46.81,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+152.233.46.82,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.50.1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.50.2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 152.233.60.225,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
