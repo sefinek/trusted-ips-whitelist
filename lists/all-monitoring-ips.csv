@@ -587,6 +587,7 @@ IP,Name,Sources
 2607:ff68:107::33,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2607:ff68:107::57,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2607:ff68:107::59,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+2620:96:e000::/48,Censys,https://radb.net
 2804:4c4:dc10:8860::4021,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a00:c98:2050:a03a::4086,PingdomBot,https://my.pingdom.com/probes/ipv6
 2a00:1a28:2000::4055,PingdomBot,https://my.pingdom.com/probes/ipv6
