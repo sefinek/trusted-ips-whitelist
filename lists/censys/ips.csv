@@ -8,7 +8,7 @@ IP,Name,Sources
 66.132.186.0/24,Censys,https://radb.net|https://stat.ripe.net
 66.132.195.0/24,Censys,https://radb.net|https://stat.ripe.net
 66.132.198.0/24,Censys,https://radb.net|https://stat.ripe.net
-66.132.209.0/24,Censys,https://radb.net
+66.132.209.0/24,Censys,https://radb.net|https://stat.ripe.net
 66.132.224.0/24,Censys,https://radb.net|https://stat.ripe.net
 66.132.228.0/24,Censys,https://radb.net|https://stat.ripe.net
 66.132.233.0/24,Censys,https://radb.net
@@ -28,6 +28,7 @@ IP,Name,Sources
 206.168.34.0/24,Censys,https://radb.net
 206.168.35.0/24,Censys,https://radb.net|https://stat.ripe.net
 2602:80d:1000::/44,Censys,https://radb.net
+2602:80d:1000::/48,Censys,https://stat.ripe.net
 2602:80d:1001::/48,Censys,https://stat.ripe.net
 2602:80d:1002::/48,Censys,https://radb.net|https://stat.ripe.net
 2602:80d:1003::/48,Censys,https://stat.ripe.net
