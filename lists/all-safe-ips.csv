@@ -8,6 +8,7 @@ IP,Name,Sources
 1.7.225.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 1.15.51.202,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+1.15.242.107,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.10.222.182,PingdomBot,https://my.pingdom.com/probes/ipv4
 3.11.131.95,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -2004,6 +2005,7 @@ IP,Name,Sources
 42.199.240.0/22,Baidu,https://stat.ripe.net
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -8679,6 +8681,7 @@ IP,Name,Sources
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.203.121.253,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 117.58.0.0/17,Baidu,https://radb.net
+118.25.12.243,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 119.63.192.0/21,Baidu,https://radb.net|https://stat.ripe.net
 119.75.208.0/20,Baidu,https://radb.net|https://stat.ripe.net
 119.75.212.0/22,Baidu,https://radb.net
@@ -8791,8 +8794,14 @@ IP,Name,Sources
 132.196.106.146/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 132.220.1.71/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 134.33.207.189/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+134.138.52.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 134.138.52.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 134.138.52.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
+134.138.52.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
+134.138.57.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
+134.138.57.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+134.138.57.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
+134.138.58.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 134.149.233.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 134.199.240.137,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 134.209.95.237,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
