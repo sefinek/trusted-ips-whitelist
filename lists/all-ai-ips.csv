@@ -154,6 +154,7 @@ IP,Name,Sources
 40.90.214.16/28,OpenAI SearchBot,https://openai.com/searchbot.json
 40.116.73.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.124.101.48/28,ClaudeBot,https://claude.com/crawling/bots.json
+40.124.161.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
 48.221.40.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 48.221.184.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -246,6 +247,7 @@ IP,Name,Sources
 128.85.198.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 132.196.82.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 132.196.86.0/24,GPTBot,https://openai.com/gptbot.json
+134.33.102.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 134.138.52.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 134.138.52.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 134.138.52.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -272,6 +274,7 @@ IP,Name,Sources
 172.170.1.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.170.225.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.170.241.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.172.206.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.175.152.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.178.140.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.178.141.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -303,6 +306,7 @@ IP,Name,Sources
 172.204.28.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.204.96.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.205.189.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.206.38.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.207.1.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.212.172.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.215.215.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
