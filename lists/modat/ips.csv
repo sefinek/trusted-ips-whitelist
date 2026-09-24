@@ -5,6 +5,7 @@ IP,Name,Sources
 31.14.32.4/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 31.14.32.6/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 31.14.32.8/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+51.222.104.156/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt

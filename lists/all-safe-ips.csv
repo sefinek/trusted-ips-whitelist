@@ -8,6 +8,7 @@ IP,Name,Sources
 1.7.225.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 1.15.51.202,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.10.222.182,PingdomBot,https://my.pingdom.com/probes/ipv4
 3.11.131.95,PingdomBot,https://my.pingdom.com/probes/ipv4
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -4465,6 +4466,7 @@ IP,Name,Sources
 51.222.95.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.222.95.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.222.95.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+51.222.104.156/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 51.222.168.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.222.168.1,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 51.222.168.2,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -12630,6 +12632,7 @@ IP,Name,Sources
 195.69.140.112,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.144.21.56,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 195.164.0.0/16,NASK PL,https://radb.net|https://stat.ripe.net
+195.164.0.0/17,NASK PL,https://radb.net
 195.181.163.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.181.163.195,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.181.163.196,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
