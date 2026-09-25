@@ -320,7 +320,6 @@ IP,Name,Sources
 103.60.15.167,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.169,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-103.60.15.171,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.172,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.60.15.173,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 103.108.229.5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -1302,7 +1301,7 @@ IP,Name,Sources
 192.160.110.0/24,NASK PL,https://radb.net
 192.169.120.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 192.189.65.146,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-192.197.222.0/24,Palo Alto Networks,https://stat.ripe.net
+192.197.222.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 193.59.0.0/16,NASK PL,https://radb.net|https://stat.ripe.net
 193.59.0.0/24,NASK PL,https://radb.net
 193.59.1.0/24,NASK PL,https://radb.net
