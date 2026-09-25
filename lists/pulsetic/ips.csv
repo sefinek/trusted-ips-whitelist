@@ -68,6 +68,7 @@ IP,Name,Sources
 2a01:4f8:c2c:9b3b::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:1c18:a1fd::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:2190:29e3::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2a01:4f8:c015:149e::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f9:c012:7a1b::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f9:c014:6f71::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4ff:f0:4156::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt

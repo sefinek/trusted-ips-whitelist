@@ -385,7 +385,7 @@ IP,Name,Sources
 194.181.175.0/24,NASK PL,https://radb.net
 194.181.176.0/24,NASK PL,https://radb.net
 194.181.178.0/24,NASK PL,https://radb.net
-194.181.180.0/24,NASK PL,https://radb.net
+194.181.180.0/24,NASK PL,https://radb.net|https://stat.ripe.net
 194.181.182.0/24,NASK PL,https://radb.net
 194.181.183.0/24,NASK PL,https://radb.net
 194.181.184.0/24,NASK PL,https://radb.net
@@ -430,7 +430,7 @@ IP,Name,Sources
 194.181.225.0/24,NASK PL,https://radb.net
 194.181.226.0/24,NASK PL,https://radb.net
 194.181.227.0/24,NASK PL,https://radb.net
-194.181.228.0/24,NASK PL,https://radb.net|https://stat.ripe.net
+194.181.228.0/24,NASK PL,https://radb.net
 194.181.229.0/24,NASK PL,https://radb.net
 194.181.232.0/24,NASK PL,https://radb.net
 194.181.233.0/24,NASK PL,https://radb.net
@@ -450,6 +450,7 @@ IP,Name,Sources
 194.181.254.0/24,NASK PL,https://radb.net
 194.181.255.0/24,NASK PL,https://radb.net
 195.164.0.0/16,NASK PL,https://radb.net|https://stat.ripe.net
+195.164.0.0/17,NASK PL,https://radb.net|https://stat.ripe.net
 195.187.0.0/18,NASK PL,https://radb.net|https://stat.ripe.net
 195.187.0.0/24,NASK PL,https://radb.net
 195.187.1.0/24,NASK PL,https://radb.net

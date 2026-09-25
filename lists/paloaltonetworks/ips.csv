@@ -71,7 +71,7 @@ IP,Name,Sources
 169.224.131.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 169.224.138.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 169.224.139.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
-192.197.222.0/24,Palo Alto Networks,https://stat.ripe.net
+192.197.222.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 193.110.180.0/23,Palo Alto Networks,https://radb.net
 193.110.180.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 193.110.181.0/24,Palo Alto Networks,https://stat.ripe.net
