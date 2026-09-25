@@ -162,6 +162,7 @@ IP,Name,Sources
 64.225.81.248,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.225.82.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.226.86.7,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
+64.226.95.4/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 64.227.90.185,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 64.237.49.203,PingdomBot,https://my.pingdom.com/probes/ipv4
 64.237.55.3,PingdomBot,https://my.pingdom.com/probes/ipv4
