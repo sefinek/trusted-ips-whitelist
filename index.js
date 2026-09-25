@@ -1,5 +1,5 @@
 process.loadEnvFile();
-const simpleGit = require('simple-git');
+const { simpleGit } = require('simple-git');
 const git = simpleGit();
 const { CronJob } = require('cron');
 const { spawn } = require('node:child_process');
