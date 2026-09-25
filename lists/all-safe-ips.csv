@@ -8,6 +8,7 @@ IP,Name,Sources
 1.7.225.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 1.15.51.202,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+1.15.242.107,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.10.222.182,PingdomBot,https://my.pingdom.com/probes/ipv4
 3.11.131.95,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -8144,9 +8145,7 @@ IP,Name,Sources
 85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.8/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.12/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.15/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.16/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.18/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8161,12 +8160,7 @@ IP,Name,Sources
 85.217.140.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.24/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.26/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.28/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.32/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.0/26,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.64/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.72/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.74/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8680,7 +8674,6 @@ IP,Name,Sources
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.203.121.253,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 117.58.0.0/17,Baidu,https://radb.net
-118.25.12.243,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 119.63.192.0/21,Baidu,https://radb.net|https://stat.ripe.net
 119.75.208.0/20,Baidu,https://radb.net|https://stat.ripe.net
 119.75.212.0/22,Baidu,https://radb.net
@@ -12632,7 +12625,7 @@ IP,Name,Sources
 195.69.140.112,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.144.21.56,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 195.164.0.0/16,NASK PL,https://radb.net|https://stat.ripe.net
-195.164.0.0/17,NASK PL,https://radb.net
+195.164.0.0/17,NASK PL,https://radb.net|https://stat.ripe.net
 195.181.163.194,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.181.163.195,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.181.163.196,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

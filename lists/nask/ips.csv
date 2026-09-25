@@ -450,7 +450,7 @@ IP,Name,Sources
 194.181.254.0/24,NASK PL,https://radb.net
 194.181.255.0/24,NASK PL,https://radb.net
 195.164.0.0/16,NASK PL,https://radb.net|https://stat.ripe.net
-195.164.0.0/17,NASK PL,https://radb.net
+195.164.0.0/17,NASK PL,https://radb.net|https://stat.ripe.net
 195.187.0.0/18,NASK PL,https://radb.net|https://stat.ripe.net
 195.187.0.0/24,NASK PL,https://radb.net
 195.187.1.0/24,NASK PL,https://radb.net
