@@ -8,7 +8,7 @@ IP,Name,Sources
 1.7.225.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 1.15.51.202,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+1.15.242.107,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.10.222.182,PingdomBot,https://my.pingdom.com/probes/ipv4
 3.11.131.95,PingdomBot,https://my.pingdom.com/probes/ipv4
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -7494,7 +7494,6 @@ IP,Name,Sources
 64.225.81.248,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.225.82.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 64.226.86.7,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-64.226.95.4/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 64.226.113.205/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 64.227.90.185,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 64.233.172.0/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers-google.json
@@ -8672,6 +8671,7 @@ IP,Name,Sources
 116.202.235.16,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 116.203.121.253,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 117.58.0.0/17,Baidu,https://radb.net
+118.25.12.243,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 119.63.192.0/21,Baidu,https://radb.net|https://stat.ripe.net
 119.75.208.0/20,Baidu,https://radb.net|https://stat.ripe.net
 119.75.212.0/22,Baidu,https://radb.net
