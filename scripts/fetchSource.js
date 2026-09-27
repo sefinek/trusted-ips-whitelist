@@ -263,7 +263,7 @@ module.exports = async source => {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
 			const { data } = await executeWithRetry(
-				() => fetchWithTimeout(source.url),
+				() => fetchWithTimeout(source.url, { headers: { Accept: 'text/html' } }),
 				{ label: `${source.name} HTML` }
 			);
 			if (typeof data !== 'string') throw new Error('Expected HTML response');

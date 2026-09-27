@@ -125,6 +125,10 @@ const processAllSources = async (base, sources) => {
 					logger.warn(`Skipping private IP ${r.ip} from ${src.name}`);
 					return false;
 				}
+				if (ipUtils.isTooBroadCIDR(r.ip)) {
+					logger.warn(`Skipping overly broad CIDR ${r.ip} from ${src.name}`);
+					return false;
+				}
 				return true;
 			});
 

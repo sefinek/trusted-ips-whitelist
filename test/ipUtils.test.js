@@ -1,7 +1,22 @@
 const { describe, it, expect } = require('@jest/globals');
-const { parseIP, isValidIP, compareIPs, isPrivateIP, parseCIDREntry, findCoveringCIDR } = require('../scripts/ipUtils.js');
+const { parseIP, isValidIP, compareIPs, isPrivateIP, parseCIDREntry, isTooBroadCIDR, findCoveringCIDR } = require('../scripts/ipUtils.js');
 
 describe('ipUtils', () => {
+	describe('isTooBroadCIDR', () => {
+		it('rejects IPv4 prefixes shorter than /8 and IPv6 shorter than /16', () => {
+			expect(isTooBroadCIDR('1.0.0.0/1')).toBe(true);
+			expect(isTooBroadCIDR('8.0.0.0/7')).toBe(true);
+			expect(isTooBroadCIDR('2000::/3')).toBe(true);
+		});
+
+		it('accepts reasonable prefixes and single IPs', () => {
+			expect(isTooBroadCIDR('104.16.0.0/13')).toBe(false);
+			expect(isTooBroadCIDR('2400:da00::/22')).toBe(false);
+			expect(isTooBroadCIDR('1.2.3.4')).toBe(false);
+			expect(isTooBroadCIDR('2606:4700:4700::1111')).toBe(false);
+		});
+	});
+
 	describe('parseIP', () => {
 		it('parses valid IPv4', () => {
 			expect(parseIP('1.2.3.4').toString()).toBe('1.2.3.4');

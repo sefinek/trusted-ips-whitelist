@@ -92,6 +92,14 @@ const parseCIDREntry = cidr => {
 	}
 };
 
+const MIN_PREFIX = { ipv4: 8, ipv6: 16 };
+
+const isTooBroadCIDR = ip => {
+	if (!ip?.includes('/')) return false;
+	const parsed = parseCIDREntry(ip);
+	return !parsed || parsed.prefix < MIN_PREFIX[parsed.addr.kind()];
+};
+
 const findCoveringCIDR = (ip, parsedCIDRs) => {
 	try {
 		const parsed = ipaddr.parse(ip.trim());
@@ -108,5 +116,6 @@ module.exports = {
 	compareIPs,
 	isPrivateIP,
 	parseCIDREntry,
+	isTooBroadCIDR,
 	findCoveringCIDR,
 };

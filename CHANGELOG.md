@@ -16,6 +16,9 @@
 ### Fixed
 - README per-service IP & CIDR counts were not updated for rows with padded table cells
 
+### Security
+- CIDRs broader than `/8` (IPv4) or `/16` (IPv6) are rejected, so a broken or compromised source cannot inject huge ranges into the whitelist
+
 
 ## [3.4.1] - 2026-05-09
 
