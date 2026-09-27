@@ -28,7 +28,7 @@
     "puppeteer": "^25.12.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
-    "simple-git": "^4.0.1"
+    "simple-git": "^4.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -41,7 +41,7 @@
     "node": ">=20.19.0"
   },
   "allowScripts": {
-    "puppeteer@25.10.0": true,
+    "puppeteer@25.12.0": true,
     "@parcel/watcher@2.6.0": true,
     "unrs-resolver@1.12.2": true
   }
