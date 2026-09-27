@@ -1,0 +1,5 @@
+IP,Name,Sources
+34.202.99.168,Square,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/square.txt
+54.212.177.79,Square Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/square.txt
+54.245.1.154,Square,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/square.txt
+107.20.218.8,Square Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/square.txt

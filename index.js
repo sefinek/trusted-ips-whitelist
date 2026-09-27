@@ -256,20 +256,26 @@ const updateReadmeStats = async (globalRecs, catRecs, sourceStats) => {
 	const aiStats = countRecs(catRecs.get('ai') ?? []);
 	const monitoringStats = countRecs(catRecs.get('monitoring') ?? []);
 	const infrastructureStats = countRecs(catRecs.get('infrastructure') ?? []);
+	const paymentsStats = countRecs(catRecs.get('payments') ?? []);
 
 	content = injectStats(content, 'All', allStats);
 	content = injectStats(content, 'Crawlers only', crawlerStats);
 	content = injectStats(content, 'AI only', aiStats);
 	content = injectStats(content, 'Monitoring only', monitoringStats);
 	content = injectStats(content, 'Infrastructure only', infrastructureStats);
+	content = injectStats(content, 'Payments only', paymentsStats);
 	content = injectStats(content, 'Crawlers', crawlerStats);
 	content = injectStats(content, 'AI', aiStats);
 	content = injectStats(content, 'Monitoring', monitoringStats);
 	content = injectStats(content, 'Infrastructure', infrastructureStats);
+	content = injectStats(content, 'Payments', paymentsStats);
 
 	for (const [name, stats] of sourceStats) {
-		const re = new RegExp(`\\| ${escRe(name)} \\| [^|]* \\|`);
-		content = content.replace(re, `| ${name} | ${fmtNum(stats.ips)} - ${fmtNum(stats.cidrs)} |`);
+		const re = new RegExp(`(\\| ${escRe(name)} +\\| )([^|]*?)( *\\|)`);
+		content = content.replace(re, (_, head, old, tail) => {
+			const value = `${fmtNum(stats.ips)} - ${fmtNum(stats.cidrs)}`;
+			return `${head}${value.padEnd(old.length + tail.length - 2)} |`;
+		});
 	}
 
 	await fs.writeFile(readmePath, content, 'utf8');

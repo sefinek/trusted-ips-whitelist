@@ -1,16 +1,33 @@
 # Changelog
 
-## [3.4.1] — 2026-05-09
+## [3.5.0] - 2026-09-27
+
+### Added
+- **Payments category** - new `all-payments-ips` combined list with payment gateway webhook/notification servers (#11)
+- **PayPal** - server endpoint ranges (`lists/paypal/`, source: `paypal.com` help article)
+- **Paddle** - live & sandbox webhook IPs (`lists/paddle/`, source: `api.paddle.com/ips`)
+- **Square** - live & sandbox webhook IPs (`lists/square/`, custom list)
+- **PayU** - production & sandbox notification IPs (`lists/payu/`, custom list)
+- New source types: `jsonPath` (array at a dotted JSON path) and `htmlCidrs` (CIDRs scraped from an HTML page)
+
+### Changed
+- **Stripe** moved from `infrastructure` to `payments` (no longer included in `all-infrastructure-ips`)
+
+### Fixed
+- README per-service IP & CIDR counts were not updated for rows with padded table cells
+
+
+## [3.4.1] - 2026-05-09
 
 ### Improved
 - README auto-updates per-service IP & CIDR counts in a dedicated table column on every commit
 - Section headings show aggregate stats (`IPs & CIDRs`) per category
 
 
-## [3.4.0] — 2026-05-08
+## [3.4.0] - 2026-05-08
 
 ### Added
-- **Baidu** — Baidu infrastructure network (AS38365, AS55967, AS38627); IP ranges fetched via RIPEstat & RADB (`lists/baidu/`)
+- **Baidu** - Baidu infrastructure network (AS38365, AS55967, AS38627); IP ranges fetched via RIPEstat & RADB (`lists/baidu/`)
 
 ### Improved
 - Expanded `whois.test.js` unit tests (9 → 16 cases)
@@ -18,42 +35,42 @@
 - Fixed Canonical config (`acceptNullable: true`)
 
 
-## [3.3.0] — 2026-05-04
+## [3.3.0] - 2026-05-04
 
 ### Added
-- **ClaudeBot** — Anthropic's official web crawler (`lists/claudebot/`, source: `claude.com/crawling/bots.json`)
-- **GPTBot** — OpenAI crawler for AI model training (`lists/gptbot/`, source: `openai.com/gptbot.json`)
-- **OpenAI SearchBot** — crawler for ChatGPT Search results (`lists/oai-searchbot/`, source: `openai.com/searchbot.json`)
-- **ChatGPT User** — user-initiated browser agent for ChatGPT (`lists/chatgpt-user/`, source: `openai.com/chatgpt-user.json`)
-- **PerplexityBot** — Perplexity AI crawler (`lists/perplexitybot/`, source: `perplexity.ai/perplexitybot.json`)
-- **Perplexity User** — user-initiated Perplexity AI agent (`lists/perplexity-user/`, source: `perplexity.ai/perplexity-user.json`)
-- **Applebot** — Apple's web crawler for Spotlight and Safari Reader (`lists/applebot/`, source: `search.developer.apple.com/applebot.json`)
-- **AI category** — new `all-ai-ips` combined list grouping all AI provider bots separately from traditional crawlers
+- **ClaudeBot** - Anthropic's official web crawler (`lists/claudebot/`, source: `claude.com/crawling/bots.json`)
+- **GPTBot** - OpenAI crawler for AI model training (`lists/gptbot/`, source: `openai.com/gptbot.json`)
+- **OpenAI SearchBot** - crawler for ChatGPT Search results (`lists/oai-searchbot/`, source: `openai.com/searchbot.json`)
+- **ChatGPT User** - user-initiated browser agent for ChatGPT (`lists/chatgpt-user/`, source: `openai.com/chatgpt-user.json`)
+- **PerplexityBot** - Perplexity AI crawler (`lists/perplexitybot/`, source: `perplexity.ai/perplexitybot.json`)
+- **Perplexity User** - user-initiated Perplexity AI agent (`lists/perplexity-user/`, source: `perplexity.ai/perplexity-user.json`)
+- **Applebot** - Apple's web crawler for Spotlight and Safari Reader (`lists/applebot/`, source: `search.developer.apple.com/applebot.json`)
+- **AI category** - new `all-ai-ips` combined list grouping all AI provider bots separately from traditional crawlers
 
 ### Changed
-- **OpenAI source** — replaced unofficial GitHub mirror with official `openai.com` endpoints; source split into three separate per-bot lists
-- **Global list deduplication fix** — individual IPs from one source are no longer suppressed by a CIDR range from a different source (e.g. Cloudflare DNS resolver IPs such as `2606:4700:4700::1113` now correctly appear in `all-safe-ips` and `all-infrastructure-ips`)
-- **Auto-cleanup** — orphaned directories in `lists/` (sources removed from `sources.json`) are now automatically deleted on each generator run
+- **OpenAI source** - replaced unofficial GitHub mirror with official `openai.com` endpoints; source split into three separate per-bot lists
+- **Global list deduplication fix** - individual IPs from one source are no longer suppressed by a CIDR range from a different source (e.g. Cloudflare DNS resolver IPs such as `2606:4700:4700::1113` now correctly appear in `all-safe-ips` and `all-infrastructure-ips`)
+- **Auto-cleanup** - orphaned directories in `lists/` (sources removed from `sources.json`) are now automatically deleted on each generator run
 
 
-## [3.2.0] — 2026-05-03
-
-### Added
-- **Canonical (AS41231)** — new `lists/canonical/` with IP ranges for Canonical Ltd. (Ubuntu infrastructure)
-- **Category-based combined lists** — three new aggregate files generated alongside `all-safe-ips`:
-  - `lists/all-crawlers-ips` — search engines, SEO tools, AI crawlers and web testing bots
-  - `lists/all-monitoring-ips` — uptime monitoring services and internet scanners
-  - `lists/all-infrastructure-ips` — CDN providers, hosting networks, DNS resolvers and web services
-
-
-## [3.1.0] — 2026-04-27
+## [3.2.0] - 2026-05-03
 
 ### Added
-- **DNS Resolvers list** — new `lists/dns-resolvers/` with 72 entries (IPv4 + IPv6): Cloudflare (standard + Families), Google Public DNS, Quad9, OpenDNS (standard + FamilyShield), AdGuard DNS (standard + Family + Non-filtering), CleanBrowsing (Security / Adult / Family), Yandex DNS (Basic / Safe / Family), Level3 / Lumen Technologies
+- **Canonical (AS41231)** - new `lists/canonical/` with IP ranges for Canonical Ltd. (Ubuntu infrastructure)
+- **Category-based combined lists** - three new aggregate files generated alongside `all-safe-ips`:
+  - `lists/all-crawlers-ips` - search engines, SEO tools, AI crawlers and web testing bots
+  - `lists/all-monitoring-ips` - uptime monitoring services and internet scanners
+  - `lists/all-infrastructure-ips` - CDN providers, hosting networks, DNS resolvers and web services
+
+
+## [3.1.0] - 2026-04-27
+
+### Added
+- **DNS Resolvers list** - new `lists/dns-resolvers/` with 72 entries (IPv4 + IPv6): Cloudflare (standard + Families), Google Public DNS, Quad9, OpenDNS (standard + FamilyShield), AdGuard DNS (standard + Family + Non-filtering), CleanBrowsing (Security / Adult / Family), Yandex DNS (Basic / Safe / Family), Level3 / Lumen Technologies
 
 ### Changed
-- **Per-source JSON `name` field** — custom file sources now use the section name from the file (e.g. `"Cloudflare DNS"`, `"AdGuard DNS Family"`) instead of the generic source name (e.g. `"DNS Resolvers"`)
-- **Global list deduplication** — specific IPs already covered by a CIDR range are now skipped in the global list, eliminating redundant entries (e.g. `77.88.8.7` covered by `77.88.0.0/18`)
+- **Per-source JSON `name` field** - custom file sources now use the section name from the file (e.g. `"Cloudflare DNS"`, `"AdGuard DNS Family"`) instead of the generic source name (e.g. `"DNS Resolvers"`)
+- **Global list deduplication** - specific IPs already covered by a CIDR range are now skipped in the global list, eliminating redundant entries (e.g. `77.88.8.7` covered by `77.88.0.0/18`)
 
 
 ## [3.0.0] - 2026-04-24

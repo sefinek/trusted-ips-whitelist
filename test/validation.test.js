@@ -84,7 +84,7 @@ describe('validateSourcesConfig', () => {
 	});
 
 	it('accepts all valid categories', () => {
-		const categories = ['crawlers', 'monitoring', 'infrastructure', 'ai'];
+		const categories = ['crawlers', 'monitoring', 'infrastructure', 'ai', 'payments'];
 		categories.forEach((category, i) => {
 			expect(() => validateSourcesConfig([makeSource({ name: `Bot${i}`, dir: `bot${i}`, category })])).not.toThrow();
 		});

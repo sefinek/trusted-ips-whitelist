@@ -118,6 +118,49 @@ describe('fetchSource', () => {
 		});
 	});
 
+	describe('jsonPath type', () => {
+		it('reads array from nested path and merges multiple URLs', async () => {
+			axios.get
+				.mockResolvedValueOnce({ data: { data: { ipv4_cidrs: ['34.237.3.244/32', '34.195.105.136/32'] } } })
+				.mockResolvedValueOnce({ data: { data: { ipv4_cidrs: ['3.208.120.145/32'] } } });
+
+			const out = await fetchSource({
+				name: 'Paddle',
+				url: ['https://api.paddle.com/ips', 'https://sandbox-api.paddle.com/ips'],
+				path: 'data.ipv4_cidrs',
+				type: 'jsonPath',
+			});
+			expect(out).toEqual([
+				{ ip: '34.237.3.244/32', sources: ['https://api.paddle.com/ips'] },
+				{ ip: '34.195.105.136/32', sources: ['https://api.paddle.com/ips'] },
+				{ ip: '3.208.120.145/32', sources: ['https://sandbox-api.paddle.com/ips'] },
+			]);
+		});
+
+		it('throws when path does not point to an array', async () => {
+			axios.get.mockResolvedValue({ data: { data: {} } });
+
+			await expect(fetchSource({ name: 'Paddle', url: 'https://api.paddle.com/ips', path: 'data.ipv4_cidrs', type: 'jsonPath' }))
+				.rejects.toThrow('is not an array');
+		});
+
+		it('throws when path is missing', async () => {
+			await expect(fetchSource({ name: 'Paddle', url: 'https://api.paddle.com/ips', type: 'jsonPath' }))
+				.rejects.toThrow('Missing JSON path');
+		});
+	});
+
+	describe('htmlCidrs type', () => {
+		it('extracts unique CIDRs and ignores bare IPv4-like strings', async () => {
+			axios.get.mockResolvedValue({
+				data: '<script src="/lib-152.0.0.0.js"></script><p>64.4.240.0/21<br>173.0.80.0/20</p><p>64.4.240.0/21</p>',
+			});
+
+			const out = await fetchSource({ name: 'PayPal', url: 'https://www.paypal.com/help', type: 'htmlCidrs' });
+			expect(out.map(r => r.ip)).toEqual(['64.4.240.0/21', '173.0.80.0/20']);
+		});
+	});
+
 	describe('unknown type', () => {
 		it('throws on unknown source type', async () => {
 			await expect(fetchSource({ name: 'Test', type: 'nonexistent' })).rejects.toThrow('Unknown source type');

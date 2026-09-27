@@ -1,0 +1,13 @@
+IP,Name,Sources
+185.68.12.10,PayU,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.12.11,PayU,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.12.12,PayU,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.12.26,PayU,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.12.27,PayU,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.12.28,PayU,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.14.10,PayU Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.14.11,PayU Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.14.12,PayU Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.14.26,PayU Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.14.27,PayU Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
+185.68.14.28,PayU Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt

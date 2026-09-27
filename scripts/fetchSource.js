@@ -236,6 +236,44 @@ module.exports = async source => {
 
 			break;
 		}
+		case 'jsonPath': {
+			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
+			if (!source.path || typeof source.path !== 'string') throw new Error(`Missing JSON path for ${source.name}`);
+
+			const urls = Array.isArray(source.url) ? source.url : [source.url];
+			const keys = source.path.split('.');
+			const results = await Promise.all(
+				urls.map(async u => {
+					const { data } = await executeWithRetry(
+						() => fetchWithTimeout(u),
+						{ label: `${source.name} ${u}` }
+					);
+					if (!data || typeof data !== 'object') throw new Error(`Invalid JSON response from ${u}`);
+
+					const list = keys.reduce((obj, key) => obj?.[key], data);
+					if (!Array.isArray(list)) throw new Error(`Path "${source.path}" is not an array in ${u}`);
+					return parseList(list, u);
+				})
+			);
+			out = results.flat();
+
+			break;
+		}
+		case 'htmlCidrs': {
+			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
+
+			const { data } = await executeWithRetry(
+				() => fetchWithTimeout(source.url),
+				{ label: `${source.name} HTML` }
+			);
+			if (typeof data !== 'string') throw new Error('Expected HTML response');
+
+			// CIDR notation only - bare IPv4-like strings in HTML are often asset versions, not addresses
+			const cidrs = data.match(/(?<![\d.])\d{1,3}(?:\.\d{1,3}){3}\/\d{1,2}(?![\d.])/g) || [];
+			out = parseList([...new Set(cidrs)], source.url);
+
+			break;
+		}
 		case 'mdList': {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 

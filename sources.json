@@ -221,9 +221,38 @@
   {
     "name": "Stripe",
     "dir": "stripewebhook",
-    "category": "infrastructure",
+    "category": "payments",
     "url": "https://stripe.com/files/ips/ips_webhooks.txt",
     "type": "hosts"
+  },
+  {
+    "name": "PayPal",
+    "dir": "paypal",
+    "category": "payments",
+    "url": "https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056",
+    "type": "htmlCidrs"
+  },
+  {
+    "name": "Paddle",
+    "dir": "paddle",
+    "category": "payments",
+    "url": ["https://api.paddle.com/ips", "https://sandbox-api.paddle.com/ips"],
+    "path": "data.ipv4_cidrs",
+    "type": "jsonPath"
+  },
+  {
+    "name": "Square",
+    "dir": "square",
+    "category": "payments",
+    "file": "square.txt",
+    "type": "file"
+  },
+  {
+    "name": "PayU",
+    "dir": "payu",
+    "category": "payments",
+    "file": "payu.txt",
+    "type": "file"
   },
   {
     "name": "TelegramBot",
