@@ -621,7 +621,6 @@ IP,Name,Sources
 202.181.125.0/24,Baidu,https://stat.ripe.net
 202.181.126.0/24,Baidu,https://stat.ripe.net
 202.181.127.0/24,Baidu,https://stat.ripe.net
-203.90.238.0/24,Baidu,https://radb.net
 2400:da00::/32,Baidu,https://radb.net|https://stat.ripe.net
 2400:da00:400::/48,Baidu,https://stat.ripe.net
 2400:da00:404::/48,Baidu,https://stat.ripe.net

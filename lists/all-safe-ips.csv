@@ -6,8 +6,9 @@ IP,Name,Sources
 1.1.1.2,Cloudflare DNS for Families (block malware),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 1.1.1.3,Cloudflare DNS for Families (block malware + adult content),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 1.7.225.0/24,Palo Alto Networks,https://radb.net|https://stat.ripe.net
+1.15.51.202,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-1.15.242.107,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 3.10.222.182,PingdomBot,https://my.pingdom.com/probes/ipv4
 3.11.131.95,PingdomBot,https://my.pingdom.com/probes/ipv4
 3.12.251.153,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -15260,7 +15261,6 @@ IP,Name,Sources
 203.57.82.97,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 203.57.82.99,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 203.57.82.101,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-203.90.238.0/24,Baidu,https://radb.net
 204.15.20.0/22,FacebookBot,https://radb.net|https://stat.ripe.net
 204.157.181.38,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 205.210.31.0/24,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
