@@ -1,6 +1,6 @@
 IP,Name,Sources
-1.15.51.202,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.87.25,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+1.15.242.107,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 1.15.246.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 4.144.148.23/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.144.182.50/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1149,7 +1149,7 @@ IP,Name,Sources
 31.13.91.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 31.13.92.0/24,FacebookBot,https://radb.net
 31.13.93.0/24,FacebookBot,https://radb.net
-31.13.94.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
+31.13.94.0/24,FacebookBot,https://radb.net
 31.13.95.0/24,FacebookBot,https://radb.net
 31.13.96.0/19,FacebookBot,https://radb.net|https://stat.ripe.net
 34.21.9.50,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
@@ -1702,6 +1702,7 @@ IP,Name,Sources
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 45.64.40.0/22,FacebookBot,https://radb.net|https://stat.ripe.net
 48.192.16.86/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.192.74.178/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -9264,6 +9265,7 @@ IP,Name,Sources
 148.113.130.253,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 148.113.130.254,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
 148.113.130.255,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
+150.158.81.92,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 154.8.140.15,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 157.55.39.0/24,BingBot,https://www.bing.com/toolbox/bingbot.json
 157.240.0.0/16,FacebookBot,https://radb.net
@@ -13557,7 +13559,7 @@ IP,Name,Sources
 2a03:2880:f00d::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f00e::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f00f::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f010::/48,FacebookBot,https://radb.net|https://stat.ripe.net
+2a03:2880:f010::/48,FacebookBot,https://radb.net
 2a03:2880:f011::/48,FacebookBot,https://radb.net
 2a03:2880:f012::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f013::/48,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -13687,7 +13689,7 @@ IP,Name,Sources
 2a03:2880:f10d::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f10e::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f10f::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f110::/48,FacebookBot,https://radb.net|https://stat.ripe.net
+2a03:2880:f110::/48,FacebookBot,https://radb.net
 2a03:2880:f111::/48,FacebookBot,https://radb.net
 2a03:2880:f112::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f113::/48,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -13816,7 +13818,7 @@ IP,Name,Sources
 2a03:2880:f20d::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f20e::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f20f::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f210::/48,FacebookBot,https://radb.net|https://stat.ripe.net
+2a03:2880:f210::/48,FacebookBot,https://radb.net
 2a03:2880:f211::/48,FacebookBot,https://radb.net
 2a03:2880:f212::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f213::/48,FacebookBot,https://radb.net|https://stat.ripe.net
