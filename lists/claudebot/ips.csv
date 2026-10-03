@@ -24,4 +24,6 @@ IP,Name,Sources
 35.245.175.129/32,ClaudeBot,https://claude.com/crawling/bots.json
 40.124.101.48/28,ClaudeBot,https://claude.com/crawling/bots.json
 136.107.176.208/32,ClaudeBot,https://claude.com/crawling/bots.json
+160.79.106.16/28,ClaudeBot,https://claude.com/crawling/bots.json
+160.79.106.128/28,ClaudeBot,https://claude.com/crawling/bots.json
 216.73.216.0/22,ClaudeBot,https://claude.com/crawling/bots.json
