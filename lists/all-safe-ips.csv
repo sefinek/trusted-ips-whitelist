@@ -1285,7 +1285,6 @@ IP,Name,Sources
 20.232.51.46/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.232.249.95/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.233.19.247,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-20.233.37.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.235.87.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.236.40.93/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.236.195.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -8168,9 +8167,7 @@ IP,Name,Sources
 85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.8/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.12/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.15/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8672,7 +8669,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-110.40.178.118,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8770,7 +8766,6 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
-124.223.66.221,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.85.198.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
