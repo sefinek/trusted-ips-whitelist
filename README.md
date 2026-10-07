@@ -14,28 +14,28 @@ If you like this repository, leave a star ⭐. Thank you!
 
 ## 📘 Combined IP Lists
 
-### 🔀 All (12,019 IPs, 5,699 CIDRs)
+### 🔀 All (12,017 IPs, 5,696 CIDRs)
 | Format | URL                                                                                                                                                                                  |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt)   |
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.csv)   |
 
-### 🤖 Crawlers only (10,391 IPs, 3,798 CIDRs)
+### 🤖 Crawlers only (10,389 IPs, 3,798 CIDRs)
 | Format | URL                                                                                                                                                                                          |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.txt)   |
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-crawlers-ips.csv)   |
 
-### 🧠 AI only (0 IPs, 326 CIDRs)
+### 🧠 AI only (0 IPs, 325 CIDRs)
 | Format | URL                                                                                                                                                                              |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.txt)   |
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-ai-ips.csv)   |
 
-### 📡 Monitoring only (616 IPs, 88 CIDRs)
+### 📡 Monitoring only (616 IPs, 86 CIDRs)
 | Format | URL                                                                                                                                                                                              |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.txt)   |
@@ -59,7 +59,7 @@ If you like this repository, leave a star ⭐. Thank you!
 
 ## 🌍 Supported Services
 
-### 🤖 Crawlers (10,391 IPs, 3,798 CIDRs)
+### 🤖 Crawlers (10,389 IPs, 3,798 CIDRs)
 Search engines, SEO tools and web testing bots.
 
 | Service                        | IPs & CIDRs | Sources                                                                                                                                                                                                | Downloads                                                                                                                                                                                                                                                                                                                                                                        |
@@ -75,9 +75,9 @@ Search engines, SEO tools and web testing bots.
 | Kagi                           | 4 - 0       | [Custom list](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/custom/kagi.txt)                                                                                                    | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/kagi/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/kagi/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/kagi/ips.json)                                                                               |
 | AhrefsBot                      | 10,350 - 0  | [api.ahrefs.com](https://api.ahrefs.com/v3/public/crawler-ips)                                                                                                                                         | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/ahrefsbot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/ahrefsbot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/ahrefsbot/ips.json)                                                                |
 | Semrush                        | 0 - 7       | RIPEstat & RADB                                                                                                                                                                                        | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/semrush/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/semrush/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/semrush/ips.json)                                                                      |
-| WebPageTest Bot                | 37 - 0      | [www.webpagetest.org](https://www.webpagetest.org/addresses.php?f=json)                                                                                                                                | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/webpagetestbot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/webpagetestbot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/webpagetestbot/ips.json)                                                 |
+| WebPageTest Bot                | 35 - 0      | [www.webpagetest.org](https://www.webpagetest.org/addresses.php?f=json)                                                                                                                                | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/webpagetestbot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/webpagetestbot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/webpagetestbot/ips.json)                                                 |
 
-### 🧠 AI (0 IPs, 326 CIDRs)
+### 🧠 AI (0 IPs, 325 CIDRs)
 AI crawlers from large language model providers.
 
 | Service          | IPs & CIDRs | Sources                                                         | Downloads                                                                                                                                                                                                                                                                                                                           |
@@ -85,11 +85,11 @@ AI crawlers from large language model providers.
 | ClaudeBot        | 0 - 28      | [claude.com](https://claude.com/crawling/bots.json)             | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/claudebot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/claudebot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/claudebot/ips.json)                   |
 | GPTBot           | 0 - 18      | [openai.com](https://openai.com/gptbot.json)                    | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/gptbot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/gptbot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/gptbot/ips.json)                            |
 | OpenAI SearchBot | 0 - 39 | [openai.com](https://openai.com/searchbot.json)                 | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/oai-searchbot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/oai-searchbot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/oai-searchbot/ips.json)       |
-| ChatGPT User     | 0 - 235     | [openai.com](https://openai.com/chatgpt-user.json)              | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/chatgpt-user/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/chatgpt-user/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/chatgpt-user/ips.json)          |
+| ChatGPT User     | 0 - 234     | [openai.com](https://openai.com/chatgpt-user.json)              | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/chatgpt-user/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/chatgpt-user/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/chatgpt-user/ips.json)          |
 | PerplexityBot    | 0 - 8       | [perplexity.ai](https://www.perplexity.ai/perplexitybot.json)   | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexitybot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexitybot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexitybot/ips.json)       |
 | Perplexity User  | 0 - 4       | [perplexity.ai](https://www.perplexity.ai/perplexity-user.json) | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexity-user/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexity-user/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/perplexity-user/ips.json) |
 
-### 📡 Monitoring (616 IPs, 88 CIDRs)
+### 📡 Monitoring (616 IPs, 86 CIDRs)
 Uptime monitoring services and internet scanners.
 
 | Service       | IPs & CIDRs | Sources                                                                                               | Downloads                                                                                                                                                                                                                                                                                                               |
@@ -99,7 +99,7 @@ Uptime monitoring services and internet scanners.
 | Pulsetic      | 79 - 2      | [IPv4](https://api.pulsetic.com/ip-ranges.txt) & [IPv6](https://api.pulsetic.com/ipv6-ranges.txt)     | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/pulsetic/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/pulsetic/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/pulsetic/ips.json)          |
 | UptimeRobot   | 206 - 0     | [uptimerobot.com](https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt)                              | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/uptimerobot/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/uptimerobot/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/uptimerobot/ips.json) |
 | Censys        | 0 - 42      | RIPEstat & RADB                                                                                       | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/censys/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/censys/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/censys/ips.json)                |
-| Modat Scanner | 0 - 38 | [scanner.modat.io](https://scanner.modat.io/ipv4.txt)                                                 | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.json)                   |
+| Modat Scanner | 0 - 36 | [scanner.modat.io](https://scanner.modat.io/ipv4.txt)                                                 | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.json)                   |
 | Shodan        | 95 - 6      | [Custom list](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/custom/shodan.txt) | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/shodan/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/shodan/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/shodan/ips.json)                |
 
 ### 🏗️ Infrastructure (981 IPs, 1,467 CIDRs)

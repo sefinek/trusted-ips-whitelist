@@ -1140,7 +1140,6 @@ IP,Name,Sources
 20.73.132.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.73.202.147/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.74.197.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
-20.74.211.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.75.144.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.75.254.61/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.77.146.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -2021,7 +2020,6 @@ IP,Name,Sources
 43.143.170.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -8178,9 +8176,7 @@ IP,Name,Sources
 85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.24/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.26/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.28/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.36/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.39/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8377,7 +8373,6 @@ IP,Name,Sources
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
 101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8773,6 +8768,7 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
+124.223.66.221,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.85.198.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -11506,7 +11502,6 @@ IP,Name,Sources
 172.182.224.0/28,OpenAI SearchBot,https://openai.com/searchbot.json
 172.183.143.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.183.222.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
-172.185.193.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.188.250.220/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.189.40.18/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.192.112.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
