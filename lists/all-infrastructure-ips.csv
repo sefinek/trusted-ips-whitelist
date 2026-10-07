@@ -1680,7 +1680,7 @@ IP,Name,Sources
 194.181.175.0/24,NASK PL,https://radb.net
 194.181.176.0/24,NASK PL,https://radb.net
 194.181.178.0/24,NASK PL,https://radb.net
-194.181.180.0/24,NASK PL,https://radb.net|https://stat.ripe.net
+194.181.180.0/24,NASK PL,https://radb.net
 194.181.182.0/24,NASK PL,https://radb.net
 194.181.183.0/24,NASK PL,https://radb.net
 194.181.184.0/24,NASK PL,https://radb.net
@@ -2337,6 +2337,8 @@ IP,Name,Sources
 2620:2d:4001::/48,Canonical,https://stat.ripe.net
 2620:2d:4002::/48,Canonical,https://stat.ripe.net
 2620:2d:4003::/48,Canonical,https://stat.ripe.net
+2620:2d:4006::/48,Canonical,https://stat.ripe.net
+2620:2d:4007::/48,Canonical,https://stat.ripe.net
 2620:52:c000::/48,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 2620:fe::9,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 2620:fe::10,Quad9 DNS (unfiltered),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt

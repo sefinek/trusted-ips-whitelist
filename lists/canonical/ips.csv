@@ -35,6 +35,8 @@ IP,Name,Sources
 2620:2d:4001::/48,Canonical,https://stat.ripe.net
 2620:2d:4002::/48,Canonical,https://stat.ripe.net
 2620:2d:4003::/48,Canonical,https://stat.ripe.net
+2620:2d:4006::/48,Canonical,https://stat.ripe.net
+2620:2d:4007::/48,Canonical,https://stat.ripe.net
 2a06:bc80::/29,Canonical,https://radb.net
 2a06:bc80::/48,Canonical,https://radb.net|https://stat.ripe.net
 2a06:bc80:1::/48,Canonical,https://radb.net|https://stat.ripe.net

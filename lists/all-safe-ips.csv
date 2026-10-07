@@ -1261,6 +1261,7 @@ IP,Name,Sources
 20.207.107.181/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.207.117.66/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.210.211.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.212.62.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.212.90.107/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.212.139.34/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.215.187.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1274,6 +1275,7 @@ IP,Name,Sources
 20.219.45.67/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.190/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.71.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.219.161.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.219.184.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.221.10.115/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.221.84.185/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1319,6 +1321,7 @@ IP,Name,Sources
 20.253.59.76/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.253.96.199/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.253.114.51/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.254.201.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 23.22.2.46,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.83.129.219,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.92.127.2,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -2002,6 +2005,7 @@ IP,Name,Sources
 40.114.183.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.114.183.251/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.116.73.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.119.36.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.119.232.50/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.119.232.146/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.119.232.215/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -2017,7 +2021,6 @@ IP,Name,Sources
 43.143.170.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -4911,6 +4914,7 @@ IP,Name,Sources
 52.190.139.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.190.142.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.190.190.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
+52.190.251.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.191.82.242/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.191.222.158/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.194.115.181,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -8371,6 +8375,7 @@ IP,Name,Sources
 95.179.223.208,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
+101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
@@ -12616,7 +12621,7 @@ IP,Name,Sources
 194.181.175.0/24,NASK PL,https://radb.net
 194.181.176.0/24,NASK PL,https://radb.net
 194.181.178.0/24,NASK PL,https://radb.net
-194.181.180.0/24,NASK PL,https://radb.net|https://stat.ripe.net
+194.181.180.0/24,NASK PL,https://radb.net
 194.181.182.0/24,NASK PL,https://radb.net
 194.181.183.0/24,NASK PL,https://radb.net
 194.181.184.0/24,NASK PL,https://radb.net
@@ -16841,6 +16846,8 @@ IP,Name,Sources
 2620:2d:4001::/48,Canonical,https://stat.ripe.net
 2620:2d:4002::/48,Canonical,https://stat.ripe.net
 2620:2d:4003::/48,Canonical,https://stat.ripe.net
+2620:2d:4006::/48,Canonical,https://stat.ripe.net
+2620:2d:4007::/48,Canonical,https://stat.ripe.net
 2620:52:c000::/48,Palo Alto Networks,https://radb.net|https://stat.ripe.net
 2620:96:e000::/48,Censys,https://radb.net|https://stat.ripe.net
 2620:fe::9,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
