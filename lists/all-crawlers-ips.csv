@@ -1715,7 +1715,6 @@ IP,Name,Sources
 48.217.212.89/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.223.209.110/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 49.232.0.124,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-49.235.77.140,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.253.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -7542,7 +7541,6 @@ IP,Name,Sources
 95.108.128.0/17,YandexBot,https://yandex.com/ips
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 102.132.96.0/20,FacebookBot,https://radb.net|https://stat.ripe.net
 102.132.96.0/24,FacebookBot,https://radb.net
