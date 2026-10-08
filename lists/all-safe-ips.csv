@@ -1140,6 +1140,7 @@ IP,Name,Sources
 20.73.132.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.73.202.147/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.74.197.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+20.74.211.96,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.75.144.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.75.254.61/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.77.146.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1705,10 +1706,17 @@ IP,Name,Sources
 34.150.241.79/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.151.74.144/28,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 34.152.50.64/28,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
+34.152.124.140/32,ClaudeBot,https://claude.com/crawling/bots.json
+34.153.21.190/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.154.114.144/28,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 34.154.170.5,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.155.98.32/28,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
 34.159.56.80,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+34.162.27.34/32,ClaudeBot,https://claude.com/crawling/bots.json
+34.162.86.102/32,ClaudeBot,https://claude.com/crawling/bots.json
+34.162.90.102/32,ClaudeBot,https://claude.com/crawling/bots.json
+34.162.111.78/32,ClaudeBot,https://claude.com/crawling/bots.json
+34.162.153.71/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.162.191.81/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.162.230.222/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.162.244.71/32,ClaudeBot,https://claude.com/crawling/bots.json
@@ -1724,6 +1732,7 @@ IP,Name,Sources
 34.182.226.151/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.182.226.221/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.186.108.163/32,ClaudeBot,https://claude.com/crawling/bots.json
+34.186.252.4/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.193.163.52/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
 34.194.127.46/32,Paddle,https://sandbox-api.paddle.com/ips
 34.195.105.136/32,Paddle,https://api.paddle.com/ips
@@ -8373,6 +8382,7 @@ IP,Name,Sources
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
 101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8851,6 +8861,8 @@ IP,Name,Sources
 135.235.183.95/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 135.237.131.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.237.133.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
+136.79.143.251/32,ClaudeBot,https://claude.com/crawling/bots.json
+136.83.20.215/32,ClaudeBot,https://claude.com/crawling/bots.json
 136.107.176.208/32,ClaudeBot,https://claude.com/crawling/bots.json
 136.243.2.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.16.49,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
