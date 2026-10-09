@@ -62,6 +62,7 @@ IP,Name,Sources
 57.141.23.0/24,FacebookBot,https://radb.net
 57.141.24.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 57.141.25.0/24,FacebookBot,https://radb.net
+57.141.26.0/24,FacebookBot,https://radb.net
 57.144.0.0/14,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.0.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.2.0/23,FacebookBot,https://radb.net
