@@ -2029,7 +2029,6 @@ IP,Name,Sources
 43.143.170.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -2106,7 +2105,6 @@ IP,Name,Sources
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.232.0.124,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-49.235.77.140,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -8868,6 +8866,9 @@ IP,Name,Sources
 136.79.143.251/32,ClaudeBot,https://claude.com/crawling/bots.json
 136.83.20.215/32,ClaudeBot,https://claude.com/crawling/bots.json
 136.107.176.208/32,ClaudeBot,https://claude.com/crawling/bots.json
+136.124.136.0/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
+136.124.136.32/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
+136.124.136.64/27,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 136.243.2.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.16.49,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 136.243.42.10,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -16764,6 +16765,9 @@ IP,Name,Sources
 2600:1900:0:3d5::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2600:1900:0:3d6::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2600:1900:0:3d7::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
+2600:1900:0:410::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
+2600:1900:0:411::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
+2600:1900:0:412::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
 2600:1f16:775:3a00:ac3:c5eb:7081:942e,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2600:1f16:775:3a00:37bf:6026:e54a:f03a,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2600:1f16:775:3a00:3f24:5bb0:95d7:5a6b,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
