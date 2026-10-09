@@ -278,7 +278,6 @@ IP,Name,Sources
 94.46.27.186,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.128.254.166,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.130.68.122,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-94.130.204.110,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 94.140.14.14,AdGuard DNS (block ads + trackers),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 94.140.14.15,AdGuard DNS Family (block ads + trackers + adult content),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 94.140.14.140,AdGuard DNS Non-filtering,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
