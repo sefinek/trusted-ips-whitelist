@@ -2105,7 +2105,6 @@ IP,Name,Sources
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.232.0.124,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-49.235.77.140,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -8384,6 +8383,7 @@ IP,Name,Sources
 95.179.223.208,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
+101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
@@ -8682,6 +8682,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+110.40.178.118,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8779,7 +8780,6 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
-124.223.66.221,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.85.198.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
