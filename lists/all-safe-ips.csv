@@ -2105,7 +2105,6 @@ IP,Name,Sources
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.232.0.124,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-49.235.77.140,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -8072,6 +8071,7 @@ IP,Name,Sources
 77.88.8.7,Yandex DNS Family (block malware + adult content),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 77.88.8.8,Yandex DNS Basic,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 77.88.8.88,Yandex DNS Safe (block malware + fraud),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
+78.14.37.73,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 78.46.69.199,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 78.46.74.85,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 78.46.74.86,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8384,6 +8384,7 @@ IP,Name,Sources
 95.179.223.208,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
+101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
