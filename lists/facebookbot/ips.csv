@@ -363,7 +363,7 @@ IP,Name,Sources
 157.240.250.0/24,FacebookBot,https://radb.net
 157.240.251.0/24,FacebookBot,https://radb.net
 157.240.252.0/24,FacebookBot,https://radb.net
-157.240.253.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
+157.240.253.0/24,FacebookBot,https://radb.net
 157.240.254.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 163.70.128.0/17,FacebookBot,https://radb.net|https://stat.ripe.net
 163.70.128.0/24,FacebookBot,https://radb.net
