@@ -8186,9 +8186,7 @@ IP,Name,Sources
 85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.8/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.12/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.15/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8388,6 +8386,7 @@ IP,Name,Sources
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
 101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
