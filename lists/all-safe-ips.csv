@@ -2029,6 +2029,7 @@ IP,Name,Sources
 43.143.170.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -8387,7 +8388,6 @@ IP,Name,Sources
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
 101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -8685,7 +8685,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-110.40.178.118,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -8784,7 +8783,6 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
-124.223.66.221,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.85.198.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -12022,7 +12020,6 @@ IP,Name,Sources
 184.75.210.226,PingdomBot,https://my.pingdom.com/probes/ipv4
 184.75.214.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 184.75.214.98,PingdomBot,https://my.pingdom.com/probes/ipv4
-185.2.80.252/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 185.10.104.0/22,Baidu,https://radb.net
 185.10.104.0/24,Baidu,https://radb.net|https://stat.ripe.net
 185.10.105.0/24,Baidu,https://radb.net
