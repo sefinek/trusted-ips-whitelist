@@ -2029,6 +2029,7 @@ IP,Name,Sources
 43.143.170.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -8187,7 +8188,8 @@ IP,Name,Sources
 85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.16/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.18/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.24/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8386,6 +8388,7 @@ IP,Name,Sources
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
 101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
 102.67.138.155,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
