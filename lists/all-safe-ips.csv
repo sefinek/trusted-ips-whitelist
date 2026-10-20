@@ -177,7 +177,6 @@ IP,Name,Sources
 5.161.194.92,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.161.215.244,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.161.247.34,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
-5.189.202.62,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.223.43.32,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.223.53.147,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 5.223.56.56,BetterStack,https://uptime.betterstack.com/ips.txt
@@ -191,7 +190,7 @@ IP,Name,Sources
 8.8.8.8,Google Public DNS,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 9.9.9.9,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 9.9.9.10,Quad9 DNS (unfiltered),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
-9.129.0.0/17,ChatGPT User,https://openai.com/chatgpt-user.json
+9.129.0.0/16,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.34.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.36.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.96.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -8378,6 +8377,7 @@ IP,Name,Sources
 95.179.223.208,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
+101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
@@ -10050,7 +10050,6 @@ IP,Name,Sources
 144.125.230.0/23,Palo Alto Networks,https://radb.net
 144.126.251.21,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 145.132.136.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
-146.185.248.15,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 146.190.9.187,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 147.75.208.0/20,FacebookBot,https://radb.net
 147.182.202.179,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
@@ -15323,8 +15322,7 @@ IP,Name,Sources
 209.151.156.194,Kagi,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/kagi.txt
 212.73.148.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.32/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
-212.73.148.40/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-212.73.148.42/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.40/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.102.40.113,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.40.114,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.40.120,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

@@ -16,7 +16,6 @@ IP,Name,Sources
 5.9.98.45,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.9.99.73,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 5.9.144.178,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-5.189.202.62,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 8.8.4.4,Google Public DNS,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 8.8.8.8,Google Public DNS,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
 9.9.9.9,Quad9 DNS (block malware + DNSSEC),https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/dns-resolvers.txt
@@ -656,7 +655,6 @@ IP,Name,Sources
 144.125.211.0/24,Palo Alto Networks,https://stat.ripe.net
 144.125.228.0/23,Palo Alto Networks,https://radb.net
 144.125.230.0/23,Palo Alto Networks,https://radb.net
-146.185.248.15,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 147.185.132.0/22,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
 147.185.133.0/24,Palo Alto Networks,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/paloaltonetworks.txt
 147.185.136.0/24,Palo Alto Networks,https://stat.ripe.net
