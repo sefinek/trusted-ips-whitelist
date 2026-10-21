@@ -21,7 +21,7 @@ IP,Name,Sources
 31.13.80.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 31.13.81.0/24,FacebookBot,https://radb.net
 31.13.82.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
-31.13.83.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
+31.13.83.0/24,FacebookBot,https://radb.net
 31.13.84.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 31.13.85.0/24,FacebookBot,https://radb.net
 31.13.86.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -453,7 +453,7 @@ IP,Name,Sources
 2a03:2880:f000::/36,FacebookBot,https://radb.net
 2a03:2880:f001::/48,FacebookBot,https://radb.net
 2a03:2880:f003::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f004::/48,FacebookBot,https://radb.net|https://stat.ripe.net
+2a03:2880:f004::/48,FacebookBot,https://radb.net
 2a03:2880:f005::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f006::/48,FacebookBot,https://radb.net
 2a03:2880:f007::/48,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -583,7 +583,7 @@ IP,Name,Sources
 2a03:2880:f101::/48,FacebookBot,https://radb.net
 2a03:2880:f102::/48,FacebookBot,https://radb.net
 2a03:2880:f103::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f104::/48,FacebookBot,https://radb.net|https://stat.ripe.net
+2a03:2880:f104::/48,FacebookBot,https://radb.net
 2a03:2880:f105::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f106::/48,FacebookBot,https://radb.net
 2a03:2880:f107::/48,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -712,7 +712,7 @@ IP,Name,Sources
 2a03:2880:f201::/48,FacebookBot,https://radb.net
 2a03:2880:f202::/48,FacebookBot,https://radb.net
 2a03:2880:f203::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f204::/48,FacebookBot,https://radb.net|https://stat.ripe.net
+2a03:2880:f204::/48,FacebookBot,https://radb.net
 2a03:2880:f205::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f206::/48,FacebookBot,https://radb.net
 2a03:2880:f207::/48,FacebookBot,https://radb.net|https://stat.ripe.net

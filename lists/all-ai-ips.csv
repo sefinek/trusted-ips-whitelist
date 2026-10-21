@@ -46,14 +46,11 @@ IP,Name,Sources
 13.76.116.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.83.167.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.83.237.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
-16.58.26.69/32,ClaudeBot,https://claude.com/crawling/bots.json
 18.97.1.228/30,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 18.97.9.96/29,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 18.97.21.0/30,Perplexity User,https://www.perplexity.ai/perplexity-user.json
 18.97.43.80/29,Perplexity User,https://www.perplexity.ai/perplexity-user.json
 18.210.92.235/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
-18.225.238.228/32,ClaudeBot,https://claude.com/crawling/bots.json
-18.227.226.255/32,ClaudeBot,https://claude.com/crawling/bots.json
 20.14.99.96/28,OpenAI SearchBot,https://openai.com/searchbot.json
 20.25.151.224/28,OpenAI SearchBot,https://openai.com/searchbot.json
 20.42.10.176/28,OpenAI SearchBot,https://openai.com/searchbot.json
@@ -62,11 +59,9 @@ IP,Name,Sources
 20.57.199.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.63.180.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.63.221.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
-20.64.57.208/28,ClaudeBot,https://claude.com/crawling/bots.json
 20.78.130.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.83.243.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.98.18.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
-20.102.46.224/28,ClaudeBot,https://claude.com/crawling/bots.json
 20.102.212.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.113.211.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.113.225.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -129,9 +124,6 @@ IP,Name,Sources
 23.102.140.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 23.102.141.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 23.102.145.48/28,OpenAI SearchBot,https://openai.com/searchbot.json
-34.11.34.31/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.85.172.162/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.150.241.79/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.152.124.140/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.153.21.190/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.162.27.34/32,ClaudeBot,https://claude.com/crawling/bots.json
@@ -142,20 +134,8 @@ IP,Name,Sources
 34.162.191.81/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.162.230.222/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.162.244.71/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.182.140.95/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.182.161.143/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.182.218.27/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.182.220.85/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.182.222.37/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.182.225.167/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.182.226.151/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.182.226.221/32,ClaudeBot,https://claude.com/crawling/bots.json
-34.186.108.163/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.186.252.4/32,ClaudeBot,https://claude.com/crawling/bots.json
 34.193.163.52/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
-35.221.29.174/32,ClaudeBot,https://claude.com/crawling/bots.json
-35.245.89.239/32,ClaudeBot,https://claude.com/crawling/bots.json
-35.245.175.129/32,ClaudeBot,https://claude.com/crawling/bots.json
 40.67.175.0/25,OpenAI SearchBot,https://openai.com/searchbot.json
 40.74.200.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.81.67.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -165,7 +145,6 @@ IP,Name,Sources
 40.90.214.16/28,OpenAI SearchBot,https://openai.com/searchbot.json
 40.116.73.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.119.36.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
-40.124.101.48/28,ClaudeBot,https://claude.com/crawling/bots.json
 40.124.161.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
 44.208.221.197/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
 48.221.40.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -279,13 +258,10 @@ IP,Name,Sources
 135.237.133.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 136.79.143.251/32,ClaudeBot,https://claude.com/crawling/bots.json
 136.83.20.215/32,ClaudeBot,https://claude.com/crawling/bots.json
-136.107.176.208/32,ClaudeBot,https://claude.com/crawling/bots.json
 137.135.191.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 138.91.46.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 145.132.136.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 158.158.5.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
-160.79.106.16/28,ClaudeBot,https://claude.com/crawling/bots.json
-160.79.106.128/28,ClaudeBot,https://claude.com/crawling/bots.json
 168.63.252.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.162.248.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.170.1.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
