@@ -1374,7 +1374,7 @@ IP,Name,Sources
 31.13.75.0/24,FacebookBot,https://radb.net
 31.13.76.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 31.13.77.0/24,FacebookBot,https://radb.net
-31.13.78.0/24,FacebookBot,https://radb.net
+31.13.78.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 31.13.79.0/24,FacebookBot,https://radb.net
 31.13.80.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 31.13.81.0/24,FacebookBot,https://radb.net
@@ -2009,7 +2009,6 @@ IP,Name,Sources
 43.143.170.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -17077,7 +17076,7 @@ IP,Name,Sources
 2a03:2880:f05d::/48,FacebookBot,https://radb.net
 2a03:2880:f05e::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f060::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f061::/48,FacebookBot,https://radb.net
+2a03:2880:f061::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f065::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f066::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f067::/48,FacebookBot,https://radb.net
@@ -17207,7 +17206,7 @@ IP,Name,Sources
 2a03:2880:f15d::/48,FacebookBot,https://radb.net
 2a03:2880:f15e::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f160::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f161::/48,FacebookBot,https://radb.net
+2a03:2880:f161::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f162::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f163::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f164::/48,FacebookBot,https://radb.net
@@ -17336,7 +17335,7 @@ IP,Name,Sources
 2a03:2880:f25d::/48,FacebookBot,https://radb.net
 2a03:2880:f25e::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f260::/48,FacebookBot,https://radb.net|https://stat.ripe.net
-2a03:2880:f261::/48,FacebookBot,https://radb.net
+2a03:2880:f261::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f262::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f263::/48,FacebookBot,https://radb.net|https://stat.ripe.net
 2a03:2880:f264::/48,FacebookBot,https://radb.net
