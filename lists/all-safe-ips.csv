@@ -2010,7 +2010,6 @@ IP,Name,Sources
 43.143.170.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -8158,7 +8157,6 @@ IP,Name,Sources
 85.208.96.0/22,Semrush,https://radb.net
 85.208.96.0/24,Semrush,https://radb.net|https://stat.ripe.net
 85.208.97.0/24,Semrush,https://stat.ripe.net
-85.208.98.0/24,Semrush,https://radb.net
 85.208.99.0/24,Semrush,https://radb.net|https://stat.ripe.net
 85.208.100.0/22,Canonical,https://radb.net
 85.208.100.0/24,Canonical,https://radb.net
