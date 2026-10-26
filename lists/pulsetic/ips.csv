@@ -3,6 +3,7 @@ IP,Name,Sources
 5.161.60.52,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 5.161.247.34,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 5.223.61.55,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+23.88.38.159,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 45.32.66.130,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 45.63.31.206,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 45.76.207.53,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -22,6 +23,7 @@ IP,Name,Sources
 107.191.47.164,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 108.61.219.226,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 108.61.250.227,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+116.202.108.253,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 116.203.121.253,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 139.84.134.95,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 139.84.211.213,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -35,6 +37,7 @@ IP,Name,Sources
 155.138.140.15,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 167.235.89.6,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 178.63.62.125,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
+188.245.112.215,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 207.148.71.205,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.128.176.204,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.238.99.176,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -65,10 +68,13 @@ IP,Name,Sources
 2401:c080:3000:2f1e:5400:05ff:fec7:dd98,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2401:c080:3000:3a54:5400:06ff:fe46:8187,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2401:c080:3000:439b:5400:05ff:fec7:d9cc,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2a01:4f8:c17:94a8::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:c2c:9b3b::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:1c18:a1fd::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:2190:29e3::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
-2a01:4f8:c015:149e::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2a01:4f8:c014:16fa::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2a01:4f8:c015:149e::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
+2a01:4f8:c015:8831::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f9:c012:7a1b::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f9:c014:6f71::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4ff:f0:4156::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
