@@ -169,6 +169,7 @@ IP,Name,Sources
 64.227.90.185,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 64.237.49.203,PingdomBot,https://my.pingdom.com/probes/ipv4
 64.237.55.3,PingdomBot,https://my.pingdom.com/probes/ipv4
+64.255.24.0/24,Censys,https://radb.net
 65.21.109.209,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 65.21.249.207,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 66.132.148.0/24,Censys,https://radb.net|https://stat.ripe.net
@@ -431,6 +432,7 @@ IP,Name,Sources
 190.120.230.7,PingdomBot,https://my.pingdom.com/probes/ipv4
 192.46.238.37,BetterStack,https://uptime.betterstack.com/ips.txt
 192.53.169.77,BetterStack,https://uptime.betterstack.com/ips.txt
+192.81.48.0/24,Censys,https://radb.net
 194.195.248.157,BetterStack,https://uptime.betterstack.com/ips.txt
 195.63.225.173,BetterStack,https://uptime.betterstack.com/ips.txt
 195.63.225.174,BetterStack,https://uptime.betterstack.com/ips.txt
@@ -482,6 +484,7 @@ IP,Name,Sources
 216.144.248.27,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.144.248.28,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.144.248.29,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+216.181.120.0/24,Censys,https://radb.net
 216.238.99.176,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.238.109.23,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.238.122.220,Pulsetic,https://api.pulsetic.com/ip-ranges.txt

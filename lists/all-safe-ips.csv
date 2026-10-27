@@ -7537,6 +7537,7 @@ IP,Name,Sources
 64.236.118.43/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 64.237.49.203,PingdomBot,https://my.pingdom.com/probes/ipv4
 64.237.55.3,PingdomBot,https://my.pingdom.com/probes/ipv4
+64.255.24.0/24,Censys,https://radb.net
 65.20.89.175,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 65.21.109.209,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 65.21.249.207,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
@@ -8364,7 +8365,6 @@ IP,Name,Sources
 95.179.223.208,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
-101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
@@ -8663,6 +8663,7 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+110.40.178.118,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
@@ -12128,6 +12129,7 @@ IP,Name,Sources
 191.237.249.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 192.46.238.37,BetterStack,https://uptime.betterstack.com/ips.txt
 192.53.169.77,BetterStack,https://uptime.betterstack.com/ips.txt
+192.81.48.0/24,Censys,https://radb.net
 192.160.110.0/24,NASK PL,https://radb.net
 192.160.215.0/24,PayPal,https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056
 192.169.120.162,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -15323,6 +15325,7 @@ IP,Name,Sources
 216.144.248.27,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.144.248.28,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 216.144.248.29,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
+216.181.120.0/24,Censys,https://radb.net
 216.238.99.176,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.238.109.23,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.238.122.220,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
