@@ -1,8 +1,6 @@
 IP,Name,Sources
-3.211.124.183/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 3.222.232.239/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 3.224.62.45/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
-3.231.139.107/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 4.151.71.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.151.119.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.189.118.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -46,10 +44,23 @@ IP,Name,Sources
 13.76.116.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.83.167.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.83.237.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
-18.97.1.228/30,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
-18.97.9.96/29,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
-18.97.21.0/30,Perplexity User,https://www.perplexity.ai/perplexity-user.json
-18.97.43.80/29,Perplexity User,https://www.perplexity.ai/perplexity-user.json
+18.97.1.228/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+18.97.9.96/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+18.97.9.97/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+18.97.9.98/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+18.97.9.99/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+18.97.9.100/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+18.97.9.101/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+18.97.9.102/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+18.97.9.103/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+18.97.43.80/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
+18.97.43.81/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
+18.97.43.82/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
+18.97.43.83/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
+18.97.43.84/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
+18.97.43.85/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
+18.97.43.86/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
+18.97.43.87/32,Perplexity User,https://www.perplexity.ai/perplexity-user.json
 18.210.92.235/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 20.14.99.96/28,OpenAI SearchBot,https://openai.com/searchbot.json
 20.25.151.224/28,OpenAI SearchBot,https://openai.com/searchbot.json
