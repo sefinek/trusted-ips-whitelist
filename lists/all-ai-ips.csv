@@ -253,6 +253,7 @@ IP,Name,Sources
 135.116.136.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.220.73.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.220.73.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
+135.222.99.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.234.64.0/24,OpenAI SearchBot,https://openai.com/searchbot.json
 135.237.131.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.237.133.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
