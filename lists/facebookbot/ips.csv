@@ -346,7 +346,7 @@ IP,Name,Sources
 157.240.233.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 157.240.234.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 157.240.235.0/24,FacebookBot,https://radb.net
-157.240.236.0/24,FacebookBot,https://radb.net
+157.240.236.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 157.240.237.0/24,FacebookBot,https://radb.net
 157.240.238.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 157.240.239.0/24,FacebookBot,https://radb.net
@@ -370,12 +370,12 @@ IP,Name,Sources
 163.70.129.0/24,FacebookBot,https://radb.net
 163.70.130.0/24,FacebookBot,https://radb.net
 163.70.131.0/24,FacebookBot,https://radb.net
-163.70.132.0/24,FacebookBot,https://radb.net
+163.70.132.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 163.70.133.0/24,FacebookBot,https://radb.net
 163.70.134.0/24,FacebookBot,https://radb.net
 163.70.135.0/24,FacebookBot,https://radb.net
 163.70.136.0/24,FacebookBot,https://radb.net
-163.70.137.0/24,FacebookBot,https://radb.net
+163.70.137.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 163.70.138.0/24,FacebookBot,https://radb.net
 163.70.139.0/24,FacebookBot,https://radb.net
 163.70.140.0/24,FacebookBot,https://radb.net

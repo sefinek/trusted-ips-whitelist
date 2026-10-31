@@ -448,8 +448,8 @@ IP,Name,Sources
 198.20.87.96/29,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 198.20.99.128/29,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 198.211.117.142,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-199.45.154.0/24,Censys,https://radb.net|https://stat.ripe.net
-199.45.155.0/24,Censys,https://radb.net|https://stat.ripe.net
+199.45.154.0/24,Censys,https://radb.net
+199.45.155.0/24,Censys,https://radb.net
 199.87.228.66,PingdomBot,https://my.pingdom.com/probes/ipv4
 200.58.101.248,PingdomBot,https://my.pingdom.com/probes/ipv4
 206.168.32.0/24,Censys,https://radb.net
@@ -563,8 +563,6 @@ IP,Name,Sources
 2602:80d:1000::/48,Censys,https://stat.ripe.net
 2602:80d:1001::/48,Censys,https://stat.ripe.net
 2602:80d:1002::/48,Censys,https://radb.net|https://stat.ripe.net
-2602:80d:1003::/48,Censys,https://stat.ripe.net
-2602:80d:1004::/48,Censys,https://stat.ripe.net
 2602:80d:1005::/48,Censys,https://radb.net|https://stat.ripe.net
 2602:80d:1006::/48,Censys,https://stat.ripe.net
 2602:80d:1007::/48,Censys,https://radb.net|https://stat.ripe.net
