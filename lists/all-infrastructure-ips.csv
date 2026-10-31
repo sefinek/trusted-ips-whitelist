@@ -1929,7 +1929,6 @@ IP,Name,Sources
 195.187.254.0/24,NASK PL,https://radb.net
 195.187.255.0/24,NASK PL,https://radb.net
 195.201.11.156,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-195.201.81.217,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.201.109.59,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.206.229.69,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 195.238.127.98,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
