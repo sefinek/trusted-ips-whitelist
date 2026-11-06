@@ -1405,8 +1405,7 @@ IP,Name,Sources
 31.13.94.0/24,FacebookBot,https://radb.net
 31.13.95.0/24,FacebookBot,https://radb.net
 31.13.96.0/19,FacebookBot,https://radb.net|https://stat.ripe.net
-31.14.32.4/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-31.14.32.6/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+31.14.32.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 31.14.32.8/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 34.21.9.50,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 34.22.85.0/27,GoogleBot,https://developers.google.com/static/crawling/ipranges/common-crawlers.json
@@ -8178,10 +8177,7 @@ IP,Name,Sources
 85.208.103.0/24,Canonical,https://radb.net
 85.211.128.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 85.211.128.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
-85.217.140.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.140.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.140.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.16/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.20/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.22/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8675,7 +8671,6 @@ IP,Name,Sources
 109.248.43.236,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.240,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 109.248.43.241,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-110.40.178.118,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 114.110.64.0/23,Baidu,https://radb.net
 114.110.66.0/23,Baidu,https://radb.net
 114.110.68.0/23,Baidu,https://radb.net
