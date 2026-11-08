@@ -14,7 +14,7 @@ If you like this repository, leave a star ⭐. Thank you!
 
 ## 📘 Combined IP Lists
 
-### 🔀 All (12,040 IPs, 5,716 CIDRs)
+### 🔀 All (12,040 IPs, 5,708 CIDRs)
 | Format | URL                                                                                                                                                                                  |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt)   |
@@ -49,7 +49,7 @@ If you like this repository, leave a star ⭐. Thank you!
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.csv)   |
 
-### 💳 Payments only (31 IPs, 20 CIDRs)
+### 💳 Payments only (31 IPs, 12 CIDRs)
 | Format | URL                                                                                                                                                                                          |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-payments-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-payments-ips.txt)   |
@@ -117,7 +117,7 @@ CDN providers, hosting networks, DNS resolvers and web services.
 | RSS API            | 1 - 1       | [rssapi.net](https://rssapi.net/ips.txt)                                                                                         | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/rssapi/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/rssapi/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/rssapi/ips.json)                               |
 | Baidu              | 0 - 631     | RIPEstat & RADB                                                                                                                  | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/baidu/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/baidu/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/baidu/ips.json)                                  |
 
-### 💳 Payments (31 IPs, 20 CIDRs)
+### 💳 Payments (31 IPs, 12 CIDRs)
 Payment gateway webhook and notification servers (live & sandbox).
 
 | Service | IPs & CIDRs | Sources                                                                                                                               | Downloads                                                                                                                                                                                                                                                                                                                     |
