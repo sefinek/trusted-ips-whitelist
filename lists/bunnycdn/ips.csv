@@ -849,6 +849,7 @@ IP,Name,Sources
 2607:fdc0:1:5:3eec:efff:fee1:95b3,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:c01:a003::8,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:1030:1::5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2800:1e0:1040:1::4,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:1090:3::5,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2800:1e0:2410:1::9,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a00:1dc0:3462::1167:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6

@@ -207,6 +207,7 @@ IP,Name,Sources
 57.145.18.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.145.20.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.145.22.0/23,FacebookBot,https://radb.net
+57.145.24.0/23,FacebookBot,https://radb.net
 66.220.144.0/20,FacebookBot,https://radb.net|https://stat.ripe.net
 66.220.144.0/21,FacebookBot,https://radb.net|https://stat.ripe.net
 66.220.152.0/21,FacebookBot,https://radb.net|https://stat.ripe.net
