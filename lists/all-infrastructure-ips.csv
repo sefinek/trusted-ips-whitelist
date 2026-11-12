@@ -2301,6 +2301,7 @@ IP,Name,Sources
 240c:409f:3004::/46,Baidu,https://radb.net
 240c:409f:4000::/46,Baidu,https://radb.net
 240c:409f:4004::/46,Baidu,https://radb.net
+2602:fec3:201:8::1209:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c06:40a5::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c09:106::1154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c34:2093::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
@@ -2375,6 +2376,7 @@ IP,Name,Sources
 2a02:6ea0:c454::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:c515::1536:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:c515::1537:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2a02:6ea0:c54c::725:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:d70d:1::919:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:d904::721:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2a02:6ea0:da07::717:1,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6

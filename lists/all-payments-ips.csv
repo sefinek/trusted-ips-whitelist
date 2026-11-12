@@ -28,13 +28,8 @@ IP,Name,Sources
 54.212.177.79,Square Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/square.txt
 54.234.237.108/32,Paddle,https://sandbox-api.paddle.com/ips
 54.245.1.154,Square,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/square.txt
-64.4.240.0/21,PayPal,https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056
-64.4.248.0/22,PayPal,https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056
-66.211.168.0/22,PayPal,https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056
-91.243.72.0/23,PayPal,https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
 107.20.218.8,Square Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/square.txt
-173.0.80.0/20,PayPal,https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056
 185.68.12.10,PayU,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
 185.68.12.11,PayU,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
 185.68.12.12,PayU,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
@@ -47,6 +42,3 @@ IP,Name,Sources
 185.68.14.26,PayU Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
 185.68.14.27,PayU Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
 185.68.14.28,PayU Sandbox,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/payu.txt
-185.177.52.0/22,PayPal,https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056
-192.160.215.0/24,PayPal,https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056
-198.54.216.0/23,PayPal,https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056
