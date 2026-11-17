@@ -64,7 +64,9 @@ IP,Name,Sources
 23.92.127.2,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.106.37.99,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.111.14.183/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-23.111.14.184/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+23.111.14.185/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+23.111.14.186/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+23.111.14.188/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.14.192/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 23.111.152.74,PingdomBot,https://my.pingdom.com/probes/ipv4
 23.111.159.174,PingdomBot,https://my.pingdom.com/probes/ipv4
