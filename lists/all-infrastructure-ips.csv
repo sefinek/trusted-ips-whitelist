@@ -710,6 +710,7 @@ IP,Name,Sources
 154.196.8.0/21,Baidu,https://radb.net
 154.222.2.0/23,Baidu,https://radb.net
 156.59.66.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
+156.59.67.46,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.92.126,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.95.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.126.78,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

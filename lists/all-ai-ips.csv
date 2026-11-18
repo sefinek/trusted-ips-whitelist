@@ -1,4 +1,12 @@
 IP,Name,Sources
+3.41.218.160/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+3.41.218.161/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+3.41.218.162/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+3.41.218.163/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+3.41.218.164/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+3.41.218.165/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+3.41.218.166/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
+3.41.218.167/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 3.222.232.239/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 3.224.62.45/32,PerplexityBot,https://www.perplexity.ai/perplexitybot.json
 4.151.71.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
