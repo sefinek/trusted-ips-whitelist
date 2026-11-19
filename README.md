@@ -14,7 +14,7 @@ If you like this repository, leave a star ⭐. Thank you!
 
 ## 📘 Combined IP Lists
 
-### 🔀 All (12,068 IPs, 3,555 CIDRs)
+### 🔀 All (12,069 IPs, 3,563 CIDRs)
 | Format | URL                                                                                                                                                                                  |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-safe-ips.txt)   |
@@ -42,14 +42,14 @@ If you like this repository, leave a star ⭐. Thank you!
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-monitoring-ips.csv)   |
 
-### 🏗️ Infrastructure only (1,007 IPs, 1,451 CIDRs)
+### 🏗️ Infrastructure only (1,008 IPs, 1,451 CIDRs)
 | Format | URL                                                                                                                                                                                                      |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.txt)   |
 | JSON   | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.json](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.json) |
 | CSV    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.csv](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-infrastructure-ips.csv)   |
 
-### 💳 Payments only (31 IPs, 12 CIDRs)
+### 💳 Payments only (31 IPs, 20 CIDRs)
 | Format | URL                                                                                                                                                                                          |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TXT    | [raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-payments-ips.txt](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/all-payments-ips.txt)   |
@@ -102,13 +102,13 @@ Uptime monitoring services and internet scanners.
 | Modat Scanner | 0 - 35 | [scanner.modat.io](https://scanner.modat.io/ipv4.txt)                                                 | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/modat/ips.json)                   |
 | Shodan        | 95 - 6      | [Custom list](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/custom/shodan.txt) | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/shodan/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/shodan/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/shodan/ips.json)                |
 
-### 🏗️ Infrastructure (1,007 IPs, 1,451 CIDRs)
+### 🏗️ Infrastructure (1,008 IPs, 1,451 CIDRs)
 CDN providers, hosting networks, DNS resolvers and web services.
 
 | Service            | IPs & CIDRs | Sources                                                                                                                          | Downloads                                                                                                                                                                                                                                                                                                                              |
 |--------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Cloudflare         | 0 - 22      | [IPv4](https://www.cloudflare.com/ips-v4) & [IPv6](https://www.cloudflare.com/ips-v6)                                            | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/cloudflare/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/cloudflare/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/cloudflare/ips.json)                   |
-| Bunny CDN          | 934 - 0     | [IPv4](https://api.bunny.net/system/edgeserverlist/plain) & [IPv6](https://api.bunny.net/system/edgeserverlist/ipv6)             | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/bunnycdn/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/bunnycdn/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/bunnycdn/ips.json)                         |
+| Bunny CDN          | 935 - 0     | [IPv4](https://api.bunny.net/system/edgeserverlist/plain) & [IPv6](https://api.bunny.net/system/edgeserverlist/ipv6)             | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/bunnycdn/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/bunnycdn/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/bunnycdn/ips.json)                         |
 | Canonical          | 0 - 44      | RIPEstat & RADB                                                                                                                  | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/canonical/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/canonical/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/canonical/ips.json)                      |
 | NASK PL            | 0 - 645     | RIPEstat & RADB                                                                                                                  | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/nask/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/nask/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/nask/ips.json)                                     |
 | Palo Alto Networks | 0 - 94 | RIPEstat, RADB & [Custom list](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/custom/paloaltonetworks.txt) | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/paloaltonetworks/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/paloaltonetworks/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/paloaltonetworks/ips.json) |
@@ -117,7 +117,7 @@ CDN providers, hosting networks, DNS resolvers and web services.
 | RSS API            | 1 - 1       | [rssapi.net](https://rssapi.net/ips.txt)                                                                                         | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/rssapi/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/rssapi/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/rssapi/ips.json)                               |
 | Baidu              | 0 - 631     | RIPEstat & RADB                                                                                                                  | [TXT](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/baidu/ips.txt) • [CSV](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/baidu/ips.csv) • [JSON](https://raw.githubusercontent.com/sefinek/trusted-ips-whitelist/main/lists/baidu/ips.json)                                  |
 
-### 💳 Payments (31 IPs, 12 CIDRs)
+### 💳 Payments (31 IPs, 20 CIDRs)
 Payment gateway webhook and notification servers (live & sandbox).
 
 | Service | IPs & CIDRs | Sources                                                                                                                               | Downloads                                                                                                                                                                                                                                                                                                                     |

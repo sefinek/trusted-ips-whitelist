@@ -2313,6 +2313,7 @@ IP,Name,Sources
 2602:ffe4:c06:40a5::2,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c09:106::1154,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c34:2093::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
+2602:ffe4:c4d:a9::3,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2602:ffe4:c54:277::ff,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2604:a940:1::/48,Palo Alto Networks,https://stat.ripe.net
 2604:f5c0::/32,Baidu,https://radb.net
