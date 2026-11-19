@@ -707,7 +707,7 @@ IP,Name,Sources
 154.85.48.0/21,Baidu,https://radb.net|https://stat.ripe.net
 154.85.48.0/24,Baidu,https://radb.net
 154.85.56.0/21,Baidu,https://radb.net|https://stat.ripe.net
-154.196.8.0/21,Baidu,https://radb.net
+154.196.8.0/21,Baidu,https://radb.net|https://stat.ripe.net
 154.222.2.0/23,Baidu,https://radb.net
 156.59.66.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.67.46,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
