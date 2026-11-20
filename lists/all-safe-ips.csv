@@ -1570,7 +1570,6 @@ IP,Name,Sources
 43.143.170.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -7541,7 +7540,6 @@ IP,Name,Sources
 95.179.223.208,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 98.70.219.37/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 100.20.172.113/32,Paddle,https://sandbox-api.paddle.com/ips
-101.35.20.84,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.35.45.63,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.43.186.7,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 101.247.0.0/17,Baidu,https://radb.net
@@ -9669,7 +9667,6 @@ IP,Name,Sources
 154.196.8.0/21,Baidu,https://radb.net|https://stat.ripe.net
 154.222.2.0/23,Baidu,https://radb.net
 155.138.140.15,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
-156.59.66.182,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.67.46,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.92.126,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 156.59.95.218,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -14247,7 +14244,7 @@ IP,Name,Sources
 212.73.148.30/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.32/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-212.73.148.52/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.102.40.113,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.40.114,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 212.102.40.120,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain

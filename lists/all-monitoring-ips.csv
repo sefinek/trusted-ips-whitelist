@@ -475,7 +475,7 @@ IP,Name,Sources
 212.73.148.30/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.32/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
-212.73.148.52/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 216.117.2.180,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 216.128.176.204,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 216.144.248.27,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
