@@ -1570,6 +1570,7 @@ IP,Name,Sources
 43.143.170.251,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.200.31.191,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.204.105.75,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
+43.210.49.103,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 43.225.198.122,PingdomBot,https://my.pingdom.com/probes/ipv4
 43.229.84.12,PingdomBot,https://my.pingdom.com/probes/ipv4
 44.194.39.17,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -1648,7 +1649,6 @@ IP,Name,Sources
 49.13.164.148,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.13.167.123,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 49.232.0.124,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
-49.235.77.140,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 50.16.153.186,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.8.31.28/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.8.71.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -14238,7 +14238,10 @@ IP,Name,Sources
 209.126.110.38,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 209.141.34.11,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 209.151.156.194,Kagi,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/kagi.txt
-212.73.148.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.1/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.2/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.4/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
+212.73.148.8/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.24/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 212.73.148.28/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
