@@ -15,6 +15,7 @@
   "main": "index.js",
   "scripts": {
     "m": "ncu -u && npm install && npm update",
+    "lint": "eslint .",
     "pull": "git pull origin main",
     "test": "node --test --test-timeout=30000 \"test/**/*.test.js\"",
     "update": "npm run pull && npm ci && pm2 restart knownbots"
