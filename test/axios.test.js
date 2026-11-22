@@ -1,5 +1,6 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
+const { name, version, homepage } = require('../package.json');
 
 describe('axios instance', () => {
 	const api = require('../scripts/services/axios.js');
@@ -15,7 +16,8 @@ describe('axios instance', () => {
 	it('includes project User-Agent header', () => {
 		const headers = api.defaults.headers;
 		const ua = headers?.common?.['User-Agent'] ?? headers?.['User-Agent'];
-		assert.match(ua, /KnownIPsWhitelist/);
+		assert.ok(ua.includes(`${name}/${version}`));
+		assert.ok(ua.includes(homepage));
 	});
 
 	it('sets Accept to application/json', () => {
