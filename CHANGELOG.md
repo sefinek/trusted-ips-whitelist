@@ -1,12 +1,12 @@
 # Changelog
 
-## [3.5.1] - 2026-11-22
+## v3.5.1 - 2026-11-22
 
 ### Fixed
 - Listy zbiorcze (`all-*-ips`) traciły całe źródło, gdy jego pobranie się nie udało (np. Google przy blokadzie DNS, #12). Teraz w takim przypadku używane są dane z poprzedniego cyklu, a w logu pojawia się ostrzeżenie i podsumowanie takich źródeł
 
 
-## [3.5.0] - 2026-09-27
+## v3.5.0 - 2026-09-27
 
 ### Added
 - **Payments category** - new `all-payments-ips` combined list with payment gateway webhook/notification servers (#11)
@@ -26,14 +26,14 @@
 - CIDRs broader than `/8` (IPv4) or `/16` (IPv6) are rejected, so a broken or compromised source cannot inject huge ranges into the whitelist
 
 
-## [3.4.1] - 2026-05-09
+## v3.4.1 - 2026-05-09
 
 ### Improved
 - README auto-updates per-service IP & CIDR counts in a dedicated table column on every commit
 - Section headings show aggregate stats (`IPs & CIDRs`) per category
 
 
-## [3.4.0] - 2026-05-08
+## v3.4.0 - 2026-05-08
 
 ### Added
 - **Baidu** - Baidu infrastructure network (AS38365, AS55967, AS38627); IP ranges fetched via RIPEstat & RADB (`lists/baidu/`)
@@ -44,7 +44,7 @@
 - Fixed Canonical config (`acceptNullable: true`)
 
 
-## [3.3.0] - 2026-05-04
+## v3.3.0 - 2026-05-04
 
 ### Added
 - **ClaudeBot** - Anthropic's official web crawler (`lists/claudebot/`, source: `claude.com/crawling/bots.json`)
@@ -62,7 +62,7 @@
 - **Auto-cleanup** - orphaned directories in `lists/` (sources removed from `sources.json`) are now automatically deleted on each generator run
 
 
-## [3.2.0] - 2026-05-03
+## v3.2.0 - 2026-05-03
 
 ### Added
 - **Canonical (AS41231)** - new `lists/canonical/` with IP ranges for Canonical Ltd. (Ubuntu infrastructure)
@@ -72,7 +72,7 @@
   - `lists/all-infrastructure-ips` - CDN providers, hosting networks, DNS resolvers and web services
 
 
-## [3.1.0] - 2026-04-27
+## v3.1.0 - 2026-04-27
 
 ### Added
 - **DNS Resolvers list** - new `lists/dns-resolvers/` with 72 entries (IPv4 + IPv6): Cloudflare (standard + Families), Google Public DNS, Quad9, OpenDNS (standard + FamilyShield), AdGuard DNS (standard + Family + Non-filtering), CleanBrowsing (Security / Adult / Family), Yandex DNS (Basic / Safe / Family), Level3 / Lumen Technologies
@@ -82,7 +82,7 @@
 - **Global list deduplication** - specific IPs already covered by a CIDR range are now skipped in the global list, eliminating redundant entries (e.g. `77.88.8.7` covered by `77.88.0.0/18`)
 
 
-## [3.0.0] - 2026-04-24
+## v3.0.0 - 2026-04-24
 
 ### JSON format update (April 2026)
 
