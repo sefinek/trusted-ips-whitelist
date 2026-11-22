@@ -16,7 +16,7 @@
   "scripts": {
     "m": "ncu -u && npm install && npm update",
     "pull": "git pull origin main",
-    "test": "jest",
+    "test": "node --test --test-timeout=30000 \"test/**/*.test.js\"",
     "update": "npm run pull && npm ci && pm2 restart knownbots"
   },
   "allowScripts": {
@@ -37,12 +37,10 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@jest/globals": "^30.5.2",
     "csv-parse": "^7.0.3",
-    "globals": "^17.14.0",
-    "jest": "^30.5.2"
+    "globals": "^17.14.0"
   },
   "engines": {
-    "node": ">=20.19.0"
+    "node": ">=26.0.0"
   }
 }

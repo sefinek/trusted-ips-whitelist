@@ -3,7 +3,15 @@
 ## v3.5.1 - 2026-11-22
 
 ### Fixed
-- Listy zbiorcze (`all-*-ips`) traciły całe źródło, gdy jego pobranie się nie udało (np. Google przy blokadzie DNS, #12). Teraz w takim przypadku używane są dane z poprzedniego cyklu, a w logu pojawia się ostrzeżenie i podsumowanie takich źródeł
+- Combined lists (`all-*-ips`) lost an entire source whenever its fetch failed (e.g. Google behind a DNS block, #12). The previous run's data is now reused in that case, with a warning and an end-of-run summary of affected sources
+- Multi-URL sources (`textMulti`, `jsonPrefixes`) no longer write partial data when one of the URLs fails; the whole source now falls back to the previous run's data
+
+### Changed
+- Tests migrated from Jest to the native `node:test` runner (`jest` and `@jest/globals` removed; ~14s -> <1s)
+- Minimum Node.js version raised to 26
+
+### Added
+- Test checking that every source is represented in `all-safe-ips`
 
 
 ## v3.5.0 - 2026-09-27

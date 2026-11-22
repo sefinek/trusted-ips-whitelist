@@ -159,18 +159,13 @@ module.exports = async source => {
 
 			const results = await Promise.all(
 				source.url.map(async u => {
-					try {
-						const { data } = await executeWithRetry(
-							() => fetchWithTimeout(u),
-							{ label: `${source.name} ${u}` }
-						);
-						if (typeof data === 'string') return parseList(splitAndFilter(data), u);
-						if (Array.isArray(data)) return parseList(data.map(String).map(l => l.trim()).filter(Boolean), u);
-						return [];
-					} catch (err) {
-						logger.warn(`Failed to fetch ${u}: ${err.message}`);
-						return [];
-					}
+					const { data } = await executeWithRetry(
+						() => fetchWithTimeout(u),
+						{ label: `${source.name} ${u}` }
+					);
+					if (typeof data === 'string') return parseList(splitAndFilter(data), u);
+					if (Array.isArray(data)) return parseList(data.map(String).map(l => l.trim()).filter(Boolean), u);
+					return [];
 				})
 			);
 			out = results.flat();
@@ -181,28 +176,21 @@ module.exports = async source => {
 			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
 
 			const urls = Array.isArray(source.url) ? source.url : [source.url];
-			const results = await Promise.allSettled(
+			const results = await Promise.all(
 				urls.map(async u => {
-					try {
-						const res = await executeWithRetry(
-							() => fetchWithTimeout(u),
-							{ label: `${source.name} ${u}` }
-						);
-						const data = res.data;
-						if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
-						return parseList(
-							(data.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean),
-							u
-						);
-					} catch (err) {
-						logger.warn(`Failed to fetch ${u}: ${err.message}`);
-						return [];
-					}
+					const { data } = await executeWithRetry(
+						() => fetchWithTimeout(u),
+						{ label: `${source.name} ${u}` }
+					);
+					if (!data || typeof data !== 'object') throw new Error(`Invalid JSON response from ${u}`);
+
+					return parseList(
+						(data.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean),
+						u
+					);
 				})
 			);
-			out = results
-				.filter(r => r.status === 'fulfilled')
-				.flatMap(r => r.value);
+			out = results.flat();
 
 			break;
 		}
