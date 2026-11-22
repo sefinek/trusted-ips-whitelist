@@ -4,6 +4,7 @@ const { stubModule, respondWith } = require('./helpers/mocks.js');
 
 const getASNPrefixes = stubModule('scripts/services/whois.js', mock.fn());
 const getYandexIPs = stubModule('scripts/parser/yandex.js', mock.fn());
+const getRenderedHtml = stubModule('scripts/parser/browserHtml.js', mock.fn());
 
 const fetchSource = require('../scripts/fetchSource.js');
 const axios = require('../scripts/services/axios.js');
@@ -183,6 +184,14 @@ describe('fetchSource', () => {
 
 			const out = await fetchSource({ name: 'PayPal', url: 'https://www.paypal.com/help', type: 'htmlCidrs' });
 			assert.deepEqual(out.map(r => r.ip), ['64.4.240.0/21', '173.0.80.0/20']);
+		});
+
+		it('renders the page in a browser when source.browser is set', async () => {
+			respondWith(getRenderedHtml, '<p>64.4.240.0/21</p>');
+
+			const out = await fetchSource({ name: 'PayPal', url: 'https://www.paypal.com/help', type: 'htmlCidrs', browser: true });
+			assert.deepEqual(out.map(r => r.ip), ['64.4.240.0/21']);
+			assert.equal(get.mock.callCount(), 0);
 		});
 	});
 

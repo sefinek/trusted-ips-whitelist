@@ -230,7 +230,8 @@
     "dir": "paypal",
     "category": "payments",
     "url": "https://www.paypal.com/us/cshelp/article/what-are-the-internet-protocol-ip-addresses-for-paypal-server-endpoints-ts1056",
-    "type": "htmlCidrs"
+    "type": "htmlCidrs",
+    "browser": true
   },
   {
     "name": "Paddle",

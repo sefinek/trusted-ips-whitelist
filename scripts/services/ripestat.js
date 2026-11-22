@@ -2,11 +2,9 @@ const axios = require('./axios.js');
 const { parseIP } = require('../ipUtils.js');
 const { executeWithRetry } = require('../utils/retry.js');
 const logger = require('../utils/logger.js');
+const sleep = require('../utils/sleep.js');
 
-const sleep = (baseMs, randomMs = 0) => {
-	const finalMs = baseMs + Math.floor(Math.random() * randomMs);
-	return new Promise(resolve => setTimeout(resolve, finalMs));
-};
+const sleepWithJitter = (baseMs, randomMs = 0) => sleep(baseMs + Math.floor(Math.random() * randomMs));
 
 const fetchFromRIPEstat = async (src, shouldDelay = true, retryCount = 0) => {
 	const maxRetries = 3;
@@ -15,7 +13,7 @@ const fetchFromRIPEstat = async (src, shouldDelay = true, retryCount = 0) => {
 		if (shouldDelay) {
 			const baseDelay = retryCount === 0 ? 5000 : 3000;
 			const randomDelay = retryCount === 0 ? 5000 : 2000;
-			await sleep(baseDelay, randomDelay);
+			await sleepWithJitter(baseDelay, randomDelay);
 		}
 
 		const res = await executeWithRetry(
@@ -50,7 +48,7 @@ const fetchFromRIPEstat = async (src, shouldDelay = true, retryCount = 0) => {
 		if (err.response && err.response.status === 429 && retryCount < maxRetries) {
 			const backoffDelay = Math.pow(2, retryCount) * 10000; // 10s, 20s, 40s
 			logger.warn(`RIPEstat rate limit for AS${src.asn}, retry in ${backoffDelay / 1000}s (${retryCount + 1}/${maxRetries})`);
-			await sleep(backoffDelay, 0);
+			await sleep(backoffDelay);
 			return fetchFromRIPEstat(src, false, retryCount + 1);
 		}
 

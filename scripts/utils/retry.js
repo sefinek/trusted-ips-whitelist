@@ -1,5 +1,6 @@
 const { NetworkError, TimeoutError } = require('./errors.js');
 const logger = require('./logger.js');
+const sleep = require('./sleep.js');
 
 const RETRYABLE_ERROR_CODES = new Set([
 	'ECONNRESET',
@@ -18,8 +19,6 @@ const isRetryableError = err => {
 	return Boolean(err?.code) && RETRYABLE_ERROR_CODES.has(err.code);
 };
 
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-
 const executeWithRetry = async (operation, {
 	retries = 2,
 	delay = 1000,
@@ -33,8 +32,8 @@ const executeWithRetry = async (operation, {
 			return await operation();
 		} catch (err) {
 			if (!retryPredicate(err) || attempt === retries) throw err;
-			const waitMs = delay * Math.pow(backoff, attempt);
-			logger.warn(`Retrying ${label} in ${waitMs}ms (attempt ${attempt + 1}/${retries + 1}): ${err.message}`);
+			const waitMs = delay * backoff ** attempt;
+			logger.warn(`[${label}] Retry ${attempt + 1}/${retries} in ${waitMs}ms: ${err.message}`);
 			await sleep(waitMs);
 			attempt++;
 		}

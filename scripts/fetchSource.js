@@ -1,13 +1,14 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const getYandexIPs = require('./parser/yandex.js');
+const getRenderedHtml = require('./parser/browserHtml.js');
 const getASNPrefixes = require('./services/whois.js');
 const axios = require('./services/axios.js');
 const logger = require('./utils/logger.js');
 const { NetworkError, TimeoutError } = require('./utils/errors.js');
 const { executeWithRetry } = require('./utils/retry.js');
 const { validateSource } = require('./utils/validation.js');
-const { isValidIP } = require('./ipUtils.js');
+const { isValidIP, CIDR_PATTERN } = require('./ipUtils.js');
 
 const splitAndFilter = data => {
 	if (typeof data !== 'string') return [];
@@ -95,19 +96,23 @@ const readCustomFiles = async files => {
 	return results.flat();
 };
 
-const processWithTimeout = async (promise, timeoutMs = 60000) => {
+const REQUEST_TIMEOUT_MS = 60000;
+
+const withTimeout = async (promise, timeoutMs = REQUEST_TIMEOUT_MS) => {
 	let timeoutId;
-	return Promise.race([
-		promise,
-		new Promise((_, reject) => {
-			timeoutId = setTimeout(() => reject(new TimeoutError(`Operation timeout after ${timeoutMs}ms`, timeoutMs)), timeoutMs);
-		}),
-	]).finally(() => {
-		if (timeoutId) clearTimeout(timeoutId);
-	});
+	try {
+		return await Promise.race([
+			promise,
+			new Promise((_, reject) => {
+				timeoutId = setTimeout(() => reject(new TimeoutError(`Operation timeout after ${timeoutMs}ms`, timeoutMs)), timeoutMs);
+			}),
+		]);
+	} finally {
+		clearTimeout(timeoutId);
+	}
 };
 
-const fetchWithTimeout = async (url, config = {}, timeoutMs = 60000) => {
+const fetchWithTimeout = async (url, config = {}, timeoutMs = REQUEST_TIMEOUT_MS) => {
 	const controller = new AbortController();
 	const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
 	try {
@@ -122,175 +127,113 @@ const fetchWithTimeout = async (url, config = {}, timeoutMs = 60000) => {
 	}
 };
 
-module.exports = async source => {
-	let out;
+const requireUrl = source => {
+	if (!source.url) throw new Error(`Missing URL for ${source.name}`);
+};
 
+const getData = async (source, url, config) => {
+	const { data } = await executeWithRetry(() => fetchWithTimeout(url, config), { label: `${source.name} ${url}` });
+	return data;
+};
+
+const fetchEach = async (source, parse) => {
+	const urls = Array.isArray(source.url) ? source.url : [source.url];
+	const results = await Promise.all(urls.map(async u => parse(await getData(source, u), u)));
+	return results.flat();
+};
+
+const parseTextLines = (data, url) => {
+	if (typeof data === 'string') return parseList(splitAndFilter(data), url);
+	if (Array.isArray(data)) return parseList(data.map(String).map(l => l.trim()).filter(Boolean), url);
+	return [];
+};
+
+const jsonSource = extract => async source => {
+	requireUrl(source);
+	return fetchEach(source, (data, url) => {
+		if (!data || typeof data !== 'object') throw new Error(`Invalid JSON response from ${url}`);
+		return parseList(extract(data, source, url), url);
+	});
+};
+
+const HANDLERS = {
+	whois: source => {
+		if (!source.asn) throw new Error(`Missing ASN for ${source.name}`);
+		return executeWithRetry(() => withTimeout(getASNPrefixes(source)), { label: `${source.name} WHOIS` });
+	},
+
+	yandex: source => executeWithRetry(() => withTimeout(getYandexIPs()), { label: `${source.name} Yandex` }),
+
+	file: source => {
+		if (!source.file) throw new Error(`Missing file for ${source.name}`);
+		return readCustomFiles(source.file);
+	},
+
+	hosts: source => {
+		requireUrl(source);
+		return fetchEach(source, parseTextLines);
+	},
+
+	textMulti: source => {
+		if (!Array.isArray(source.url) || !source.url.length) throw new Error(`Missing URLs array for ${source.name}`);
+		return fetchEach(source, parseTextLines);
+	},
+
+	jsonPrefixes: jsonSource(data => (data.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean)),
+
+	jsonIps: jsonSource(data => (data.ips || []).map(o => o.ip_address).filter(Boolean)),
+
+	jsonAddresses: jsonSource(data => {
+		if (!data.data) throw new Error('Invalid JSON response structure');
+		return Object.values(data.data).flatMap(d => d.addresses || []).filter(Boolean);
+	}),
+
+	jsonPath: async source => {
+		if (!source.path || typeof source.path !== 'string') throw new Error(`Missing JSON path for ${source.name}`);
+
+		const keys = source.path.split('.');
+		return jsonSource((data, _, url) => {
+			const list = keys.reduce((obj, key) => obj?.[key], data);
+			if (!Array.isArray(list)) throw new Error(`Path "${source.path}" is not an array in ${url}`);
+			return list;
+		})(source);
+	},
+
+	htmlCidrs: async source => {
+		requireUrl(source);
+
+		const html = await executeWithRetry(
+			async () => source.browser ? getRenderedHtml(source.url) : (await fetchWithTimeout(source.url, { headers: { Accept: 'text/html' } })).data,
+			{ label: `${source.name} HTML` }
+		);
+		if (typeof html !== 'string') throw new Error('Expected HTML response');
+
+		// CIDR notation only - bare IPv4-like strings in HTML are often asset versions, not addresses
+		const cidrs = html.match(new RegExp(String.raw`(?<![\d.])${CIDR_PATTERN}(?![\d.])`, 'g')) || [];
+		return parseList([...new Set(cidrs)], source.url);
+	},
+
+	mdList: async source => {
+		requireUrl(source);
+
+		const data = await getData(source, source.url);
+		if (typeof data !== 'string') throw new Error('Expected text response for markdown');
+
+		const items = data.split(/\r?\n/).filter(l => l.startsWith('- ')).map(l => l.slice(2).trim()).filter(Boolean);
+		return parseList(items, source.url);
+	},
+};
+
+module.exports = async source => {
 	try {
 		validateSource(source);
 
-		switch (source.type) {
-		case 'whois':
-			if (!source.asn) throw new Error(`Missing ASN for ${source.name}`);
-			out = await executeWithRetry(() => processWithTimeout(getASNPrefixes(source), 60000), { label: `${source.name} WHOIS` });
-			break;
-
-		case 'yandex':
-			out = await executeWithRetry(() => processWithTimeout(getYandexIPs(), 60000), { label: `${source.name} Yandex` });
-			break;
-
-		case 'file': {
-			if (!source.file) throw new Error(`Missing file for ${source.name}`);
-			out = await readCustomFiles(source.file);
-			break;
-		}
-
-		case 'hosts': {
-			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-			const res = await executeWithRetry(
-				() => fetchWithTimeout(source.url),
-				{ label: `${source.name} hosts` }
-			);
-			out = parseList(splitAndFilter(res.data), source.url);
-			break;
-		}
-
-		case 'textMulti': {
-			if (!Array.isArray(source.url) || !source.url.length) throw new Error(`Missing URLs array for ${source.name}`);
-
-			const results = await Promise.all(
-				source.url.map(async u => {
-					const { data } = await executeWithRetry(
-						() => fetchWithTimeout(u),
-						{ label: `${source.name} ${u}` }
-					);
-					if (typeof data === 'string') return parseList(splitAndFilter(data), u);
-					if (Array.isArray(data)) return parseList(data.map(String).map(l => l.trim()).filter(Boolean), u);
-					return [];
-				})
-			);
-			out = results.flat();
-			break;
-		}
-
-		case 'jsonPrefixes': {
-			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-
-			const urls = Array.isArray(source.url) ? source.url : [source.url];
-			const results = await Promise.all(
-				urls.map(async u => {
-					const { data } = await executeWithRetry(
-						() => fetchWithTimeout(u),
-						{ label: `${source.name} ${u}` }
-					);
-					if (!data || typeof data !== 'object') throw new Error(`Invalid JSON response from ${u}`);
-
-					return parseList(
-						(data.prefixes || []).map(p => p.ipv4Prefix || p.ipv6Prefix).filter(Boolean),
-						u
-					);
-				})
-			);
-			out = results.flat();
-
-			break;
-		}
-		case 'jsonIps': {
-			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-
-			const { data } = await executeWithRetry(
-				() => fetchWithTimeout(source.url),
-				{ label: `${source.name} jsonIps` }
-			);
-			if (!data || typeof data !== 'object') throw new Error('Invalid JSON response');
-
-			out = parseList(
-				(data.ips || []).map(o => o.ip_address).filter(Boolean),
-				source.url
-			);
-
-			break;
-		}
-		case 'jsonAddresses': {
-			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-
-			const res = await executeWithRetry(
-				() => fetchWithTimeout(source.url),
-				{ label: `${source.name} jsonAddresses` }
-			);
-			const data = res.data;
-			if (!data || typeof data !== 'object' || !data.data) throw new Error('Invalid JSON response structure');
-
-			out = parseList(Object.values(data.data).flatMap(d => d.addresses || []).filter(Boolean), source.url);
-
-			break;
-		}
-		case 'jsonPath': {
-			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-			if (!source.path || typeof source.path !== 'string') throw new Error(`Missing JSON path for ${source.name}`);
-
-			const urls = Array.isArray(source.url) ? source.url : [source.url];
-			const keys = source.path.split('.');
-			const results = await Promise.all(
-				urls.map(async u => {
-					const { data } = await executeWithRetry(
-						() => fetchWithTimeout(u),
-						{ label: `${source.name} ${u}` }
-					);
-					if (!data || typeof data !== 'object') throw new Error(`Invalid JSON response from ${u}`);
-
-					const list = keys.reduce((obj, key) => obj?.[key], data);
-					if (!Array.isArray(list)) throw new Error(`Path "${source.path}" is not an array in ${u}`);
-					return parseList(list, u);
-				})
-			);
-			out = results.flat();
-
-			break;
-		}
-		case 'htmlCidrs': {
-			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-
-			const { data } = await executeWithRetry(
-				() => fetchWithTimeout(source.url, { headers: { Accept: 'text/html' } }),
-				{ label: `${source.name} HTML` }
-			);
-			if (typeof data !== 'string') throw new Error('Expected HTML response');
-
-			// CIDR notation only - bare IPv4-like strings in HTML are often asset versions, not addresses
-			const cidrs = data.match(/(?<![\d.])\d{1,3}(?:\.\d{1,3}){3}\/\d{1,2}(?![\d.])/g) || [];
-			out = parseList([...new Set(cidrs)], source.url);
-
-			break;
-		}
-		case 'mdList': {
-			if (!source.url) throw new Error(`Missing URL for ${source.name}`);
-
-			const { data } = await executeWithRetry(
-				() => fetchWithTimeout(source.url),
-				{ label: `${source.name} markdown list` }
-			);
-			if (typeof data !== 'string') throw new Error('Expected text response for markdown');
-
-			out = parseList(
-				data
-					.split(/\r?\n/)
-					.filter(l => l.startsWith('- '))
-					.map(l => l.replace(/^- /, '').trim())
-					.filter(Boolean),
-				source.url
-			);
-
-			break;
-		}
-
-		default:
-			throw new Error(`Unknown source type: ${source.type}`);
-		}
+		if (!Object.hasOwn(HANDLERS, source.type)) throw new Error(`Unknown source type: ${source.type}`);
+		let out = await HANDLERS[source.type](source);
 
 		if (source.extraFiles) {
 			try {
-				const extraRecords = await readCustomFiles(source.extraFiles);
-				out = out.concat(extraRecords);
+				out = out.concat(await readCustomFiles(source.extraFiles));
 			} catch (err) {
 				logger.warn(`Failed to append extra files for ${source.name}: ${err.message}`);
 			}
@@ -301,7 +244,6 @@ module.exports = async source => {
 
 		return out;
 	} catch (err) {
-		logger.err(`Failed to fetch ${source.name}: ${err.message}`);
 		if (err.code === 'ENOTFOUND' || err.code === 'ECONNREFUSED' || err.code === 'ETIMEDOUT') throw new NetworkError(`Network error for ${source.name}: ${err.message}`, err);
 		throw err;
 	}

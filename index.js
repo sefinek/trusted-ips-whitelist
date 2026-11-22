@@ -1,16 +1,13 @@
 process.loadEnvFile();
-const { simpleGit } = require('simple-git');
-const git = simpleGit();
 const { CronJob } = require('cron');
-const { spawn } = require('node:child_process');
-const { stringify } = require('csv-stringify/sync');
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { hrtime } = require('node:process');
-const fetchSource = require('./scripts/fetchSource.js');
-const ipUtils = require('./scripts/ipUtils.js');
-const RateLimiter = require('./scripts/utils/rateLimiter.js');
+const { createCategoryLists, createGlobalLists, countRecs } = require('./scripts/lists.js');
+const processAllSources = require('./scripts/processSources.js');
+const { pullLatestChanges, commitAndPushChanges } = require('./scripts/publish.js');
+const { updateReadmeStats } = require('./scripts/readme.js');
 const logger = require('./scripts/utils/logger.js');
+const { startTimer, getDurationMs, formatDuration } = require('./scripts/utils/timing.js');
 const { validateSourcesConfig } = require('./scripts/utils/validation.js');
 
 const isDevelopment = process.env.NODE_ENV === 'development';
@@ -20,67 +17,6 @@ const loadSourcesConfig = async () => {
 	const raw = await fs.readFile(filePath, 'utf8');
 	const parsed = JSON.parse(raw);
 	return validateSourcesConfig(parsed);
-};
-
-const startTimer = () => hrtime.bigint();
-const getDurationMs = start => Number(hrtime.bigint() - start) / 1e6;
-const formatDuration = ms => {
-	if (ms >= 3600000) return `${(ms / 3600000).toFixed(2)}h`;
-	if (ms >= 60000) return `${(ms / 60000).toFixed(2)}m`;
-	if (ms >= 1000) return `${(ms / 1000).toFixed(2)}s`;
-	return `${ms.toFixed(0)}ms`;
-};
-
-const fmtNum = n => n.toLocaleString('en-US');
-const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const countRecs = recs => {
-	const cidrs = recs.filter(r => r.ip.includes('/')).length;
-	return { ips: recs.length - cidrs, cidrs };
-};
-const injectStats = (text, label, stats) => text.replace(
-	new RegExp(`${label} [(][^)]*[)]`),
-	`${label} (${fmtNum(stats.ips)} IPs, ${fmtNum(stats.cidrs)} CIDRs)`
-);
-
-const runTests = () => {
-	logger.info('Running tests...');
-
-	return new Promise((resolve, reject) => {
-		const child = spawn('npm test', [], {
-			shell: true,
-			stdio: ['inherit', 'pipe', 'pipe'],
-			timeout: 300000,
-		});
-
-		let stderr = '', stdout = '';
-
-		child.stdout.on('data', chunk => stdout += chunk);
-		child.stderr.on('data', chunk => stderr += chunk);
-
-		child.on('exit', code => {
-			const fail = code !== 0 || stdout.includes('FAIL') || stderr.includes('FAIL');
-			if (fail) {
-				logger.err(`Tests failed with exit code ${code}`);
-				if (stdout.trim()) logger.info(stdout.trim());
-				if (stderr.trim()) logger.err(stderr.trim());
-				reject(new Error(`Tests failed with exit code ${code}`));
-			} else {
-				logger.success('Tests passed successfully');
-				resolve();
-			}
-		});
-
-		child.on('error', err => {
-			logger.err(`Test execution error: ${err.message}`);
-			reject(err);
-		});
-	});
-};
-
-
-const pullLatestChanges = async () => {
-	logger.info('Pulling latest changes...');
-	await git.pull('origin', 'main');
 };
 
 const setupDirectories = async () => {
@@ -99,239 +35,6 @@ const cleanupOrphanedDirs = async (base, sources) => {
 		await fs.rm(dirPath, { recursive: true, force: true });
 		logger.info(`Removed orphaned directory: lists/${e.name}`);
 	}));
-};
-
-const processAllSources = async (base, sources) => {
-	const allMap = new Map();
-	const categoryMaps = new Map();
-	const concurrency = Math.max(1, Number(process.env.SOURCE_CONCURRENCY) || 3);
-	const delayMs = Math.max(0, Number(process.env.SOURCE_DELAY_MS) || 500);
-	const limiter = new RateLimiter(concurrency, delayMs);
-
-	const addToMaps = (src, ip, displayName, sourcesArray) => {
-		const addToMap = map => {
-			const entry = map.get(ip) || { names: new Set(), sources: new Set() };
-			entry.names.add(displayName);
-			sourcesArray.forEach(s => entry.sources.add(s));
-			map.set(ip, entry);
-		};
-
-		addToMap(allMap);
-
-		if (src.category) {
-			if (!categoryMaps.has(src.category)) categoryMaps.set(src.category, new Map());
-			addToMap(categoryMaps.get(src.category));
-		}
-	};
-
-	const reusePreviousRecords = async (src, reason) => {
-		try {
-			const raw = await fs.readFile(path.join(base, src.dir, 'ips.json'), 'utf8');
-			const previous = JSON.parse(raw);
-			if (!Array.isArray(previous) || !previous.length) throw new Error('previous list is empty');
-
-			let reused = 0;
-			for (const r of previous) {
-				if (!r?.ip || !Array.isArray(r.sources)) continue;
-				addToMaps(src, r.ip, r.name || src.name, r.sources);
-				reused++;
-			}
-
-			if (!reused) throw new Error('previous list has no valid records');
-			logger.warn(`${src.name}: ${reason}, reusing ${reused} entries from the previous run for combined lists`);
-			return { name: src.name, stale: true };
-		} catch (err) {
-			logger.err(`${src.name}: ${reason}, and no usable previous list (${err.message}). Source is missing from combined lists!`);
-			return { name: src.name, missing: true };
-		}
-	};
-
-	const handleSource = async src => {
-		const sourceTimer = startTimer();
-		try {
-			logger.debug(`Processing ${src.name}...`);
-			const records = await fetchSource(src);
-
-			if (!Array.isArray(records) || !records.length) {
-				return reusePreviousRecords(src, 'no records fetched');
-			}
-
-			const filteredRecords = records.filter(r => {
-				if (!r?.ip) return false;
-				if (ipUtils.isPrivateIP(r.ip)) {
-					logger.warn(`Skipping private IP ${r.ip} from ${src.name}`);
-					return false;
-				}
-				if (ipUtils.isTooBroadCIDR(r.ip)) {
-					logger.warn(`Skipping overly broad CIDR ${r.ip} from ${src.name}`);
-					return false;
-				}
-				return true;
-			});
-
-			if (!filteredRecords.length) {
-				return reusePreviousRecords(src, 'no usable records after filtering');
-			}
-
-			const sortedRecords = filteredRecords.sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
-			const dir = path.join(base, src.dir);
-			await fs.mkdir(dir, { recursive: true });
-
-			const ips = [];
-			const csvData = [];
-			const jsonData = [];
-
-			for (const r of sortedRecords) {
-				const sourcesArray = r.sources;
-				const sourcesStr = sourcesArray.join('|');
-
-				const displayName = r.label || src.name;
-				ips.push(r.ip);
-				csvData.push({ IP: r.ip, Name: displayName, Sources: sourcesStr });
-				jsonData.push({ ip: r.ip, name: displayName, sources: sourcesArray });
-				addToMaps(src, r.ip, displayName, sourcesArray);
-			}
-
-			await Promise.all([
-				fs.writeFile(path.join(dir, 'ips.txt'), ips.join('\n'), 'utf8'),
-				fs.writeFile(path.join(dir, 'ips.csv'), stringify(csvData, { header: true, columns: ['IP', 'Name', 'Sources'] }), 'utf8'),
-				fs.writeFile(path.join(dir, 'ips.json'), JSON.stringify(jsonData), 'utf8'),
-			]);
-
-			logger.success(`${src.name}: ${sortedRecords.length} IPs in ${formatDuration(getDurationMs(sourceTimer))}`);
-			return { name: src.name, ...countRecs(sortedRecords) };
-		} catch (err) {
-			logger.err(`Failed to process ${src.name} after ${formatDuration(getDurationMs(sourceTimer))}: ${err.message}`);
-			return reusePreviousRecords(src, 'processing failed');
-		}
-	};
-
-	const results = (await Promise.all(sources.map(src => limiter.execute(() => handleSource(src))))).filter(Boolean);
-	const sourceStats = new Map(results.filter(r => !r.stale && !r.missing).map(r => [r.name, r]));
-	const degraded = results.filter(r => r.stale || r.missing);
-	return { allMap, categoryMaps, sourceStats, degraded };
-};
-
-const buildRecords = (ipMap, logSkipped = false) => {
-	const sortedIPs = Array.from(ipMap.keys()).sort(ipUtils.compareIPs);
-	const parsedCIDRs = sortedIPs
-		.filter(ip => ip.includes('/'))
-		.map(ip => {
-			const parsed = ipUtils.parseCIDREntry(ip);
-			return parsed ? { ...parsed, names: ipMap.get(ip).names } : null;
-		})
-		.filter(Boolean);
-
-	return sortedIPs.flatMap(ip => {
-		if (!ip.includes('/')) {
-			const entry = ipMap.get(ip);
-			const sameSourceCIDRs = parsedCIDRs.filter(c => [...c.names].some(n => entry.names.has(n)));
-			const covering = ipUtils.findCoveringCIDR(ip, sameSourceCIDRs);
-			if (covering) {
-				if (logSkipped) logger.info(`IP ${ip} (${Array.from(entry.names).sort().join('|')}) is already covered by CIDR ${covering.cidr}, skipping...`);
-				return [];
-			}
-		}
-
-		const entry = ipMap.get(ip);
-		const nameList = Array.from(entry.names).sort();
-		if (logSkipped && nameList.length > 1) logger.info(`IP ${ip} appears in multiple sources: ${nameList.join(', ')}`);
-		return [{ ip, name: nameList.join('|'), sources: Array.from(entry.sources).sort() }];
-	});
-};
-
-const writeListFiles = async (base, filename, recs) => {
-	await Promise.all([
-		fs.writeFile(path.join(base, `${filename}.txt`), recs.map(r => r.ip).join('\n'), 'utf8'),
-		fs.writeFile(path.join(base, `${filename}.json`), JSON.stringify(recs), 'utf8'),
-		fs.writeFile(path.join(base, `${filename}.csv`), stringify(
-			recs.map(r => ({ IP: r.ip, Name: r.name, Sources: r.sources.join('|') })),
-			{ header: true, columns: ['IP', 'Name', 'Sources'] }
-		), 'utf8'),
-	]);
-};
-
-const createCategoryLists = async (base, categoryMaps) => {
-	logger.info('Writing category lists...');
-
-	const catRecs = new Map();
-	await Promise.all(Array.from(categoryMaps.keys()).map(async category => {
-		const catMap = categoryMaps.get(category);
-		if (!catMap || !catMap.size) return;
-
-		const recs = buildRecords(catMap);
-		catRecs.set(category, recs);
-		await writeListFiles(base, `all-${category}-ips`, recs);
-		logger.success(`Category ${category}: ${recs.length} IPs written`);
-	}));
-
-	return catRecs;
-};
-
-const createGlobalLists = async (base, allMap) => {
-	logger.info('Writing global lists...');
-
-	const globalRecs = buildRecords(allMap, true);
-	await writeListFiles(base, 'all-safe-ips', globalRecs);
-	return globalRecs;
-};
-
-const updateReadmeStats = async (globalRecs, catRecs, sourceStats) => {
-	const readmePath = path.join(__dirname, 'README.md');
-	let content = await fs.readFile(readmePath, 'utf8');
-
-	const allStats = countRecs(globalRecs);
-	const crawlerStats = countRecs(catRecs.get('crawlers') ?? []);
-	const aiStats = countRecs(catRecs.get('ai') ?? []);
-	const monitoringStats = countRecs(catRecs.get('monitoring') ?? []);
-	const infrastructureStats = countRecs(catRecs.get('infrastructure') ?? []);
-	const paymentsStats = countRecs(catRecs.get('payments') ?? []);
-
-	content = injectStats(content, 'All', allStats);
-	content = injectStats(content, 'Crawlers only', crawlerStats);
-	content = injectStats(content, 'AI only', aiStats);
-	content = injectStats(content, 'Monitoring only', monitoringStats);
-	content = injectStats(content, 'Infrastructure only', infrastructureStats);
-	content = injectStats(content, 'Payments only', paymentsStats);
-	content = injectStats(content, 'Crawlers', crawlerStats);
-	content = injectStats(content, 'AI', aiStats);
-	content = injectStats(content, 'Monitoring', monitoringStats);
-	content = injectStats(content, 'Infrastructure', infrastructureStats);
-	content = injectStats(content, 'Payments', paymentsStats);
-
-	for (const [name, stats] of sourceStats) {
-		const re = new RegExp(`(\\| ${escRe(name)} +\\| )([^|]*?)( *\\|)`);
-		content = content.replace(re, (_, head, old, tail) => {
-			const value = `${fmtNum(stats.ips)} - ${fmtNum(stats.cidrs)}`;
-			return `${head}${value.padEnd(old.length + tail.length - 2)} |`;
-		});
-	}
-
-	await fs.writeFile(readmePath, content, 'utf8');
-	logger.success('README.md stats updated');
-};
-
-const commitAndPushChanges = async () => {
-	const status = await git.status(['lists', 'README.md']);
-	if (status.files.length > 0) {
-		await runTests();
-
-		logger.info(`Committing & pushing ${status.files.length} changed files...`);
-
-		const now = new Date();
-		const pad = n => String(n).padStart(2, '0');
-		const timestamp = `${pad(now.getUTCDate())}.${pad(now.getUTCMonth() + 1)}.${now.getUTCFullYear()}, ${pad(now.getUTCHours())}:${pad(now.getUTCMinutes())}:${pad(now.getUTCSeconds())} UTC`;
-		await git.add(['./lists', 'README.md']);
-		await git.commit(
-			`Auto-update IP lists (${status.files.length} modified files) - ${timestamp}`,
-			{ '--author': `"Sefinek Actions <${process.env.GITHUB_EMAIL}>"` }
-		);
-		await git.push('origin', 'main');
-
-		logger.success('Changes committed and pushed successfully');
-	} else {
-		logger.info('No changes detected, skipping commit');
-	}
 };
 
 const generateLists = async () => {
@@ -374,8 +77,9 @@ const addGracefulShutdown = () => {
 	process.on('SIGINT', () => gracefulShutdown('SIGINT'));
 };
 
+addGracefulShutdown();
+
 if (isDevelopment) {
-	addGracefulShutdown();
 	generateLists()
 		.then(() => {
 			process.exit(0);
@@ -385,8 +89,6 @@ if (isDevelopment) {
 			process.exit(1);
 		});
 } else {
-	addGracefulShutdown();
-
 	new CronJob('0 */6 * * *', async () => {
 		try {
 			await generateLists();
@@ -409,3 +111,4 @@ if (isDevelopment) {
 
 	process.send?.('ready');
 }
+

@@ -9,6 +9,7 @@
 ### Changed
 - Tests migrated from Jest to the native `node:test` runner (`jest` and `@jest/globals` removed; ~14s -> <1s)
 - Minimum Node.js version raised to 26
+- Code optimized and restructured: `index.js` split into focused modules (`processSources`, `lists`, `readme`, `publish`), duplicated code removed, and combined list generation is ~20x faster
 
 ### Added
 - Test checking that every source is represented in `all-safe-ips`

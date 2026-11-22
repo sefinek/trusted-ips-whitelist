@@ -3,6 +3,7 @@ const { parseIP, compareIPs } = require('../ipUtils.js');
 const fetchFromRIPEstat = require('./ripestat.js');
 
 const logger = require('../utils/logger.js');
+const sleep = require('../utils/sleep.js');
 
 const WHOIS_SOURCE_URLS = {
 	'whois.radb.net': 'https://radb.net',
@@ -51,15 +52,14 @@ const extractRouteBlocks = buffer => {
 };
 
 const filterBlocksByKeywords = (blocks, keywords, acceptNullable) => {
-	const normalized = normalizeKeywords(keywords);
-	if (!normalized.length) return blocks;
+	if (!keywords.length) return blocks;
 
 	const enriched = blocks.map(block => {
 		const metaText = block.metaLines.join(' ').toLowerCase();
 		return { ...block, metaText, hasMeta: block.metaLines.length > 0 };
 	});
 
-	const matches = enriched.filter(block => normalized.some(k => block.metaText.includes(k)));
+	const matches = enriched.filter(block => keywords.some(k => block.metaText.includes(k)));
 	if (matches.length) {
 		if (!acceptNullable) return matches;
 
@@ -136,8 +136,6 @@ const fetchRoutesFromHost = async (asn, host, options = {}) => new Promise(resol
 	}
 });
 
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-
 module.exports = async src => {
 	const asns = Array.isArray(src.asn) ? src.asn : [src.asn];
 	const ripestatResults = [];
@@ -183,25 +181,13 @@ module.exports = async src => {
 	}
 
 	const ipMap = new Map();
-
-	for (const r of ripestatResults) {
+	for (const r of [...ripestatResults, ...whoisResults]) {
 		if (!r?.ip) continue;
-		const sources = ipMap.get(r.ip) || [];
-		sources.push(r.source);
-		ipMap.set(r.ip, sources);
-	}
-
-	for (const r of whoisResults) {
-		if (!r?.ip) continue;
-		const sources = ipMap.get(r.ip) || [];
-		sources.push(r.source);
-		ipMap.set(r.ip, sources);
+		if (!ipMap.has(r.ip)) ipMap.set(r.ip, new Set());
+		ipMap.get(r.ip).add(r.source);
 	}
 
 	return Array.from(ipMap.entries())
-		.map(([ip, sources]) => ({
-			ip,
-			sources: [...new Set(sources)],
-		}))
+		.map(([ip, sources]) => ({ ip, sources: [...sources] }))
 		.sort((a, b) => compareIPs(a.ip, b.ip));
 };

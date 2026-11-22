@@ -1,6 +1,6 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert/strict');
-const { parseIP, isValidIP, compareIPs, isPrivateIP, parseCIDREntry, isTooBroadCIDR, findCoveringCIDR } = require('../scripts/ipUtils.js');
+const { parseIP, isValidIP, compareIPs, isPrivateIP, parseCIDREntry, isTooBroadCIDR, findCoveringCIDR, sortByIP } = require('../scripts/ipUtils.js');
 
 describe('ipUtils', () => {
 	describe('isTooBroadCIDR', () => {
@@ -96,6 +96,19 @@ describe('ipUtils', () => {
 		it('sorts CIDRs by prefix length when base is equal', () => {
 			const list = ['10.0.0.0/16', '10.0.0.0/8', '10.0.0.0/24'];
 			assert.deepEqual([...list].sort(compareIPs), ['10.0.0.0/8', '10.0.0.0/16', '10.0.0.0/24']);
+		});
+	});
+
+	describe('sortByIP', () => {
+		it('orders exactly like compareIPs', () => {
+			const list = ['2001:db8::1', '10.0.0.0/24', 'garbage', '8.8.8.8', '10.0.0.0/8', '::1', '10.0.0.0'];
+			assert.deepEqual(sortByIP(list), [...list].sort(compareIPs));
+		});
+
+		it('sorts objects by the selected field without mutating the input', () => {
+			const items = [{ ip: '8.8.8.8' }, { ip: '1.1.1.1' }];
+			assert.deepEqual(sortByIP(items, r => r.ip).map(r => r.ip), ['1.1.1.1', '8.8.8.8']);
+			assert.equal(items[0].ip, '8.8.8.8');
 		});
 	});
 

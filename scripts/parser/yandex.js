@@ -1,108 +1,59 @@
-const puppeteer = require('puppeteer-extra');
-const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const cheerio = require('cheerio');
-const ipaddr = require('ipaddr.js');
+const { withPage } = require('../utils/browser.js');
+const { isCIDR, isValidIP } = require('../ipUtils.js');
+const sleep = require('../utils/sleep.js');
 const logger = require('../utils/logger.js');
 
-puppeteer.use(StealthPlugin());
+const URL = 'https://yandex.com/ips';
+const SELECTORS = [
+	'.lc-features__description .lc-rich-text span',
+	'.lc-rich-text span',
+	'span',
+];
+
+const waitForAnySelector = async page => {
+	for (const selector of SELECTORS) {
+		try {
+			await page.waitForSelector(selector, { timeout: 6000 });
+			return;
+		} catch {
+			// try the next selector
+		}
+	}
+
+	logger.warn('No specific selector found, waiting 2s as fallback');
+	await sleep(2000);
+};
+
+const extractCidrs = html => {
+	const $ = cheerio.load(html);
+
+	for (const selector of [...SELECTORS, 'p']) {
+		const found = new Set();
+		$(selector).each((_, el) => {
+			const text = $(el).text().trim();
+			if (isCIDR(text) && isValidIP(text)) found.add(text);
+		});
+		if (found.size) return [...found];
+	}
+
+	return [];
+};
 
 const getYandexIPs = async () => {
 	logger.debug('Starting Yandex IP extraction');
 
-	let browser;
-	try {
-		browser = await puppeteer.launch({
-			headless: 'new',
-			timeout: 30000,
-			args: [
-				'--no-sandbox',
-				'--disable-setuid-sandbox',
-				'--disable-dev-shm-usage',
-				'--disable-accelerated-2d-canvas',
-				'--no-first-run',
-				'--no-zygote',
-				'--disable-gpu',
-				'--window-size=1920,1080',
-				'--blink-settings=imagesEnabled=false',
-			],
-		});
+	const html = await withPage(URL, async page => {
+		await waitForAnySelector(page);
+		return page.content();
+	}, { args: ['--blink-settings=imagesEnabled=false'] });
 
-		const page = await browser.newPage();
+	if (!html || html.length < 100) throw new Error('Failed to load page content');
 
-		await page.goto('https://yandex.com/ips', {
-			waitUntil: 'domcontentloaded',
-			timeout: 30000,
-		});
+	const ips = extractCidrs(html);
+	if (!ips.length) logger.warn('No IPs found on Yandex page, page structure may have changed');
 
-		// Wait for content to load - try multiple selectors
-		const selectors = [
-			'.lc-features__description .lc-rich-text span',
-			'.lc-rich-text span',
-			'span',
-		];
-
-		let contentLoaded = false;
-		for (const selector of selectors) {
-			try {
-				await page.waitForSelector(selector, { timeout: 6000 });
-				contentLoaded = true;
-				break;
-			} catch {
-				// Try next selector
-			}
-		}
-
-		if (!contentLoaded) {
-			logger.warn('No specific selector found, waiting 2s as fallback');
-			await new Promise(resolve => setTimeout(resolve, 2000));
-		}
-
-		const content = await page.content();
-		if (!content || content.length < 100) {
-			throw new Error('Failed to load page content');
-		}
-
-		const $ = cheerio.load(content);
-		const ips = [];
-
-		for (const selector of [...selectors, 'p']) {
-			$(selector).each((_, el) => {
-				const text = $(el).text().trim();
-				if (!text || !text.includes('/')) return;
-
-				const [addr] = text.split('/');
-				if (!addr || !ipaddr.isValid(addr.trim())) return;
-
-				const ipWithCidr = text.trim();
-				if (!ips.find(item => item.ip === ipWithCidr)) ips.push({ ip: ipWithCidr, source: 'https://yandex.com/ips' });
-			});
-			if (ips.length > 0) break;
-		}
-
-
-		if (!ips.length) {
-			logger.warn('No IPs found on Yandex page, page structure may have changed');
-		}
-
-		return ips;
-	} catch (error) {
-		logger.err(`Yandex IP extraction failed: ${error.message}`);
-		return [];
-	} finally {
-		if (browser) {
-			try {
-				await browser.close();
-			} catch (closeError) {
-				logger.warn(`Failed to close browser: ${closeError.message}`);
-			}
-		}
-	}
+	return ips.map(ip => ({ ip, source: URL }));
 };
 
 module.exports = getYandexIPs;
-
-if (require.main === module) {
-	getYandexIPs()
-		.then(data => logger.success(`Yandex data: ${JSON.stringify(data, null, 2)}`))
-		.catch(err => logger.err(err));
-}

@@ -1,75 +1,64 @@
 const ipaddr = require('ipaddr.js');
 
+const CIDR_PATTERN = String.raw`\d{1,3}(?:\.\d{1,3}){3}\/\d{1,2}`;
+
+const isCIDR = ip => ip.includes('/');
+
 const parseIP = ip => {
-	if (!ip || typeof ip !== 'string') return null;
+	if (typeof ip !== 'string') return null;
+
+	const trimmed = ip.trim();
+	if (!trimmed) return null;
 
 	try {
-		const trimmed = ip.trim();
-		if (!trimmed) return null;
-		if (trimmed.includes('/')) {
-			const [addr, prefix] = trimmed.split('/');
-			const prefixNum = parseInt(prefix, 10);
-			if (isNaN(prefixNum) || prefixNum < 0) return null;
-			if (ipaddr.IPv4.isValid(addr) && (prefixNum > 32)) return null;
-			if (ipaddr.IPv6.isValid(addr) && (prefixNum > 128)) return null;
-			return ipaddr.parseCIDR(trimmed)[0];
-		}
-		return ipaddr.parse(trimmed);
+		return isCIDR(trimmed) ? ipaddr.parseCIDR(trimmed)[0] : ipaddr.parse(trimmed);
 	} catch {
 		return null;
 	}
 };
 
-const isValidIP = ip => {
-	if (!ip || typeof ip !== 'string') return false;
+const isValidIP = ip => parseIP(ip) !== null;
 
-	try {
-		const trimmed = ip.trim();
-		if (!trimmed) return false;
-		if (trimmed.includes('/')) {
-			ipaddr.parseCIDR(trimmed);
-			return true;
-		}
-		return ipaddr.isValid(trimmed);
-	} catch {
-		return false;
+const describeIP = ip => {
+	const parsed = parseIP(ip);
+	if (!parsed) return { ip, parsed: null };
+
+	return {
+		ip,
+		parsed,
+		kind: parsed.kind(),
+		bytes: parsed.toByteArray(),
+		prefix: isCIDR(ip) ? parseInt(ip.split('/')[1], 10) : null,
+	};
+};
+
+const compareDescribed = (A, B) => {
+	if (!A.parsed && !B.parsed) return A.ip.localeCompare(B.ip);
+	if (!A.parsed) return 1;
+	if (!B.parsed) return -1;
+
+	if (A.kind !== B.kind) return A.kind === 'ipv4' ? -1 : 1;
+
+	const len = Math.max(A.bytes.length, B.bytes.length);
+	for (let i = 0; i < len; i++) {
+		const diff = (A.bytes[i] || 0) - (B.bytes[i] || 0);
+		if (diff !== 0) return diff;
 	}
+
+	if (A.prefix !== null && B.prefix !== null) return A.prefix - B.prefix;
+	return A.ip.localeCompare(B.ip);
 };
 
 const compareIPs = (a, b) => {
 	if (!a || !b) return (a || '').localeCompare(b || '');
-
-	const A = parseIP(a);
-	const B = parseIP(b);
-
-	if (!A && !B) return a.localeCompare(b);
-	if (!A) return 1;
-	if (!B) return -1;
-
-	try {
-		const aKind = A.kind();
-		const bKind = B.kind();
-		if (aKind !== bKind) return aKind === 'ipv4' ? -1 : 1;
-
-		const aBytes = A.toByteArray();
-		const bBytes = B.toByteArray();
-
-		for (let i = 0; i < Math.max(aBytes.length, bBytes.length); i++) {
-			const diff = (aBytes[i] || 0) - (bBytes[i] || 0);
-			if (diff !== 0) return diff;
-		}
-
-		if (a.includes('/') && b.includes('/')) {
-			const [, prefixA] = a.split('/');
-			const [, prefixB] = b.split('/');
-			return parseInt(prefixA, 10) - parseInt(prefixB, 10);
-		}
-
-		return a.localeCompare(b);
-	} catch {
-		return a.localeCompare(b);
-	}
+	return compareDescribed(describeIP(a), describeIP(b));
 };
+
+// Parsuje każdy adres raz, zamiast przy każdym porównaniu (compareIPs parsuje oba adresy za każdym razem)
+const sortByIP = (items, getIp = item => item) => items
+	.map(item => ({ item, key: describeIP(getIp(item)) }))
+	.sort((a, b) => compareDescribed(a.key, b.key))
+	.map(({ item }) => item);
 
 const isPrivateIP = ip => {
 	const parsed = parseIP(ip);
@@ -95,7 +84,7 @@ const parseCIDREntry = cidr => {
 const MIN_PREFIX = { ipv4: 8, ipv6: 16 };
 
 const isTooBroadCIDR = ip => {
-	if (!ip?.includes('/')) return false;
+	if (!ip || !isCIDR(ip)) return false;
 	const parsed = parseCIDREntry(ip);
 	return !parsed || parsed.prefix < MIN_PREFIX[parsed.addr.kind()];
 };
@@ -111,9 +100,12 @@ const findCoveringCIDR = (ip, parsedCIDRs) => {
 };
 
 module.exports = {
+	CIDR_PATTERN,
+	isCIDR,
 	parseIP,
 	isValidIP,
 	compareIPs,
+	sortByIP,
 	isPrivateIP,
 	parseCIDREntry,
 	isTooBroadCIDR,
