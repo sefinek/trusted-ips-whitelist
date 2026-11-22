@@ -39,6 +39,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "csv-parse": "^7.0.3",
+    "eslint": "^10.15.0",
     "globals": "^17.14.0"
   },
   "engines": {
