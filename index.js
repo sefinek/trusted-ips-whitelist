@@ -108,6 +108,44 @@ const processAllSources = async (base, sources) => {
 	const delayMs = Math.max(0, Number(process.env.SOURCE_DELAY_MS) || 500);
 	const limiter = new RateLimiter(concurrency, delayMs);
 
+	const addToMaps = (src, ip, displayName, sourcesArray) => {
+		const addToMap = map => {
+			const entry = map.get(ip) || { names: new Set(), sources: new Set() };
+			entry.names.add(displayName);
+			sourcesArray.forEach(s => entry.sources.add(s));
+			map.set(ip, entry);
+		};
+
+		addToMap(allMap);
+
+		if (src.category) {
+			if (!categoryMaps.has(src.category)) categoryMaps.set(src.category, new Map());
+			addToMap(categoryMaps.get(src.category));
+		}
+	};
+
+	const reusePreviousRecords = async (src, reason) => {
+		try {
+			const raw = await fs.readFile(path.join(base, src.dir, 'ips.json'), 'utf8');
+			const previous = JSON.parse(raw);
+			if (!Array.isArray(previous) || !previous.length) throw new Error('previous list is empty');
+
+			let reused = 0;
+			for (const r of previous) {
+				if (!r?.ip || !Array.isArray(r.sources)) continue;
+				addToMaps(src, r.ip, r.name || src.name, r.sources);
+				reused++;
+			}
+
+			if (!reused) throw new Error('previous list has no valid records');
+			logger.warn(`${src.name}: ${reason}, reusing ${reused} entries from the previous run for combined lists`);
+			return { name: src.name, stale: true };
+		} catch (err) {
+			logger.err(`${src.name}: ${reason}, and no usable previous list (${err.message}). Source is missing from combined lists!`);
+			return { name: src.name, missing: true };
+		}
+	};
+
 	const handleSource = async src => {
 		const sourceTimer = startTimer();
 		try {
@@ -115,8 +153,7 @@ const processAllSources = async (base, sources) => {
 			const records = await fetchSource(src);
 
 			if (!Array.isArray(records) || !records.length) {
-				logger.warn(`No records found for ${src.name}, skipping file write`);
-				return;
+				return reusePreviousRecords(src, 'no records fetched');
 			}
 
 			const filteredRecords = records.filter(r => {
@@ -133,8 +170,7 @@ const processAllSources = async (base, sources) => {
 			});
 
 			if (!filteredRecords.length) {
-				logger.warn(`No non-private records for ${src.name}, skipping file write`);
-				return;
+				return reusePreviousRecords(src, 'no usable records after filtering');
 			}
 
 			const sortedRecords = filteredRecords.sort((a, b) => ipUtils.compareIPs(a.ip, b.ip));
@@ -153,20 +189,7 @@ const processAllSources = async (base, sources) => {
 				ips.push(r.ip);
 				csvData.push({ IP: r.ip, Name: displayName, Sources: sourcesStr });
 				jsonData.push({ ip: r.ip, name: displayName, sources: sourcesArray });
-
-				const addToMap = map => {
-					const entry = map.get(r.ip) || { names: new Set(), sources: new Set() };
-					entry.names.add(displayName);
-					sourcesArray.forEach(s => entry.sources.add(s));
-					map.set(r.ip, entry);
-				};
-
-				addToMap(allMap);
-
-				if (src.category) {
-					if (!categoryMaps.has(src.category)) categoryMaps.set(src.category, new Map());
-					addToMap(categoryMaps.get(src.category));
-				}
+				addToMaps(src, r.ip, displayName, sourcesArray);
 			}
 
 			await Promise.all([
@@ -179,12 +202,14 @@ const processAllSources = async (base, sources) => {
 			return { name: src.name, ...countRecs(sortedRecords) };
 		} catch (err) {
 			logger.err(`Failed to process ${src.name} after ${formatDuration(getDurationMs(sourceTimer))}: ${err.message}`);
+			return reusePreviousRecords(src, 'processing failed');
 		}
 	};
 
-	const results = await Promise.all(sources.map(src => limiter.execute(() => handleSource(src))));
-	const sourceStats = new Map(results.filter(Boolean).map(r => [r.name, r]));
-	return { allMap, categoryMaps, sourceStats };
+	const results = (await Promise.all(sources.map(src => limiter.execute(() => handleSource(src))))).filter(Boolean);
+	const sourceStats = new Map(results.filter(r => !r.stale && !r.missing).map(r => [r.name, r]));
+	const degraded = results.filter(r => r.stale || r.missing);
+	return { allMap, categoryMaps, sourceStats, degraded };
 };
 
 const buildRecords = (ipMap, logSkipped = false) => {
@@ -320,7 +345,7 @@ const generateLists = async () => {
 		const base = await setupDirectories();
 		await cleanupOrphanedDirs(base, sources);
 
-		const { allMap, categoryMaps, sourceStats } = await processAllSources(base, sources);
+		const { allMap, categoryMaps, sourceStats, degraded } = await processAllSources(base, sources);
 		const [globalRecs, catRecs] = await Promise.all([
 			createGlobalLists(base, allMap),
 			createCategoryLists(base, categoryMaps),
@@ -328,6 +353,8 @@ const generateLists = async () => {
 
 		const { ips: ipCount, cidrs: cidrCount } = countRecs(globalRecs);
 		logger.success(`Generation complete: ${globalRecs.length} total (${ipCount} IPs, ${cidrCount} CIDRs) in ${formatDuration(getDurationMs(totalTimer))}`);
+
+		if (degraded.length) logger.warn(`Sources served from the previous run or missing: ${degraded.map(d => d.name).join(', ')}`);
 
 		await updateReadmeStats(globalRecs, catRecs, sourceStats);
 		if (!isDevelopment) await commitAndPushChanges();

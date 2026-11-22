@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.5.1] - 2026-11-22
+
+### Fixed
+- Listy zbiorcze (`all-*-ips`) traciły całe źródło, gdy jego pobranie się nie udało (np. Google przy blokadzie DNS, #12). Teraz w takim przypadku używane są dane z poprzedniego cyklu, a w logu pojawia się ostrzeżenie i podsumowanie takich źródeł
+
+
 ## [3.5.0] - 2026-09-27
 
 ### Added
