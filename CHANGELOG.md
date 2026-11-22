@@ -3,7 +3,7 @@
 ## v3.5.1 - 2026-11-22
 
 ### Fixed
-- Combined lists (`all-*-ips`) lost an entire source whenever its fetch failed (e.g. Google behind a DNS block, #12). The previous run's data is now reused in that case, with a warning and an end-of-run summary of affected sources
+- Combined lists (`all-*-ips`) lost an entire source whenever its fetch failed (e.g. Google behind a DNS block, [#12](https://github.com/sefinek/trusted-ips-whitelist/issues/12)). The previous run's data is now reused in that case, with a warning and an end-of-run summary of affected sources
 - Multi-URL sources (`textMulti`, `jsonPrefixes`) no longer write partial data when one of the URLs fails; the whole source now falls back to the previous run's data
 
 ### Changed
