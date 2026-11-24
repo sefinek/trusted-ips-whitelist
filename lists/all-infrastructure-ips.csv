@@ -2283,6 +2283,7 @@ IP,Name,Sources
 2402:2b40::/32,Baidu,https://radb.net
 2402:2b40:7000::/36,Baidu,https://radb.net|https://stat.ripe.net
 2402:2b40:8000::/36,Baidu,https://radb.net|https://stat.ripe.net
+2402:2b40:a000::/36,Baidu,https://radb.net
 2403:ed40::/32,Baidu,https://radb.net
 2404:f780:0:2::d,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
 2404:f780:0:2::f,Bunny CDN,https://api.bunny.net/system/edgeserverlist/ipv6
