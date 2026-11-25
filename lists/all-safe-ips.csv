@@ -66,8 +66,10 @@ IP,Name,Sources
 4.177.16.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.182.10.198/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.182.131.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+4.184.61.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.189.118.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.189.119.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.193.45.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.195.133.120/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.197.22.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.197.64.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -75,12 +77,20 @@ IP,Name,Sources
 4.197.64.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.197.64.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.197.115.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.201.52.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.201.58.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.201.67.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.201.67.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.201.102.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.201.102.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.201.102.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.201.125.59/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.141.71/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.197.203/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.206.133/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.220.8/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.201.232.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.205.27.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.205.128.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.207.220.92/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.209.224.56/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -91,6 +101,8 @@ IP,Name,Sources
 4.226.226.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.227.36.0/25,GPTBot|OpenAI SearchBot,https://openai.com/gptbot.json|https://openai.com/searchbot.json
 4.228.76.163/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+4.228.101.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
+4.232.94.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 4.237.155.54/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.237.244.80/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 4.242.119.13/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -201,6 +213,8 @@ IP,Name,Sources
 9.160.34.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.36.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.96.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
+9.160.107.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
+9.160.107.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.128.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.128.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 9.160.163.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -232,6 +246,7 @@ IP,Name,Sources
 13.71.172.224/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 13.76.32.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.76.116.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+13.78.76.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.83.167.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.83.237.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 13.86.35.212/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1079,13 +1094,18 @@ IP,Name,Sources
 20.14.99.96/28,OpenAI SearchBot,https://openai.com/searchbot.json
 20.15.133.160/27,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.15.142.178/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.15.237.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.17.108.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.23.88.231/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.24.18.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.24.189.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.25.151.224/28,OpenAI SearchBot,https://openai.com/searchbot.json
 20.29.149.44/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.29.154.56/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.36.108.32/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.40.133.240/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.40.147.172/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.41.226.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.42.10.176/28,OpenAI SearchBot,https://openai.com/searchbot.json
 20.43.120.16/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.43.150.85/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1113,6 +1133,7 @@ IP,Name,Sources
 20.50.50.146/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.50.50.163/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.50.168.91/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.52.118.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.53.78.106/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.53.78.123/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.53.78.138/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1123,16 +1144,21 @@ IP,Name,Sources
 20.53.134.160/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.54.224.39/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.55.229.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.56.38.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.56.197.58/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.56.197.63/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.57.199.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.59.0.65/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.59.229.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.61.34.40/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.61.142.192/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.62.224.44/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.63.180.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.63.221.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.64.185.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.65.156.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.65.170.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.68.151.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.69.74.250/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.69.129.205/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.69.131.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1142,6 +1168,7 @@ IP,Name,Sources
 20.69.146.171/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.69.147.21/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.69.171.204/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.70.48.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.71.12.143/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.71.69.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.72.197.110/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1159,11 +1186,15 @@ IP,Name,Sources
 20.75.144.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.75.254.61/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.77.146.108/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.78.100.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.78.130.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.78.132.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.78.197.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.79.107.240/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.79.226.26/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.238.198/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.79.239.66/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.80.77.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.80.114.203/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.80.120.41/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.80.129.80/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1180,6 +1211,7 @@ IP,Name,Sources
 20.85.167.56/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.85.187.146/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.88.168.65/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.89.220.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.93.28.24/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.93.49.96/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.98.18.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1200,6 +1232,10 @@ IP,Name,Sources
 20.113.225.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.115.181.187/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.118.11.251/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.118.254.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.118.254.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.118.254.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.118.254.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.119.127.146/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.121.75.32/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.125.66.80/28,GPTBot,https://openai.com/gptbot.json
@@ -1207,6 +1243,7 @@ IP,Name,Sources
 20.125.144.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.125.163.80/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 20.161.75.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.165.109.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.166.171.150/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.168.7.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.168.18.32/28,OpenAI SearchBot,https://openai.com/searchbot.json
@@ -1222,6 +1259,7 @@ IP,Name,Sources
 20.169.78.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.169.86.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.169.86.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.169.118.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.170.75.54/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.170.184.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.170.184.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1236,28 +1274,39 @@ IP,Name,Sources
 20.175.232.228/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.185.79.15/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.185.79.47/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.189.206.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.190.21.172/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.191.44.16/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.191.44.22/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.191.44.119/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.191.44.234/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.191.45.212/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.192.5.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.193.12.126/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.193.24.10/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.193.24.251/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.193.25.197/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.193.27.215/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.193.45.113/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.194.1.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.195.58.189/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.195.108.47/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.195.206.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.195.206.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.196.92.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.196.213.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.197.209.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.197.209.27/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.197.251.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.198.132.126/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.198.152.208/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.199.211.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.199.242.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.199.243.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.200.212.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.201.15.208/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.203.190.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.204.112.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.204.228.200/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.204.240.172/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.204.241.148/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1267,6 +1316,7 @@ IP,Name,Sources
 20.204.246.81/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.204.246.254/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.206.101.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.206.103.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.207.72.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.207.72.21/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.207.72.110/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1275,6 +1325,7 @@ IP,Name,Sources
 20.207.99.197/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.207.107.181/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.207.117.66/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.208.196.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.210.211.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.212.62.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.212.90.107/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1286,6 +1337,13 @@ IP,Name,Sources
 20.216.56.115,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.216.200.223/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.218.30.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.218.31.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.218.47.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.218.47.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.218.47.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.218.47.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.219.29.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.219.30.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.219.43.246/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.67/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.219.45.190/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1293,8 +1351,12 @@ IP,Name,Sources
 20.219.161.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.219.184.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.221.10.115/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.221.78.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.221.84.185/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+20.222.28.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.222.36.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.222.59.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.226.108.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.226.133.105/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.227.140.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.228.106.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -1304,6 +1366,7 @@ IP,Name,Sources
 20.233.19.247,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.233.37.119,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.235.87.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+20.235.167.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.236.40.93/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.236.195.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.236.198.192/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -1980,8 +2043,10 @@ IP,Name,Sources
 40.64.106.11/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.64.106.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.65.78.86/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+40.67.164.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.67.175.0/25,OpenAI SearchBot,https://openai.com/searchbot.json
 40.74.200.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.74.202.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.76.162.17/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.76.162.191/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.76.162.208/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -2021,7 +2086,15 @@ IP,Name,Sources
 40.119.232.218/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.119.232.251/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.121.121.54/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+40.124.155.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.124.161.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.124.164.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.124.218.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.124.218.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.124.227.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.124.234.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.124.249.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
+40.124.249.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 40.127.154.196/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 40.172.23.87,PingdomBot,https://my.pingdom.com/probes/ipv4
 41.242.2.18,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -2093,6 +2166,9 @@ IP,Name,Sources
 48.202.171.124/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.204.32.87/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.206.18.152/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+48.210.238.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
+48.215.128.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
+48.215.128.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 48.217.23.236/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.129.210/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 48.217.212.89/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -2121,6 +2197,10 @@ IP,Name,Sources
 51.57.0.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.57.158.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.57.158.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
+51.57.158.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
+51.57.158.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
+51.57.163.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
+51.57.163.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.24.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.24.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.59.48.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -2953,6 +3033,7 @@ IP,Name,Sources
 51.104.180.53/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.105.67.0/28,BingBot,https://www.bing.com/toolbox/bingbot.json
 51.107.40.209/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+51.107.73.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.112.113.198,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.112.129.195,PingdomBot,https://my.pingdom.com/probes/ipv4
 51.116.2.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -2962,6 +3043,7 @@ IP,Name,Sources
 51.138.90.161/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.138.90.206/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.138.90.233/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+51.142.84.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 51.143.114.45/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.145.185.16/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 51.161.37.0,AhrefsBot,https://api.ahrefs.com/v3/public/crawler-ips
@@ -4852,6 +4934,9 @@ IP,Name,Sources
 52.87.72.16,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 52.89.43.70,PingdomBot,https://my.pingdom.com/probes/ipv4
 52.130.224.112/28,BingBot,https://www.bing.com/toolbox/bingbot.json
+52.141.1.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
+52.141.1.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
+52.141.20.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.142.24.149/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.142.26.175/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.143.95.162/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -4867,6 +4952,8 @@ IP,Name,Sources
 52.146.59.154/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.146.59.156/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.146.63.80/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+52.147.52.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
+52.148.4.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.148.129.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.148.161.87/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.148.165.38/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -4919,6 +5006,8 @@ IP,Name,Sources
 52.173.221.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.173.234.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.173.234.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+52.173.235.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
+52.176.139.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.183.217.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.185.93.208/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 52.186.37.211/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -4978,7 +5067,9 @@ IP,Name,Sources
 52.242.132.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.242.132.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.242.224.168/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+52.248.46.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.250.46.221/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+52.253.140.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.255.109.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.255.109.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 52.255.109.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -7529,6 +7620,7 @@ IP,Name,Sources
 57.152.17.237/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 57.152.62.107/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 57.152.72.128/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+57.153.213.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 57.154.174.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 57.154.175.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
 57.154.187.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -7886,6 +7978,8 @@ IP,Name,Sources
 68.154.28.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 68.219.152.220/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 68.220.57.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
+68.221.77.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
+68.221.180.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 69.63.176.0/20,FacebookBot,https://radb.net|https://stat.ripe.net
 69.63.176.0/21,FacebookBot,https://radb.net|https://stat.ripe.net
 69.63.184.0/21,FacebookBot,https://radb.net|https://stat.ripe.net
@@ -8067,6 +8161,12 @@ IP,Name,Sources
 74.125.219.160/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 74.125.219.192/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
 74.125.219.224/27,Google Special Crawlers,https://developers.google.com/static/crawling/ipranges/special-crawlers.json
+74.152.51.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+74.152.65.144/28,ChatGPT User,https://openai.com/chatgpt-user.json
+74.152.67.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
+74.159.8.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
+74.159.51.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
+74.159.127.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 74.161.200.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 74.163.169.106/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 74.163.208.206/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -8216,7 +8316,11 @@ IP,Name,Sources
 85.217.140.48/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.52/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.140.54/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
-85.217.149.0/27,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.0/28,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.16/29,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.24/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.26/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
+85.217.149.28/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.32/30,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.36/32,Modat Scanner,https://scanner.modat.io/ipv4.txt
 85.217.149.38/31,Modat Scanner,https://scanner.modat.io/ipv4.txt
@@ -8476,6 +8580,7 @@ IP,Name,Sources
 104.43.55.117/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 104.43.55.166/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 104.43.55.167/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+104.44.128.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 104.131.0.69,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 104.166.144.107,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 104.193.88.0/22,Baidu,https://radb.net
@@ -8487,6 +8592,7 @@ IP,Name,Sources
 104.208.184.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 104.210.139.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 104.210.139.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+104.210.140.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 104.210.140.128/28,OpenAI SearchBot,https://openai.com/searchbot.json
 104.236.35.128,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 104.236.198.48,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
@@ -8795,6 +8901,7 @@ IP,Name,Sources
 122.248.54.0/23,Baidu,https://radb.net
 122.248.56.0/23,Baidu,https://radb.net
 122.248.58.0/23,Baidu,https://radb.net
+124.223.66.221,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 128.1.35.170,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.1.52.179,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 128.85.198.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -8868,12 +8975,15 @@ IP,Name,Sources
 134.199.240.137,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 134.209.95.237,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 135.13.64.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
+135.116.84.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.116.136.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
+135.119.98.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.171.251.169/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 135.220.73.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.220.73.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.222.99.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.233.63.237/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
+135.233.181.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 135.234.64.0/24,OpenAI SearchBot,https://openai.com/searchbot.json
 135.234.221.112/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 135.235.183.95/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -10805,6 +10915,8 @@ IP,Name,Sources
 157.240.254.0/24,FacebookBot,https://radb.net|https://stat.ripe.net
 157.245.164.170,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 158.158.5.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
+158.158.7.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
+158.158.103.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 158.175.95.9,PingdomBot,https://my.pingdom.com/probes/ipv4
 159.69.57.80,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
 159.69.68.171,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
@@ -11500,6 +11612,9 @@ IP,Name,Sources
 172.64.0.0/13,Cloudflare,https://www.cloudflare.com/ips-v4
 172.104.157.4,BetterStack,https://uptime.betterstack.com/ips.txt
 172.105.162.156,BetterStack,https://uptime.betterstack.com/ips.txt
+172.132.67.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.134.248.0/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.134.248.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.162.248.64/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.168.12.93/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.168.43.43/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
@@ -11557,23 +11672,33 @@ IP,Name,Sources
 172.193.245.229/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.194.141.49/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.197.160.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.197.163.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.197.202.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.197.203.16/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.198.52.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.198.52.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.198.58.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.198.78.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.198.79.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.198.161.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.199.55.212/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.199.137.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.202.52.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.203.190.80/28,OpenAI SearchBot,https://openai.com/searchbot.json
 172.203.190.112/28,OpenAI SearchBot,https://openai.com/searchbot.json
 172.203.190.128/28,OpenAI SearchBot,https://openai.com/searchbot.json
+172.204.18.48/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.204.28.224/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.204.29.176/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.204.29.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.204.96.80/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.205.189.192/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.206.38.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.207.1.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.210.111.68/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 172.212.172.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.212.231.96/28,ChatGPT User,https://openai.com/chatgpt-user.json
+172.212.231.112/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.215.215.32/28,ChatGPT User,https://openai.com/chatgpt-user.json
 172.232.161.24,BetterStack,https://uptime.betterstack.com/ips.txt
 172.232.176.119,BetterStack,https://uptime.betterstack.com/ips.txt
@@ -16241,7 +16366,7 @@ IP,Name,Sources
 2402:2b40::/32,Baidu,https://radb.net
 2402:2b40:7000::/36,Baidu,https://radb.net|https://stat.ripe.net
 2402:2b40:8000::/36,Baidu,https://radb.net|https://stat.ripe.net
-2402:2b40:a000::/36,Baidu,https://radb.net
+2402:2b40:a000::/36,Baidu,https://radb.net|https://stat.ripe.net
 2403:ed40::/32,Baidu,https://radb.net
 2403:f000:1:100:4096:597:1:100,PingdomBot,https://my.pingdom.com/probes/ipv6
 2404:f340:10:4000::/64,Google User-Triggered Fetchers,https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json
