@@ -1338,7 +1338,6 @@ IP,Name,Sources
 20.215.219.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.215.219.160/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.215.219.208/28,ChatGPT User,https://openai.com/chatgpt-user.json
-20.216.56.115,WebPageTest Bot,https://www.webpagetest.org/addresses.php?f=json
 20.216.200.223/32,DuckDuckBot,https://duckduckgo.com/duckduckbot.json
 20.218.30.240/28,ChatGPT User,https://openai.com/chatgpt-user.json
 20.218.31.128/28,ChatGPT User,https://openai.com/chatgpt-user.json
@@ -10933,7 +10932,6 @@ IP,Name,Sources
 159.234.96.0/19,Palo Alto Networks,https://radb.net
 161.35.247.201,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 162.55.135.11,Bunny CDN,https://api.bunny.net/system/edgeserverlist/plain
-162.55.165.86,BetterStack,https://uptime.betterstack.com/ips.txt
 162.142.125.0/24,Censys,https://radb.net|https://stat.ripe.net
 162.158.0.0/15,Cloudflare,https://www.cloudflare.com/ips-v4
 162.159.244.38,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
@@ -11788,7 +11786,6 @@ IP,Name,Sources
 178.63.62.125,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 178.128.32.203,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 178.154.128.0/18,YandexBot,https://yandex.com/ips
-178.156.154.250,BetterStack,https://uptime.betterstack.com/ips.txt
 178.156.181.172,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 178.156.184.20,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 178.156.185.127,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -17108,7 +17105,6 @@ IP,Name,Sources
 2a01:4f8:1c1c:a98a::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:2190:29e3::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
 2a01:4f8:c010:7943::/64,RSS API,https://rssapi.net/ips.txt
-2a01:4f8:c012:856d::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4f8:c012:c60e::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:c013:c18::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:c013:34c0::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -17146,7 +17142,6 @@ IP,Name,Sources
 2a01:4ff:f0:e516::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:e9cf::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:eccb::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-2a01:4ff:f0:eec4::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4ff:f0:efd1::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:fdc7::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f4:425::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt

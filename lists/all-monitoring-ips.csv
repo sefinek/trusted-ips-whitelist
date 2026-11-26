@@ -343,7 +343,6 @@ IP,Name,Sources
 159.203.176.62,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 159.223.243.219,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 161.35.247.201,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-162.55.165.86,BetterStack,https://uptime.betterstack.com/ips.txt
 162.142.125.0/24,Censys,https://radb.net|https://stat.ripe.net
 162.159.244.38,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
 162.218.67.34,PingdomBot,https://my.pingdom.com/probes/ipv4
@@ -388,7 +387,6 @@ IP,Name,Sources
 177.71.158.135,PingdomBot,https://my.pingdom.com/probes/ipv4
 178.63.62.125,Pulsetic,https://api.pulsetic.com/ip-ranges.txt
 178.128.32.203,Shodan,https://github.com/sefinek/trusted-ips-whitelist/blob/main/custom/shodan.txt
-178.156.154.250,BetterStack,https://uptime.betterstack.com/ips.txt
 178.156.181.172,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 178.156.184.20,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 178.156.185.127,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -629,7 +627,6 @@ IP,Name,Sources
 2a01:4f8:1c1c:7240::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:1c1c:a98a::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:2190:29e3::/64,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
-2a01:4f8:c012:856d::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4f8:c012:c60e::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:c013:c18::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4f8:c013:34c0::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
@@ -666,7 +663,6 @@ IP,Name,Sources
 2a01:4ff:f0:e516::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:e9cf::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:eccb::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
-2a01:4ff:f0:eec4::1,BetterStack,https://uptime.betterstack.com/ips.txt
 2a01:4ff:f0:efd1::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f0:fdc7::1,UptimeRobot,https://uptimerobot.com/inc/files/ips/IPv4andIPv6.txt
 2a01:4ff:f4:425::1,Pulsetic,https://api.pulsetic.com/ipv6-ranges.txt
