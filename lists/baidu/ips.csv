@@ -178,6 +178,7 @@ IP,Name,Sources
 120.49.196.0/22,Baidu,https://stat.ripe.net
 120.49.200.0/21,Baidu,https://radb.net
 120.49.208.0/21,Baidu,https://radb.net
+120.49.248.0/21,Baidu,https://stat.ripe.net
 122.248.48.0/20,Baidu,https://radb.net
 122.248.48.0/23,Baidu,https://radb.net
 122.248.50.0/23,Baidu,https://radb.net
