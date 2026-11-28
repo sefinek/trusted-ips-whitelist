@@ -140,7 +140,7 @@ IP,Name,Sources
 57.144.132.0/23,FacebookBot,https://radb.net
 57.144.134.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.136.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
-57.144.138.0/23,FacebookBot,https://radb.net
+57.144.138.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.140.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.142.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
 57.144.144.0/23,FacebookBot,https://radb.net|https://stat.ripe.net
